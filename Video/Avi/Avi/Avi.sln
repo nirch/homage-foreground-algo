@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Avi", "Avi.vcxproj", "{FDD83EC6-CE2B-4312-A323-23BA28B4D616}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VideoCodec", "..\..\VideoCodec\VideoCodec.vcxproj", "{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		DebugMultithreadedDll|Win32 = DebugMultithreadedDll|Win32
+		DebugMultithreadedDll|x64 = DebugMultithreadedDll|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		ReleaseMultiThreadedDll|Win32 = ReleaseMultiThreadedDll|Win32
+		ReleaseMultiThreadedDll|x64 = ReleaseMultiThreadedDll|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDD83EC6-CE2B-4312-A323-23BA28B4D616}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FDD83EC6-CE2B-4312-A323-23BA28B4D616}.Debug|Win32.Build.0 = Debug|Win32
+		{FDD83EC6-CE2B-4312-A323-23BA28B4D616}.Debug|x64.ActiveCfg = Debug|x64
+		{FDD83EC6-CE2B-4312-A323-23BA28B4D616}.Debug|x64.Build.0 = Debug|x64
+		{FDD83EC6-CE2B-4312-A323-23BA28B4D616}.DebugMultithreadedDll|Win32.ActiveCfg = Debug|x64
+		{FDD83EC6-CE2B-4312-A323-23BA28B4D616}.DebugMultithreadedDll|x64.ActiveCfg = Debug|x64
+		{FDD83EC6-CE2B-4312-A323-23BA28B4D616}.DebugMultithreadedDll|x64.Build.0 = Debug|x64
+		{FDD83EC6-CE2B-4312-A323-23BA28B4D616}.Release|Win32.ActiveCfg = Release|Win32
+		{FDD83EC6-CE2B-4312-A323-23BA28B4D616}.Release|Win32.Build.0 = Release|Win32
+		{FDD83EC6-CE2B-4312-A323-23BA28B4D616}.Release|x64.ActiveCfg = Release|x64
+		{FDD83EC6-CE2B-4312-A323-23BA28B4D616}.Release|x64.Build.0 = Release|x64
+		{FDD83EC6-CE2B-4312-A323-23BA28B4D616}.ReleaseMultiThreadedDll|Win32.ActiveCfg = Release|x64
+		{FDD83EC6-CE2B-4312-A323-23BA28B4D616}.ReleaseMultiThreadedDll|x64.ActiveCfg = Release|x64
+		{FDD83EC6-CE2B-4312-A323-23BA28B4D616}.ReleaseMultiThreadedDll|x64.Build.0 = Release|x64
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.Debug|Win32.Build.0 = Debug|Win32
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.Debug|x64.ActiveCfg = Debug|x64
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.Debug|x64.Build.0 = Debug|x64
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.DebugMultithreadedDll|Win32.ActiveCfg = DebugMultithreadedDll|Win32
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.DebugMultithreadedDll|Win32.Build.0 = DebugMultithreadedDll|Win32
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.DebugMultithreadedDll|x64.ActiveCfg = DebugMultithreadedDll|x64
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.DebugMultithreadedDll|x64.Build.0 = DebugMultithreadedDll|x64
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.Release|Win32.ActiveCfg = Release|Win32
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.Release|Win32.Build.0 = Release|Win32
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.Release|x64.ActiveCfg = Release|x64
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.Release|x64.Build.0 = Release|x64
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.ReleaseMultiThreadedDll|Win32.ActiveCfg = ReleaseMultiThreadedDll|Win32
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.ReleaseMultiThreadedDll|Win32.Build.0 = ReleaseMultiThreadedDll|Win32
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.ReleaseMultiThreadedDll|x64.ActiveCfg = ReleaseMultiThreadedDll|x64
+		{0B4DCF33-1AFA-4F17-9472-CE0C4805EACE}.ReleaseMultiThreadedDll|x64.Build.0 = ReleaseMultiThreadedDll|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,2979 @@
+# Microsoft eMbedded Visual Tools Project File - Name="Util" - Package Owner=<4>
+# Microsoft eMbedded Visual Tools Generated Build File, Format Version 6.02
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (WCE SH4) Static Library" 0x8604
+# TARGTYPE "Win32 (WCE MIPS) Static Library" 0x8204
+# TARGTYPE "Win32 (WCE x86em) Static Library" 0x7f04
+# TARGTYPE "Win32 (WCE ARM) Static Library" 0x8504
+# TARGTYPE "Win32 (WCE SH3) Static Library" 0x8104
+
+CFG=Util - Win32 (WCE MIPS) Debug
+!MESSAGE This is not a valid makefile. To build this project using NMAKE,
+!MESSAGE use the Export Makefile command and run
+!MESSAGE 
+!MESSAGE NMAKE /f "Util.vcn".
+!MESSAGE 
+!MESSAGE You can specify a configuration when running NMAKE
+!MESSAGE by defining the macro CFG on the command line. For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "Util.vcn" CFG="Util - Win32 (WCE MIPS) Debug"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "Util - Win32 (WCE MIPS) Release" (based on "Win32 (WCE MIPS) Static Library")
+!MESSAGE "Util - Win32 (WCE MIPS) Debug" (based on "Win32 (WCE MIPS) Static Library")
+!MESSAGE "Util - Win32 (WCE SH4) Release" (based on "Win32 (WCE SH4) Static Library")
+!MESSAGE "Util - Win32 (WCE SH4) Debug" (based on "Win32 (WCE SH4) Static Library")
+!MESSAGE "Util - Win32 (WCE SH3) Release" (based on "Win32 (WCE SH3) Static Library")
+!MESSAGE "Util - Win32 (WCE SH3) Debug" (based on "Win32 (WCE SH3) Static Library")
+!MESSAGE "Util - Win32 (WCE ARM) Release" (based on "Win32 (WCE ARM) Static Library")
+!MESSAGE "Util - Win32 (WCE ARM) Debug" (based on "Win32 (WCE ARM) Static Library")
+!MESSAGE "Util - Win32 (WCE x86em) Release" (based on "Win32 (WCE x86em) Static Library")
+!MESSAGE "Util - Win32 (WCE x86em) Debug" (based on "Win32 (WCE x86em) Static Library")
+!MESSAGE 
+
+# Begin Project
+# PROP AllowPerConfigDependencies 0
+# PROP Scc_ProjName ""$/Gp_Vim/Core/Util", WBIBAAAA"
+# PROP Scc_LocalPath "."
+# PROP ATL_Project 2
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "MIPSRel"
+# PROP BASE Intermediate_Dir "MIPSRel"
+# PROP BASE CPU_ID "{D6519010-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "MIPSRel"
+# PROP Intermediate_Dir "MIPSRel"
+# PROP CPU_ID "{D6519010-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_LIB" /YX /Oxs /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /I "..\..\core\util" /D "MIPS" /D "_MIPS_" /D "NDEBUG" /D "_LIB" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "IPAQ" /D "CE" /D "WIN32" /YX /Oxs /M$(CECrtMT) /c
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "MIPSDbg"
+# PROP BASE Intermediate_Dir "MIPSDbg"
+# PROP BASE CPU_ID "{D6519010-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "MIPSDbg"
+# PROP Intermediate_Dir "MIPSDbg"
+# PROP CPU_ID "{D6519010-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=clmips.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "MIPS" /D "_MIPS_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_LIB" /YX /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /I "..\..\core\util" /D "DEBUG" /D "MIPS" /D "_MIPS_" /D "_LIB" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "IPAQ" /D "CE" /D "WIN32" /YX /M$(CECrtMTDebug) /c
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "SH4Rel"
+# PROP BASE Intermediate_Dir "SH4Rel"
+# PROP BASE CPU_ID "{D6519021-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "SH4Rel"
+# PROP Intermediate_Dir "SH4Rel"
+# PROP CPU_ID "{D6519021-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=shcl.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "SHx" /D "SH4" /D "_SH4_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_LIB" /YX /Qsh4 /Oxs /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /I "..\..\core\util" /D "SHx" /D "SH4" /D "_SH4_" /D "NDEBUG" /D "_LIB" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "IPAQ" /D "CE" /D "WIN32" /YX /Qsh4 /Oxs /M$(CECrtMT) /c
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "SH4Dbg"
+# PROP BASE Intermediate_Dir "SH4Dbg"
+# PROP BASE CPU_ID "{D6519021-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "SH4Dbg"
+# PROP Intermediate_Dir "SH4Dbg"
+# PROP CPU_ID "{D6519021-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=shcl.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "SHx" /D "SH4" /D "_SH4_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_LIB" /YX /Qsh4 /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /I "..\..\core\util" /D "DEBUG" /D "SHx" /D "SH4" /D "_SH4_" /D "_LIB" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "IPAQ" /D "CE" /D "WIN32" /YX /Qsh4 /M$(CECrtMTDebug) /c
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "SH3Rel"
+# PROP BASE Intermediate_Dir "SH3Rel"
+# PROP BASE CPU_ID "{D6519020-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "SH3Rel"
+# PROP Intermediate_Dir "SH3Rel"
+# PROP CPU_ID "{D6519020-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=shcl.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "SHx" /D "SH3" /D "_SH3_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D "_LIB" /YX /Oxs /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /I "..\..\core\util" /D "SHx" /D "SH3" /D "_SH3_" /D "NDEBUG" /D "_LIB" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "IPAQ" /D "CE" /D "WIN32" /YX /Oxs /M$(CECrtMT) /c
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "SH3Dbg"
+# PROP BASE Intermediate_Dir "SH3Dbg"
+# PROP BASE CPU_ID "{D6519020-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "SH3Dbg"
+# PROP Intermediate_Dir "SH3Dbg"
+# PROP CPU_ID "{D6519020-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=shcl.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "SHx" /D "SH3" /D "_SH3_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_LIB" /YX /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /I "..\..\core\util" /D "DEBUG" /D "SHx" /D "SH3" /D "_SH3_" /D "_LIB" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "IPAQ" /D "CE" /D "WIN32" /YX /M$(CECrtMTDebug) /c
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "ARMRel"
+# PROP BASE Intermediate_Dir "ARMRel"
+# PROP BASE CPU_ID "{D6518FFC-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "ARMRel"
+# PROP Intermediate_Dir "ARMRel"
+# PROP CPU_ID "{D6518FFC-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=clarm.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "NDEBUG" /D "ARM" /D "_ARM_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_LIB" /YX /Oxs /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /I "..\..\core\util" /D "NDEBUG" /D "ARM" /D "_ARM_" /D "_LIB" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "IPAQ" /D "CE" /D "WIN32" /YX /Oxs /M$(CECrtMT) /c
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "ARMDbg"
+# PROP BASE Intermediate_Dir "ARMDbg"
+# PROP BASE CPU_ID "{D6518FFC-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "ARMDbg"
+# PROP Intermediate_Dir "ARMDbg"
+# PROP CPU_ID "{D6518FFC-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=clarm.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "ARM" /D "_ARM_" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_LIB" /YX /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /I "..\..\core\util" /D "DEBUG" /D "ARM" /D "_ARM_" /D "_LIB" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "IPAQ" /D "CE" /D "WIN32" /YX /M$(CECrtMTDebug) /c
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "X86EMRel"
+# PROP BASE Intermediate_Dir "X86EMRel"
+# PROP BASE CPU_ID "{D6518FF4-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "X86EMRel"
+# PROP Intermediate_Dir "X86EMRel"
+# PROP CPU_ID "{D6518FF4-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=cl.exe
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "WIN32" /D "STRICT" /D "_WIN32_WCE_EMULATION" /D "INTERNATIONAL" /D "USA" /D "INTLMSG_CODEPAGE" /D "$(CePlatform)" /D "i486" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /D "NDEBUG" /D "_LIB" /YX /Oxs /Gz /c
+# ADD CPP /nologo /W3 /I "..\..\core\util" /D "WIN32" /D "STRICT" /D "_WIN32_WCE_EMULATION" /D "INTERNATIONAL" /D "USA" /D "INTLMSG_CODEPAGE" /D "i486" /D "_X86_" /D "x86" /D "NDEBUG" /D "_LIB" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "IPAQ" /D "CE" /YX /Oxs /Gz /c
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "X86EMDbg"
+# PROP BASE Intermediate_Dir "X86EMDbg"
+# PROP BASE CPU_ID "{D6518FF4-710F-11D3-99F2-00105A0DF099}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "X86EMDbg"
+# PROP Intermediate_Dir "X86EMDbg"
+# PROP CPU_ID "{D6518FF4-710F-11D3-99F2-00105A0DF099}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Target_Dir ""
+CPP=cl.exe
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D _WIN32_WCE=$(CEVersion) /D "WIN32" /D "STRICT" /D "_WIN32_WCE_EMULATION" /D "INTERNATIONAL" /D "USA" /D "INTLMSG_CODEPAGE" /D "$(CePlatform)" /D "i486" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "_X86_" /D "x86" /D "_LIB" /YX /Gz /c
+# ADD CPP /nologo /W3 /Zi /Od /I "..\..\core\util" /D "DEBUG" /D "WIN32" /D "STRICT" /D "_WIN32_WCE_EMULATION" /D "INTERNATIONAL" /D "USA" /D "INTLMSG_CODEPAGE" /D "i486" /D "_X86_" /D "x86" /D "_LIB" /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "IPAQ" /D "CE" /YX /Gz /c
+LIB32=link.exe -lib
+# ADD BASE LIB32 /nologo
+# ADD LIB32 /nologo
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+
+!ENDIF 
+
+# Begin Target
+
+# Name "Util - Win32 (WCE MIPS) Release"
+# Name "Util - Win32 (WCE MIPS) Debug"
+# Name "Util - Win32 (WCE SH4) Release"
+# Name "Util - Win32 (WCE SH4) Debug"
+# Name "Util - Win32 (WCE SH3) Release"
+# Name "Util - Win32 (WCE SH3) Debug"
+# Name "Util - Win32 (WCE ARM) Release"
+# Name "Util - Win32 (WCE ARM) Debug"
+# Name "Util - Win32 (WCE x86em) Release"
+# Name "Util - Win32 (WCE x86em) Debug"
+# Begin Group "Ubst"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=.\Ubst\BstGet.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_BSTGE=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTGE=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_BSTGE=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTGE=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_BSTGE=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTGE=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_BSTGE=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTGE=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_BSTGE=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTGE=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_BSTGE=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTGE=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_BSTGE=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTGE=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_BSTGE=\
+	".\Ubst\BstType.h"\
+	".\Ucode\code.h"\
+	".\Ucst\CstType.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_BSTGE=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTGE=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_BSTGE=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTGE=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Ubst\BstTool.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_BSTTO=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTTO=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_BSTTO=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTTO=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_BSTTO=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTTO=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_BSTTO=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTTO=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_BSTTO=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTTO=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_BSTTO=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTTO=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_BSTTO=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTTO=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_BSTTO=\
+	".\Ubst\BstType.h"\
+	".\Ucode\code.h"\
+	".\Ucst\CstType.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_BSTTO=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTTO=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_BSTTO=\
+	".\Ubst\BstType.h"\
+	
+NODEP_CPP_BSTTO=\
+	".\Ubst\Ucode\code.h"\
+	".\Ubst\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Ubst\BstType.h
+# End Source File
+# End Group
+# Begin Group "Ucode"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=.\Ucode\code.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_CODE_=\
+	".\Ucode\code.h"\
+	
+NODEP_CPP_CODE_=\
+	".\Ucode\Ucst\CstType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_CODE_=\
+	".\Ucode\code.h"\
+	
+NODEP_CPP_CODE_=\
+	".\Ucode\Ucst\CstType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_CODE_=\
+	".\Ucode\code.h"\
+	
+NODEP_CPP_CODE_=\
+	".\Ucode\Ucst\CstType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_CODE_=\
+	".\Ucode\code.h"\
+	
+NODEP_CPP_CODE_=\
+	".\Ucode\Ucst\CstType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_CODE_=\
+	".\Ucode\code.h"\
+	
+NODEP_CPP_CODE_=\
+	".\Ucode\Ucst\CstType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_CODE_=\
+	".\Ucode\code.h"\
+	
+NODEP_CPP_CODE_=\
+	".\Ucode\Ucst\CstType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_CODE_=\
+	".\Ucode\code.h"\
+	
+NODEP_CPP_CODE_=\
+	".\Ucode\Ucst\CstType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_CODE_=\
+	".\Ucode\code.h"\
+	".\Ucst\CstType.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_CODE_=\
+	".\Ucode\code.h"\
+	
+NODEP_CPP_CODE_=\
+	".\Ucode\Ucst\CstType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_CODE_=\
+	".\Ucode\code.h"\
+	
+NODEP_CPP_CODE_=\
+	".\Ucode\Ucst\CstType.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Ucode\code.h
+# End Source File
+# End Group
+# Begin Group "Uconfig3d"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=.\Uconfig3d\Config3d.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uconfig3d\Config3dTool.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_CONFI=\
+	".\Uconfig3d\Config3d.h"\
+	
+NODEP_CPP_CONFI=\
+	".\Uconfig3d\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_CONFI=\
+	".\Uconfig3d\Config3d.h"\
+	
+NODEP_CPP_CONFI=\
+	".\Uconfig3d\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_CONFI=\
+	".\Uconfig3d\Config3d.h"\
+	
+NODEP_CPP_CONFI=\
+	".\Uconfig3d\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_CONFI=\
+	".\Uconfig3d\Config3d.h"\
+	
+NODEP_CPP_CONFI=\
+	".\Uconfig3d\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_CONFI=\
+	".\Uconfig3d\Config3d.h"\
+	
+NODEP_CPP_CONFI=\
+	".\Uconfig3d\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_CONFI=\
+	".\Uconfig3d\Config3d.h"\
+	
+NODEP_CPP_CONFI=\
+	".\Uconfig3d\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_CONFI=\
+	".\Uconfig3d\Config3d.h"\
+	
+NODEP_CPP_CONFI=\
+	".\Uconfig3d\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_CONFI=\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_CONFI=\
+	".\Uconfig3d\Config3d.h"\
+	
+NODEP_CPP_CONFI=\
+	".\Uconfig3d\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_CONFI=\
+	".\Uconfig3d\Config3d.h"\
+	
+NODEP_CPP_CONFI=\
+	".\Uconfig3d\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# End Group
+# Begin Group "Ucst"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=.\Ucst\CstTool.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_CSTTO=\
+	".\Ucst\CstType.h"\
+	
+NODEP_CPP_CSTTO=\
+	".\Ucst\Ubst\BstType.h"\
+	".\Ucst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_CSTTO=\
+	".\Ucst\CstType.h"\
+	
+NODEP_CPP_CSTTO=\
+	".\Ucst\Ubst\BstType.h"\
+	".\Ucst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_CSTTO=\
+	".\Ucst\CstType.h"\
+	
+NODEP_CPP_CSTTO=\
+	".\Ucst\Ubst\BstType.h"\
+	".\Ucst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_CSTTO=\
+	".\Ucst\CstType.h"\
+	
+NODEP_CPP_CSTTO=\
+	".\Ucst\Ubst\BstType.h"\
+	".\Ucst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_CSTTO=\
+	".\Ucst\CstType.h"\
+	
+NODEP_CPP_CSTTO=\
+	".\Ucst\Ubst\BstType.h"\
+	".\Ucst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_CSTTO=\
+	".\Ucst\CstType.h"\
+	
+NODEP_CPP_CSTTO=\
+	".\Ucst\Ubst\BstType.h"\
+	".\Ucst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_CSTTO=\
+	".\Ucst\CstType.h"\
+	
+NODEP_CPP_CSTTO=\
+	".\Ucst\Ubst\BstType.h"\
+	".\Ucst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_CSTTO=\
+	".\Ubst\BstType.h"\
+	".\Ucode\code.h"\
+	".\Ucst\CstType.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_CSTTO=\
+	".\Ucst\CstType.h"\
+	
+NODEP_CPP_CSTTO=\
+	".\Ucst\Ubst\BstType.h"\
+	".\Ucst\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_CSTTO=\
+	".\Ucst\CstType.h"\
+	
+NODEP_CPP_CSTTO=\
+	".\Ucst\Ubst\BstType.h"\
+	".\Ucst\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Ucst\CstType.h
+# End Source File
+# End Group
+# Begin Group "Uheap"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=.\Uheap\HeapTool.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_HEAPT=\
+	".\Uheap\HeapType.h"\
+	
+NODEP_CPP_HEAPT=\
+	".\Uheap\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_HEAPT=\
+	".\Uheap\HeapType.h"\
+	
+NODEP_CPP_HEAPT=\
+	".\Uheap\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_HEAPT=\
+	".\Uheap\HeapType.h"\
+	
+NODEP_CPP_HEAPT=\
+	".\Uheap\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_HEAPT=\
+	".\Uheap\HeapType.h"\
+	
+NODEP_CPP_HEAPT=\
+	".\Uheap\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_HEAPT=\
+	".\Uheap\HeapType.h"\
+	
+NODEP_CPP_HEAPT=\
+	".\Uheap\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_HEAPT=\
+	".\Uheap\HeapType.h"\
+	
+NODEP_CPP_HEAPT=\
+	".\Uheap\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_HEAPT=\
+	".\Uheap\HeapType.h"\
+	
+NODEP_CPP_HEAPT=\
+	".\Uheap\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_HEAPT=\
+	".\Uheap\HeapType.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_HEAPT=\
+	".\Uheap\HeapType.h"\
+	
+NODEP_CPP_HEAPT=\
+	".\Uheap\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_HEAPT=\
+	".\Uheap\HeapType.h"\
+	
+NODEP_CPP_HEAPT=\
+	".\Uheap\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uheap\HeapType.h
+# End Source File
+# End Group
+# Begin Group "Ugio"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=.\Ugio\GioTool.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_GIOTO=\
+	".\Ugio\GioType.h"\
+	
+NODEP_CPP_GIOTO=\
+	".\Ugio\Ucst\CstType.h"\
+	".\Ugio\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_GIOTO=\
+	".\Ugio\GioType.h"\
+	
+NODEP_CPP_GIOTO=\
+	".\Ugio\Ucst\CstType.h"\
+	".\Ugio\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_GIOTO=\
+	".\Ugio\GioType.h"\
+	
+NODEP_CPP_GIOTO=\
+	".\Ugio\Ucst\CstType.h"\
+	".\Ugio\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_GIOTO=\
+	".\Ugio\GioType.h"\
+	
+NODEP_CPP_GIOTO=\
+	".\Ugio\Ucst\CstType.h"\
+	".\Ugio\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_GIOTO=\
+	".\Ugio\GioType.h"\
+	
+NODEP_CPP_GIOTO=\
+	".\Ugio\Ucst\CstType.h"\
+	".\Ugio\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_GIOTO=\
+	".\Ugio\GioType.h"\
+	
+NODEP_CPP_GIOTO=\
+	".\Ugio\Ucst\CstType.h"\
+	".\Ugio\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_GIOTO=\
+	".\Ugio\GioType.h"\
+	
+NODEP_CPP_GIOTO=\
+	".\Ugio\Ucst\CstType.h"\
+	".\Ugio\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_GIOTO=\
+	".\Ucst\CstType.h"\
+	".\Ugio\GioType.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_GIOTO=\
+	".\Ugio\GioType.h"\
+	
+NODEP_CPP_GIOTO=\
+	".\Ugio\Ucst\CstType.h"\
+	".\Ugio\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_GIOTO=\
+	".\Ugio\GioType.h"\
+	
+NODEP_CPP_GIOTO=\
+	".\Ugio\Ucst\CstType.h"\
+	".\Ugio\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Ugio\GioType.h
+# End Source File
+# End Group
+# Begin Group "Uigp"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=.\Uigp\GpBuildNumber.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_GPBUI=\
+	".\Uigp\GpBuildNumber.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_GPBUI=\
+	".\Uigp\GpBuildNumber.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_GPBUI=\
+	".\Uigp\GpBuildNumber.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_GPBUI=\
+	".\Uigp\GpBuildNumber.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_GPBUI=\
+	".\Uigp\GpBuildNumber.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_GPBUI=\
+	".\Uigp\GpBuildNumber.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_GPBUI=\
+	".\Uigp\GpBuildNumber.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_GPBUI=\
+	".\Uigp\GpBuildNumber.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_GPBUI=\
+	".\Uigp\GpBuildNumber.h"\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_GPBUI=\
+	".\Uigp\GpBuildNumber.h"\
+	".\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uigp\GpBuildNumber.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uigp\GpByteOrder.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_GPBYT=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_GPBYT=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_GPBYT=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_GPBYT=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_GPBYT=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_GPBYT=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_GPBYT=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_GPBYT=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_GPBYT=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_GPBYT=\
+	".\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uigp\GpFile.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_GPFIL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_GPFIL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_GPFIL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_GPFIL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_GPFIL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_GPFIL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_GPFIL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_GPFIL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_GPFIL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_GPFIL=\
+	".\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uigp\GpFile1.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_GPFILE=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_GPFILE=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_GPFILE=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_GPFILE=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_GPFILE=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_GPFILE=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_GPFILE=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_GPFILE=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_GPFILE=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_GPFILE=\
+	".\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uigp\GpFileName.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_GPFILEN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_GPFILEN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_GPFILEN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_GPFILEN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_GPFILEN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_GPFILEN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_GPFILEN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_GPFILEN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_GPFILEN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_GPFILEN=\
+	".\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uigp\GpFunction.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_GPFUN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_GPFUN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_GPFUN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_GPFUN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_GPFUN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_GPFUN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_GPFUN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_GPFUN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_GPFUN=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_GPFUN=\
+	".\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uigp\GpIo.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_GPIO_=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_GPIO_=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_GPIO_=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_GPIO_=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_GPIO_=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_GPIO_=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_GPIO_=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_GPIO_=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_GPIO_=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_GPIO_=\
+	".\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uigp\GpMsg.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_GPMSG=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_GPMSG=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_GPMSG=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_GPMSG=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_GPMSG=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_GPMSG=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_GPMSG=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_GPMSG=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_GPMSG=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_GPMSG=\
+	".\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uigp\GpRelinquish.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_GPREL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_GPREL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_GPREL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_GPREL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_GPREL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_GPREL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_GPREL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_GPREL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_GPREL=\
+	".\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_GPREL=\
+	".\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uigp\igp.h
+# End Source File
+# End Group
+# Begin Group "Umedia"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=.\Umedia\MediaDataTool.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_MEDIA=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIA=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_MEDIA=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIA=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_MEDIA=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIA=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_MEDIA=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIA=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_MEDIA=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIA=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_MEDIA=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIA=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_MEDIA=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIA=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_MEDIA=\
+	".\Uigp\igp.h"\
+	".\Umedia\MediaDataType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_MEDIA=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIA=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_MEDIA=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIA=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Umedia\MediaDataType.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Umedia\MediaFormat.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_MEDIAF=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIAF=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_MEDIAF=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIAF=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_MEDIAF=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIAF=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_MEDIAF=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIAF=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_MEDIAF=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIAF=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_MEDIAF=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIAF=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_MEDIAF=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIAF=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_MEDIAF=\
+	".\Uigp\igp.h"\
+	".\Umedia\MediaDataType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_MEDIAF=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIAF=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_MEDIAF=\
+	".\Umedia\MediaDataType.h"\
+	
+NODEP_CPP_MEDIAF=\
+	".\Umedia\Uigp\igp.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# End Group
+# Begin Group "Uview"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=.\Uview\ViewCamera.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_VIEWC=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_VIEWC=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_VIEWC=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_VIEWC=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_VIEWC=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_VIEWC=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_VIEWC=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_VIEWC=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_VIEWC=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_VIEWC=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uview\ViewCreateNormal.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_VIEWCR=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_VIEWCR=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_VIEWCR=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_VIEWCR=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_VIEWCR=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_VIEWCR=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_VIEWCR=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_VIEWCR=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_VIEWCR=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_VIEWCR=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uview\ViewNormal.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_VIEWN=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWN=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_VIEWN=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWN=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_VIEWN=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWN=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_VIEWN=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWN=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_VIEWN=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWN=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_VIEWN=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWN=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_VIEWN=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWN=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_VIEWN=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_VIEWN=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWN=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_VIEWN=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWN=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uview\ViewPer.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_VIEWP=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWP=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_VIEWP=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWP=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_VIEWP=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWP=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_VIEWP=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWP=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_VIEWP=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWP=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_VIEWP=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWP=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_VIEWP=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWP=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_VIEWP=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_VIEWP=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWP=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_VIEWP=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWP=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uview\ViewPlane.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_VIEWPL=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWPL=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_VIEWPL=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWPL=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_VIEWPL=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWPL=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_VIEWPL=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWPL=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_VIEWPL=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWPL=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_VIEWPL=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWPL=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_VIEWPL=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWPL=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_VIEWPL=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_VIEWPL=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWPL=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_VIEWPL=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWPL=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uview\ViewSub.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_VIEWS=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWS=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_VIEWS=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWS=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_VIEWS=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWS=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_VIEWS=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWS=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_VIEWS=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWS=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_VIEWS=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWS=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_VIEWS=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWS=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_VIEWS=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_VIEWS=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWS=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_VIEWS=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWS=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uview\ViewTool.c
+
+!IF  "$(CFG)" == "Util - Win32 (WCE MIPS) Release"
+
+DEP_CPP_VIEWT=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWT=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE MIPS) Debug"
+
+DEP_CPP_VIEWT=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWT=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Release"
+
+DEP_CPP_VIEWT=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWT=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH4) Debug"
+
+DEP_CPP_VIEWT=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWT=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Release"
+
+DEP_CPP_VIEWT=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWT=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE SH3) Debug"
+
+DEP_CPP_VIEWT=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWT=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Release"
+
+DEP_CPP_VIEWT=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWT=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE ARM) Debug"
+
+DEP_CPP_VIEWT=\
+	".\Ubox\Box2d.h"\
+	".\Uconfig3d\Config3d.h"\
+	".\Uigp\igp.h"\
+	".\Ujet2\Jet23Type.h"\
+	".\Ujet2\Jet2Type.h"\
+	".\Uprm\prm.h"\
+	".\Uvec\Vec2d.h"\
+	".\Uvec\Vec3d.h"\
+	".\Uview\ViewType.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Release"
+
+DEP_CPP_VIEWT=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWT=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ELSEIF  "$(CFG)" == "Util - Win32 (WCE x86em) Debug"
+
+DEP_CPP_VIEWT=\
+	".\Uview\ViewType.h"\
+	
+NODEP_CPP_VIEWT=\
+	".\Uview\Ubox\Box2d.h"\
+	".\Uview\Uconfig3d\Config3d.h"\
+	".\Uview\Uigp\igp.h"\
+	".\Uview\Ujet2\Jet23Type.h"\
+	".\Uview\Ujet2\Jet2Type.h"\
+	".\Uview\Uprm\prm.h"\
+	".\Uview\Uvec\Vec3d.h"\
+	
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\Uview\ViewType.h
+# End Source File
+# End Group
+# End Target
+# End Project

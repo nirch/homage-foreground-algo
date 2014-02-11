@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Wbmp">
+      <UniqueIdentifier>{a3a75cce-47dd-4e83-bed4-8b1287c5d3dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Npm">
+      <UniqueIdentifier>{7e442ee5-0cb7-4078-905d-bc5b8f850d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ems">
+      <UniqueIdentifier>{5738cc4c-078c-4bc7-90e3-deed93bd8868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Targa">
+      <UniqueIdentifier>{4b109cf3-9e16-4240-9bf8-bbef5b84d3ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImageRead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wbmp\ImageReadWbmp.c">
+      <Filter>Wbmp</Filter>
+    </ClCompile>
+    <ClCompile Include="Wbmp\ImageWriteWbmp.c">
+      <Filter>Wbmp</Filter>
+    </ClCompile>
+    <ClCompile Include="Wbmp\WbmapDecoder.cpp">
+      <Filter>Wbmp</Filter>
+    </ClCompile>
+    <ClCompile Include="Wbmp\WbmpEncoder.cpp">
+      <Filter>Wbmp</Filter>
+    </ClCompile>
+    <ClCompile Include="NPM\ImageReadNpm.c">
+      <Filter>Npm</Filter>
+    </ClCompile>
+    <ClCompile Include="NPM\ImageWriteNpm.c">
+      <Filter>Npm</Filter>
+    </ClCompile>
+    <ClCompile Include="NPM\NpmDecoder.cpp">
+      <Filter>Npm</Filter>
+    </ClCompile>
+    <ClCompile Include="NPM\NPMEncoder.cpp">
+      <Filter>Npm</Filter>
+    </ClCompile>
+    <ClCompile Include="EMS\EmsDecoder.cpp">
+      <Filter>Ems</Filter>
+    </ClCompile>
+    <ClCompile Include="EMS\EmsEncoder.cpp">
+      <Filter>Ems</Filter>
+    </ClCompile>
+    <ClCompile Include="EMS\ImageReadEms.c">
+      <Filter>Ems</Filter>
+    </ClCompile>
+    <ClCompile Include="EMS\ImageWriteEms.c">
+      <Filter>Ems</Filter>
+    </ClCompile>
+    <ClCompile Include="Targa\ImageTarga.c">
+      <Filter>Targa</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImageRead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wbmp\ImageWbmp.h">
+      <Filter>Wbmp</Filter>
+    </ClInclude>
+    <ClInclude Include="Wbmp\WbmapDecoder.h">
+      <Filter>Wbmp</Filter>
+    </ClInclude>
+    <ClInclude Include="Wbmp\WbmpEncoder.h">
+      <Filter>Wbmp</Filter>
+    </ClInclude>
+    <ClInclude Include="NPM\ImageNpm.h">
+      <Filter>Npm</Filter>
+    </ClInclude>
+    <ClInclude Include="NPM\NpmDecoder.h">
+      <Filter>Npm</Filter>
+    </ClInclude>
+    <ClInclude Include="NPM\NPMEncoder.h">
+      <Filter>Npm</Filter>
+    </ClInclude>
+    <ClInclude Include="EMS\EmsDecoder.h">
+      <Filter>Ems</Filter>
+    </ClInclude>
+    <ClInclude Include="EMS\EmsEncoder.h">
+      <Filter>Ems</Filter>
+    </ClInclude>
+    <ClInclude Include="EMS\ImageEms.h">
+      <Filter>Ems</Filter>
+    </ClInclude>
+    <ClInclude Include="Targa\ImageTarga.h">
+      <Filter>Targa</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AgpColor">
+      <UniqueIdentifier>{1d534ac1-f123-4985-9954-d6a0f71ddcd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpDepth">
+      <UniqueIdentifier>{217e1629-5ed6-44c7-bf29-112b0f02f7c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpEdit">
+      <UniqueIdentifier>{a1286c3e-958c-4871-8904-06fcc3799728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpLayer">
+      <UniqueIdentifier>{4d01892a-f1ab-4c11-a70c-c2300ab8bab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpTool">
+      <UniqueIdentifier>{a6b5e077-807e-4b76-9ad4-f25a5b424c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EmbedLink">
+      <UniqueIdentifier>{c4aa4f08-3e21-446b-91fd-afbc29694033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GpTool">
+      <UniqueIdentifier>{ad9c8b08-840d-40e8-8b33-76f9c137b50d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GpType">
+      <UniqueIdentifier>{79642dbf-66ac-4939-b905-5811e83edcc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inf">
+      <UniqueIdentifier>{cf201a00-7318-472b-a733-e18add5cfee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LinkTool">
+      <UniqueIdentifier>{7ae637fb-7e8c-40a8-9a4d-84484862f0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mold">
+      <UniqueIdentifier>{d7e37c78-c6e2-4e5b-bc73-d38e26931d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="N3Prime">
+      <UniqueIdentifier>{22ab5723-cc1b-47c4-87c0-765105442374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RelValue">
+      <UniqueIdentifier>{dbf616a6-83c3-4a63-bab2-b2f46a2f0d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RlLink">
+      <UniqueIdentifier>{074935b9-f49e-46d8-b14b-d02ca5c666e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{59fe06d4-a392-4cc5-94a4-5038f9d51c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depth">
+      <UniqueIdentifier>{3fbf5f5a-5441-49dd-aae9-f1ccf977d65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layer">
+      <UniqueIdentifier>{67c8284e-92d4-4e7b-8600-8974c9a38704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contour">
+      <UniqueIdentifier>{4f2b02e1-79e7-471b-bbd4-24e376c23388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{6ff291d7-3c73-4fc1-aa97-cdbbb60af82b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="N3Aux">
+      <UniqueIdentifier>{a95c30c9-c0e4-4153-991b-eea0c4d88f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filter">
+      <UniqueIdentifier>{f8c8b7f6-1159-4817-be7b-0ebb9efec499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpCutout">
+      <UniqueIdentifier>{e96bbfb9-cf43-4407-8737-c239b9d055ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AgpColor\AgpAdaptivePalette.c">
+      <Filter>AgpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpColor\AgpChangeProfile.c">
+      <Filter>AgpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpColor\AgpColorF.c">
+      <Filter>AgpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpColor\AgpColorF1.c">
+      <Filter>AgpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpColor\AgpColorFN.c">
+      <Filter>AgpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpColor\AgpGrbRgb.c">
+      <Filter>AgpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpColor\AgpRgbRange.c">
+      <Filter>AgpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpColor\AgpRgbY.c">
+      <Filter>AgpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpColor\AgpRgbYCrCb.c">
+      <Filter>AgpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpColor\AgpRgbYiq.c">
+      <Filter>AgpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpColor\AgpRgbYmax.c">
+      <Filter>AgpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpColor\AgpYCrCbRangeY.c">
+      <Filter>AgpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpColor\AgpYCrCbRgb.c">
+      <Filter>AgpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpColor\AgpYiqRgb.c">
+      <Filter>AgpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpColor\FillAux.c">
+      <Filter>AgpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpDepth\AgpDepthAdd.c">
+      <Filter>AgpDepth</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpDepth\AgpDepthDefault.c">
+      <Filter>AgpDepth</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpDepth\AgpDepthRange.c">
+      <Filter>AgpDepth</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpDepth\AgpDepthSet.c">
+      <Filter>AgpDepth</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpDepth\AgpDepthSetBottle.c">
+      <Filter>AgpDepth</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpDepth\AgpDepthSetCorner.c">
+      <Filter>AgpDepth</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpDepth\AgpDepthSetL.c">
+      <Filter>AgpDepth</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpDepth\AgpDepthSmooth0x4.c">
+      <Filter>AgpDepth</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpDepth\AgpDepthValue.c">
+      <Filter>AgpDepth</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpDefaultProfile.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpJnt.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpJntConnect.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpJntCutBrn.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpJntEdgeReorder.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpJntN3.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpJntN3ReplaceEdge.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpJntN3ReplaceIn.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpJntN3Reposition.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpLink2Jnt.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpLinkDelete.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpLinkFilter.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpLinkInverse.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpLinkN3rToRidge.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpLinkN3ToEdge.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpLinkProf.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpLinkSplit.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpPolylinkDelete.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpPolylinkInsert.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpPolylinkSelect.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpProfileLoad.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpEdit\AgpSelect.c">
+      <Filter>AgpEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayer.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerBorder.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerBox.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerClear.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerColor.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerContourPolylink.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerCopy.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerCopyContour.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerCut.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerF.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerF1.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerFC.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerFC1.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerFlattening.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerFn3.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerHole.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerInit.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerMiddle.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerRenumbering.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpLayer\AgpLayerSelect.c">
+      <Filter>AgpLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpAddBorder.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpAddConstLayer.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpAppend.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpBgpFill.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpBgpFillHole.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpBgpFillN.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpBgpTest.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpBgValue.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpBrList.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpCheckLinkFbr.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpCjeckIn.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpCleare.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpCloseHole.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpConnectJnt.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpConst.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpCopy.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpCountorLink.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpDelete.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpDither.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpDitherEdge.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpDumpRead.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpDumpWrite.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpEdgeToN3.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpExtend.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpFlipH.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpFlipV.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpImage.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpJnt.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpJntBrn4.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpLinkForceMaxLA.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpLinkLen.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpLinkNo.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpLt2.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpMakeUnion.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpMold.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpN3ToEdge.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpNf.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpProfile.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpProfileWidth.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpRemoveN3R_06.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpRepositionLayer.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpRescale.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpScriptRead.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpScriptWrite.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpSetBr1_06.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpTransparent2Flat.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpTransparentWidth.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpUnion.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpUpgrade06.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpZoom.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpTool\AgpZoomP.c">
+      <Filter>AgpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="EMBEDLINK\EmbedFitBorder.c">
+      <Filter>EmbedLink</Filter>
+    </ClCompile>
+    <ClCompile Include="EmbedLink\EmbedFitJnt.c">
+      <Filter>EmbedLink</Filter>
+    </ClCompile>
+    <ClCompile Include="EmbedLink\EmbedGapp.c">
+      <Filter>EmbedLink</Filter>
+    </ClCompile>
+    <ClCompile Include="EmbedLink\EmbedHunch.c">
+      <Filter>EmbedLink</Filter>
+    </ClCompile>
+    <ClCompile Include="EmbedLink\EmbedJntN3.c">
+      <Filter>EmbedLink</Filter>
+    </ClCompile>
+    <ClCompile Include="EmbedLink\EmbedLink.c">
+      <Filter>EmbedLink</Filter>
+    </ClCompile>
+    <ClCompile Include="EmbedLink\EmbedLinkFinal.c">
+      <Filter>EmbedLink</Filter>
+    </ClCompile>
+    <ClCompile Include="EmbedLink\EmbedLinkFit.c">
+      <Filter>EmbedLink</Filter>
+    </ClCompile>
+    <ClCompile Include="EmbedLink\EmbedLinkFitCurve.c">
+      <Filter>EmbedLink</Filter>
+    </ClCompile>
+    <ClCompile Include="EmbedLink\EmbedMarkBr.c">
+      <Filter>EmbedLink</Filter>
+    </ClCompile>
+    <ClCompile Include="EmbedLink\EmbedN3.c">
+      <Filter>EmbedLink</Filter>
+    </ClCompile>
+    <ClCompile Include="EmbedLink\EmbedRidge.c">
+      <Filter>EmbedLink</Filter>
+    </ClCompile>
+    <ClCompile Include="EmbedLink\EmbedRlLink.c">
+      <Filter>EmbedLink</Filter>
+    </ClCompile>
+    <ClCompile Include="EmbedLink\EmbedSegment.c">
+      <Filter>EmbedLink</Filter>
+    </ClCompile>
+    <ClCompile Include="EmbedLink\EmbedSelect.c">
+      <Filter>EmbedLink</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\AdepthTool.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\AgpBox.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\AgpIn.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\AgpInsert.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\AgpLnf.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\AgpNfArray.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\EdgeTool.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\GpTool.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\HunchTool.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\JntEdge.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\JntN3.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\JntN3In.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\JntRN3.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\JntTool.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\LayerTool.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\LinkIn.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\LinkN3.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\LinkTool.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\LinkTool1.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\N3Tool.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\NfAux.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\ProfileTool.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\RidgeTool.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GpTool\WidthTool.c">
+      <Filter>GpTool</Filter>
+    </ClCompile>
+    <ClCompile Include="Inf\InfAgp.c">
+      <Filter>Inf</Filter>
+    </ClCompile>
+    <ClCompile Include="Inf\InfBgp.c">
+      <Filter>Inf</Filter>
+    </ClCompile>
+    <ClCompile Include="Inf\InfEdge.c">
+      <Filter>Inf</Filter>
+    </ClCompile>
+    <ClCompile Include="Inf\InfHunch.c">
+      <Filter>Inf</Filter>
+    </ClCompile>
+    <ClCompile Include="Inf\InfJnt.c">
+      <Filter>Inf</Filter>
+    </ClCompile>
+    <ClCompile Include="Inf\InfN3.c">
+      <Filter>Inf</Filter>
+    </ClCompile>
+    <ClCompile Include="Inf\InfProfile.c">
+      <Filter>Inf</Filter>
+    </ClCompile>
+    <ClCompile Include="Inf\InfRHnch.c">
+      <Filter>Inf</Filter>
+    </ClCompile>
+    <ClCompile Include="Inf\InfRidge.c">
+      <Filter>Inf</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\Bezier2Links.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkAppend.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkBox.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkClip.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkDistance.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkFilter.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkFromGapp.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkFromLine.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkFromLn.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkInsidePoint.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkInternalSide.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkIo.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkLayer.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkReapproximae.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkSet.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkSetProfile.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkSimplify.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkSplit.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkTool2.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\TlSelect.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\LnAttCConnect.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\LnAttCmp.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\LnAttCmpBuild.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\LnAttCmpFinal.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\LnAttCmpStep.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\LnAttCmpStep4.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\LnAttCmpStepN.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\LnAttCmpStepNS.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\LnAttCmpStepW.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\LnAttCPos.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\LnAttCTied.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\LnAttCTool.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\LnAttTool.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\LnDisTool.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\LnSegTool.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\Mold.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\MoldCrossSeg.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="Mold\MoldParallelSeg.c">
+      <Filter>Mold</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Prime\N3PrimeAgp.c">
+      <Filter>N3Prime</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Prime\N3PrimeFree.c">
+      <Filter>N3Prime</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Prime\N3PrimeInNull.c">
+      <Filter>N3Prime</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Prime\N3PrimeLink.c">
+      <Filter>N3Prime</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Prime\N3PrimeLoad.c">
+      <Filter>N3Prime</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Prime\N3PrimeN3ToEdge.c">
+      <Filter>N3Prime</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Prime\N3PrimeProfile.c">
+      <Filter>N3Prime</Filter>
+    </ClCompile>
+    <ClCompile Include="RelValue\AbsValue.c">
+      <Filter>RelValue</Filter>
+    </ClCompile>
+    <ClCompile Include="RelValue\AbsValueO.c">
+      <Filter>RelValue</Filter>
+    </ClCompile>
+    <ClCompile Include="RelValue\RelValue.c">
+      <Filter>RelValue</Filter>
+    </ClCompile>
+    <ClCompile Include="RelValue\SetWidth.c">
+      <Filter>RelValue</Filter>
+    </ClCompile>
+    <ClCompile Include="RlLink\LinkReplace.c">
+      <Filter>RlLink</Filter>
+    </ClCompile>
+    <ClCompile Include="RlLink\RlCorner.c">
+      <Filter>RlLink</Filter>
+    </ClCompile>
+    <ClCompile Include="RlLink\RlCornerArc.c">
+      <Filter>RlLink</Filter>
+    </ClCompile>
+    <ClCompile Include="RlLink\RlGapp.c">
+      <Filter>RlLink</Filter>
+    </ClCompile>
+    <ClCompile Include="RlLink\RlLink.c">
+      <Filter>RlLink</Filter>
+    </ClCompile>
+    <ClCompile Include="RlLink\RlLink2.c">
+      <Filter>RlLink</Filter>
+    </ClCompile>
+    <ClCompile Include="RlLink\RlTool.c">
+      <Filter>RlLink</Filter>
+    </ClCompile>
+    <ClCompile Include="RlLink\RlTool2.c">
+      <Filter>RlLink</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\TextureCopy.c">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\TextureCopyHunch.c">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\TexturePaste.c">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\TexturePasteHunch.c">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Depth\DmBottle.c">
+      <Filter>Depth</Filter>
+    </ClCompile>
+    <ClCompile Include="Depth\DmCorner.c">
+      <Filter>Depth</Filter>
+    </ClCompile>
+    <ClCompile Include="Depth\DmCorner90View.c">
+      <Filter>Depth</Filter>
+    </ClCompile>
+    <ClCompile Include="Depth\DmPlane.c">
+      <Filter>Depth</Filter>
+    </ClCompile>
+    <ClCompile Include="Depth\DmTool.c">
+      <Filter>Depth</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer\AgpLayerFiletr.c">
+      <Filter>Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer\AgpLayerIdF.c">
+      <Filter>Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer\AgpLayerIdF1.c">
+      <Filter>Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer\AgpLayerValidate.c">
+      <Filter>Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer\LayerAux.c">
+      <Filter>Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\ContourArea.c">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\ContourArray.c">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\ContourCircle.c">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\ContourDump.c">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\ContourImageMask.c">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\ContourLFlip.c">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\ContourLt2.c">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\ContourOverlap.c">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\ContourRead.c">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\ContourTool.c">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\ContourWrite.c">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\LinkDisTool.c">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\PlinkTool.c">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\PlinkUnion.c">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\Log.c">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Aux\N3Aux.c">
+      <Filter>N3Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Aux\N3Aux_1.c">
+      <Filter>N3Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Aux\N3AuxFree.c">
+      <Filter>N3Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Aux\N3AuxIn.c">
+      <Filter>N3Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Aux\N3AuxInDegenric.c">
+      <Filter>N3Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Aux\N3AuxInNull.c">
+      <Filter>N3Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Aux\N3AuxJnt.c">
+      <Filter>N3Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Aux\N3AuxLink.c">
+      <Filter>N3Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Aux\N3AuxLoad.c">
+      <Filter>N3Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Aux\N3AuxProfile.c">
+      <Filter>N3Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="N3Aux\N3AuxTool.c">
+      <Filter>N3Aux</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter\FilterAgp.c">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter\FilterEdge.c">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter\FilterHunch.c">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter\FilterLinkLen.c">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter\FilterN3.c">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter\FilterRh2Hunch.c">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter\FilterRidge.c">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpCutout\AgpCutout.c">
+      <Filter>AgpCutout</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpCutout\AgpCutoutFit.c">
+      <Filter>AgpCutout</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpCutout\AgpCutoutN.c">
+      <Filter>AgpCutout</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpCutout\AgpCutoutNWrapper.c">
+      <Filter>AgpCutout</Filter>
+    </ClCompile>
+    <ClCompile Include="AgpCutout\AgpCutoutWrapper.c">
+      <Filter>AgpCutout</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\ContourRadius.c">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkTool\LinkCopy.c">
+      <Filter>LinkTool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AgpColor\AgpColor.h">
+      <Filter>AgpColor</Filter>
+    </ClInclude>
+    <ClInclude Include="AgpColor\AgpColorF.h">
+      <Filter>AgpColor</Filter>
+    </ClInclude>
+    <ClInclude Include="AgpColor\FillAux.h">
+      <Filter>AgpColor</Filter>
+    </ClInclude>
+    <ClInclude Include="AgpDepth\AgpDepth.h">
+      <Filter>AgpDepth</Filter>
+    </ClInclude>
+    <ClInclude Include="AgpDepth\AgpDepthIn.h">
+      <Filter>AgpDepth</Filter>
+    </ClInclude>
+    <ClInclude Include="AgpEdit\AgpEdit.h">
+      <Filter>AgpEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="AgpEdit\AgpEditTool.h">
+      <Filter>AgpEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="AgpEdit\AgpSelect.h">
+      <Filter>AgpEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="AgpLayer\AgpLayer.h">
+      <Filter>AgpLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="AgpLayer\AgpLayerF.h">
+      <Filter>AgpLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="AgpTool\AgpTool.h">
+      <Filter>AgpTool</Filter>
+    </ClInclude>
+    <ClInclude Include="EmbedLink\EmbedLink.h">
+      <Filter>EmbedLink</Filter>
+    </ClInclude>
+    <ClInclude Include="EmbedLink\EmbedLinkIn.h">
+      <Filter>EmbedLink</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\AdepthType.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\BgpType.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\ColorType.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\Configuration.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\DepthType.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\EdgeType.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\GpType.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\HunchType.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\JntType.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\LayerType.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\LinkType.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\MbrType.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\N3Type.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\NfType.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\ProfileType.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\RidgeType.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="GpType\WidthType.h">
+      <Filter>GpType</Filter>
+    </ClInclude>
+    <ClInclude Include="Inf\Inf.h">
+      <Filter>Inf</Filter>
+    </ClInclude>
+    <ClInclude Include="Inf\InfIn.h">
+      <Filter>Inf</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkTool\LinkLayer.h">
+      <Filter>LinkTool</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkTool\LinkTool.h">
+      <Filter>LinkTool</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkTool\TlType.h">
+      <Filter>LinkTool</Filter>
+    </ClInclude>
+    <ClInclude Include="Mold\LnAttCmp.h">
+      <Filter>Mold</Filter>
+    </ClInclude>
+    <ClInclude Include="Mold\LnAttCType.h">
+      <Filter>Mold</Filter>
+    </ClInclude>
+    <ClInclude Include="Mold\LnAttType.h">
+      <Filter>Mold</Filter>
+    </ClInclude>
+    <ClInclude Include="Mold\LnDisType.h">
+      <Filter>Mold</Filter>
+    </ClInclude>
+    <ClInclude Include="Mold\LnSegType.h">
+      <Filter>Mold</Filter>
+    </ClInclude>
+    <ClInclude Include="Mold\Mold.h">
+      <Filter>Mold</Filter>
+    </ClInclude>
+    <ClInclude Include="Mold\MoldIn.h">
+      <Filter>Mold</Filter>
+    </ClInclude>
+    <ClInclude Include="N3Prime\N3Prime.h">
+      <Filter>N3Prime</Filter>
+    </ClInclude>
+    <ClInclude Include="N3Prime\N3PrimeIn.h">
+      <Filter>N3Prime</Filter>
+    </ClInclude>
+    <ClInclude Include="RelValue\RelValue.h">
+      <Filter>RelValue</Filter>
+    </ClInclude>
+    <ClInclude Include="RelValue\RelValueIn.h">
+      <Filter>RelValue</Filter>
+    </ClInclude>
+    <ClInclude Include="RlLink\RlLink.h">
+      <Filter>RlLink</Filter>
+    </ClInclude>
+    <ClInclude Include="RlLink\RlType.h">
+      <Filter>RlLink</Filter>
+    </ClInclude>
+    <ClInclude Include="RlLink\RlType2.h">
+      <Filter>RlLink</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\Texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Depth\Depth.h">
+      <Filter>Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="Depth\DepthModelType.h">
+      <Filter>Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="Depth\DmBottleType.h">
+      <Filter>Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="Depth\DmCornerType.h">
+      <Filter>Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="Depth\DmPlaneType.h">
+      <Filter>Depth</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer\Layer.h">
+      <Filter>Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer\LayerAux.h">
+      <Filter>Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Contour\ContourType.h">
+      <Filter>Contour</Filter>
+    </ClInclude>
+    <ClInclude Include="Contour\LinkDisType.h">
+      <Filter>Contour</Filter>
+    </ClInclude>
+    <ClInclude Include="Contour\PlinkType.h">
+      <Filter>Contour</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="N3Aux\N3Aux.h">
+      <Filter>N3Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="N3Aux\N3AuxIn.h">
+      <Filter>N3Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="N3Aux\N3AuxType.h">
+      <Filter>N3Aux</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter\Filter.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="AgpCutout\AgpCutout.h">
+      <Filter>AgpCutout</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AgpColor\Makefile">
+      <Filter>AgpColor</Filter>
+    </None>
+    <None Include="AgpDepth\Makefile">
+      <Filter>AgpDepth</Filter>
+    </None>
+    <None Include="AgpEdit\Makefile">
+      <Filter>AgpEdit</Filter>
+    </None>
+    <None Include="AgpLayer\Makefile">
+      <Filter>AgpLayer</Filter>
+    </None>
+    <None Include="AgpTool\Makefile">
+      <Filter>AgpTool</Filter>
+    </None>
+    <None Include="EmbedLink\Makefile">
+      <Filter>EmbedLink</Filter>
+    </None>
+    <None Include="GpTool\Makefile">
+      <Filter>GpTool</Filter>
+    </None>
+    <None Include="Inf\Makefile">
+      <Filter>Inf</Filter>
+    </None>
+    <None Include="LinkTool\Makefile">
+      <Filter>LinkTool</Filter>
+    </None>
+    <None Include="N3Prime\Makefile">
+      <Filter>N3Prime</Filter>
+    </None>
+    <None Include="RelValue\Makefile">
+      <Filter>RelValue</Filter>
+    </None>
+    <None Include="RlLink\Makefile">
+      <Filter>RlLink</Filter>
+    </None>
+    <None Include="Filter\Makefile">
+      <Filter>Filter</Filter>
+    </None>
+    <None Include="Makefile" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AviAudioDecoder">
+      <UniqueIdentifier>{92ba79f5-9654-4f98-ac46-c9ce7ad56538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AviDecoder">
+      <UniqueIdentifier>{e3bfadd5-e5fd-44cd-8017-bc60eb49efc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AviEncoder">
+      <UniqueIdentifier>{34207af4-22c0-4f2b-9f89-9890dbea2edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AviUtil">
+      <UniqueIdentifier>{71c5fb14-33e5-4cf1-8bff-80fe17c79552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AviWirter">
+      <UniqueIdentifier>{6601a612-9bb5-464e-982d-52cc00c73722}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AviDecoder\AviMJPEGReadFrame.cpp">
+      <Filter>AviDecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="AviDecoder\avivideodecoder.cpp">
+      <Filter>AviDecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="AviEncoder\AviAudioStreamEncoder.cpp">
+      <Filter>AviEncoder</Filter>
+    </ClCompile>
+    <ClCompile Include="AviEncoder\AviVideoEncoder.cpp">
+      <Filter>AviEncoder</Filter>
+    </ClCompile>
+    <ClCompile Include="AviEncoder\AviVideoStreamEncoder.cpp">
+      <Filter>AviEncoder</Filter>
+    </ClCompile>
+    <ClCompile Include="AviUtil\DibToImage.cpp">
+      <Filter>AviUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="AviWriter\AviWriter.cpp">
+      <Filter>AviWirter</Filter>
+    </ClCompile>
+    <ClCompile Include="AviDecoder\AviVideoDecoderFfmpeg.cpp">
+      <Filter>AviDecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="AviAudioDecoder\AviAudioDecoder.cpp">
+      <Filter>AviAudioDecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="AviWriter\JpegWriter.cpp">
+      <Filter>AviWirter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AviAudioDecoder\AviAudioDecoder.h">
+      <Filter>AviAudioDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="AviAudioDecoder\AviGetAudioDecoder.h">
+      <Filter>AviAudioDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="AviDecoder\AviGetDecoder.h">
+      <Filter>AviDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="AviDecoder\AviVideoDecoder.h">
+      <Filter>AviDecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="AviEncoder\AviAudioStreamEncoder.h">
+      <Filter>AviEncoder</Filter>
+    </ClInclude>
+    <ClInclude Include="AviEncoder\AviCodec.h">
+      <Filter>AviEncoder</Filter>
+    </ClInclude>
+    <ClInclude Include="AviEncoder\AviGetEncoder.h">
+      <Filter>AviEncoder</Filter>
+    </ClInclude>
+    <ClInclude Include="AviEncoder\AviVideoEncoder.h">
+      <Filter>AviEncoder</Filter>
+    </ClInclude>
+    <ClInclude Include="AviEncoder\AviVideoStreamEncoder.h">
+      <Filter>AviEncoder</Filter>
+    </ClInclude>
+    <ClInclude Include="AviUtil\AviInclude.h">
+      <Filter>AviUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="AviUtil\DibToImage.h">
+      <Filter>AviUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="AviWriter\AviWriter.h">
+      <Filter>AviWirter</Filter>
+    </ClInclude>
+    <ClInclude Include="AviWriter\JpegWriter.h">
+      <Filter>AviWirter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
