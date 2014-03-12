@@ -1,0 +1,3 @@
+/Users/shayrootman/Documents/_work/Gp_Vim/VimGui/Gpw/CMakeFiles/ALL_BUILD.dir
+/Users/shayrootman/Documents/_work/Gp_Vim/VimGui/Gpw/CMakeFiles/Gpw.dir
+/Users/shayrootman/Documents/_work/Gp_Vim/VimGui/Gpw/CMakeFiles/ZERO_CHECK.dir

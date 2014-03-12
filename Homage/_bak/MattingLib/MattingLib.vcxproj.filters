@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Background">
+      <UniqueIdentifier>{360d5f4c-24d0-4b9f-8c7d-33dc42375dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ColorBackground">
+      <UniqueIdentifier>{16dc4a1a-4e81-47a6-8626-536b51d4be34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Background\BackgroundRemoval.cpp">
+      <Filter>Background</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorBackground\ColorBackground.cpp">
+      <Filter>ColorBackground</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorBackground\UniformBackground.cpp">
+      <Filter>ColorBackground</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorBackground\UniformBackgroundFill.cpp">
+      <Filter>ColorBackground</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorBackground\UniformBackgroundContour.cpp">
+      <Filter>ColorBackground</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Background\BackgroundRemoval.h">
+      <Filter>Background</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorBackground\ColorBackground.h">
+      <Filter>ColorBackground</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorBackground\UniformBackground.h">
+      <Filter>ColorBackground</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

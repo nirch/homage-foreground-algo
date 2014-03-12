@@ -1,0 +1,3 @@
+/Users/shayrootman/Documents/_work/Homage/HomageLib/CMakeFiles/ALL_BUILD.dir
+/Users/shayrootman/Documents/_work/Homage/HomageLib/CMakeFiles/HomageLib.dir
+/Users/shayrootman/Documents/_work/Homage/HomageLib/CMakeFiles/ZERO_CHECK.dir

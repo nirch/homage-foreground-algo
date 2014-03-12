@@ -78,14 +78,20 @@
   <ItemGroup>
     <ClCompile Include="Background\BackgroundRemoval.cpp" />
     <ClCompile Include="ColorBackground\ColorBackground.cpp" />
-    <ClCompile Include="ColorBackground\UniformBackground.cpp" />
-    <ClCompile Include="ColorBackground\UniformBackgroundN.cpp" />
+    <ClCompile Include="UniformBackground\UbBackground.cpp" />
+    <ClCompile Include="UniformBackground\UbBlob.cpp" />
+    <ClCompile Include="UniformBackground\UbBlob1.cpp" />
+    <ClCompile Include="UniformBackground\UbBlob2.cpp" />
+    <ClCompile Include="UniformBackground\UbContour.cpp" />
+    <ClCompile Include="UniformBackground\UbSmooth.cpp" />
+    <ClCompile Include="UniformBackground\UbThin.cpp" />
+    <ClCompile Include="UniformBackground\UbUpdate.cpp" />
+    <ClCompile Include="UniformBackground\UniformBackground.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Background\BackgroundRemoval.h" />
     <ClInclude Include="ColorBackground\ColorBackground.h" />
-    <ClInclude Include="ColorBackground\UniformBackground.h" />
-    <ClInclude Include="ColorBackground\UniformBackgroundN.h" />
+    <ClInclude Include="UniformBackground\UniformBackground.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

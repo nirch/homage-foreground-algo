@@ -26,6 +26,8 @@ gpTime_type *gt;
 
 	gt->no = 0;
 
+	gt->t0 = vTime();
+
 	return( gt );
 }
 
@@ -49,13 +51,16 @@ gpTime_init( gpTime_type *t )
 
 
 void
-gpTime_start( gpTime_type *t )
+gpTime_start( gpTime_type *gt )
 { 
 struct timeb    tp;
 
 	ftime( &tp );
-	t->sec0 = tp.time;
-	t->mil_sec0 = tp.millitm;
+	gt->sec0 = tp.time;
+	gt->mil_sec0 = tp.millitm;
+
+	if( gt->no == 0 )
+		gt->t0 = vTime();
 }
 
 
@@ -96,22 +101,73 @@ struct timeb    tp;
 
 
 
+float 
+gpTime_fps( gpTime_type *t )
+{
+	if( t->sec == 0 )
+		return( 0 );
+
+	return( t->no / t->sec );
+}
+
+int 
+gpTime_fpm( gpTime_type *t )
+{
+	if( t->sec == 0 )
+		return( 0 );
+
+	return( 1000*t->no / t->sec );
+}
+
+int 
+gpTime_mpf( gpTime_type *t )
+{
+	if( t->sec == 0 )
+		return( 0 );
+
+	return( 1000*t->sec / t->no );
+}
 
 
 void 
 gpTime_print( FILE *fp, char *string, gpTime_type *t )
 {
+float afps;
+
 	if( t->no == 0 )	return;
 
-	fprintf( fp, "%-10s  time:  ", string);
+	fprintf( fp, "%-10s time:  %.2fs", string, t->sec );
 
-	fprintf( fp, "   %.2fs", t->sec );
-	if( t->no > 0 )
-//		fprintf( fp, "   spf: %.4fs(%d)", t->sec / t->no, t->no );
-		fprintf( fp, "   spf: %.4fs(%d)   fps: %.4f(%d)", t->sec / t->no, t->no, t->no/t->sec, t->no );
+//	fprintf( fp, "   %.2fs", t->sec );
+
+	afps = t->no*1000.0 / ( vTime() - t->t0);
+	fprintf( fp, "   spf: %.4fs   fps: %.4f   afps: %.4f  (%d)", t->sec / t->no, t->no/t->sec, afps, t->no );
+
 	fprintf( fp, "\n");
 }
 
+
+int 
+gpTime_sprint( char *msg, char *string, gpTime_type *t )
+{
+int	n;
+float	afps;
+
+	if( t->no == 0 )	return( -1 );
+
+	n = sprintf( msg, "%-10s time:  %.2fs", string, t->sec );
+
+
+	afps = t->no*1000.0 / ( vTime() - t->t0);
+	n += sprintf( &msg[n], "   spf: %.4fs   fps: %.4f   afps: %.4f  (%d)", t->sec / t->no, t->no/t->sec, afps, t->no );
+
+
+//	n += sprintf( &msg[n], "   spf: %.4fs(%d)   fps: %.4f(%d)", t->sec / t->no, t->no, t->no/t->sec, t->no );
+
+	n += sprintf( &msg[n], "\n" );
+
+	return( 1 );
+}
 
 
 void 
@@ -197,6 +253,9 @@ gp_time_iso681( char *buf, time_t timeStamp )
 {
 struct tm *gmt;//,	*timeInfo;
 
+	if( timeStamp == 0 )
+		timeStamp = time(0);
+
 	gmt = localtime((time_t*)&timeStamp);
 //	gmt = gmtime( (time_t*)&timeStamp );
 
@@ -235,7 +294,7 @@ struct tm *m_timeInfo;
 
 
 char * 
-gpTime_string( char *buf, int ltime, int flag )
+gpTime_string( char *buf, vTime_type ltime, int flag )
 {
 //	time_t ltime;
 	struct tm *m_timeInfo;
@@ -245,6 +304,8 @@ gpTime_string( char *buf, int ltime, int flag )
 
 	if( ltime == 0 )
 		ltime = time(0);
+
+//	time( &ltime );
 
 	m_timeInfo = localtime((time_t *)&ltime);
 
@@ -328,3 +389,45 @@ gpTime_asctime( char *str, vTime_type vt )
 
 
 #endif
+
+
+
+#ifdef _AA_
+typedef struct vTimer_type {
+	vTime_type t0;
+
+	float  mpt; 
+
+	int		i;
+} vTimer_type;
+#endif
+
+
+void
+vTimer_init( vTimer_type *vt, float mpt )
+{
+	vt->t0 = vTime();
+
+	vt->mpt = mpt;
+	
+	vt->i = 0;
+}
+
+
+int
+vTimer_test( vTimer_type *vt, vTime_type t )
+{
+int	i;
+
+	if( t == 0 )
+		t = vTime();
+
+	i = (t - vt->t0 ) /  vt->mpt;
+
+	if( i < vt->i )
+		return( -1 );
+
+	vt->i = i;
+	return( vt->i );
+}
+

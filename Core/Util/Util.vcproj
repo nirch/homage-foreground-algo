@@ -11720,15 +11720,27 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Uln\PlnEigen.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\Uln\PlnFit.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\Uln\PlnGroup.c"
+				RelativePath=".\Uln\PlnFitA.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\Uln\PlnParallel.c"
+				RelativePath=".\Uln\PlnFTool.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Uln\PlnGroup.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Uln\PlnParallel.cpp"
 				>
 			</File>
 			<File
@@ -11736,7 +11748,15 @@
 				>
 			</File>
 			<File
-				RelativePath=".\Uln\PlnTool.c"
+				RelativePath=".\Uln\PlnRead.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Uln\PlnSide.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Uln\PlnTool.cpp"
 				>
 			</File>
 			<File
@@ -11744,7 +11764,7 @@
 				>
 			</File>
 			<File
-				RelativePath=".\Uln\PlnWrite.c"
+				RelativePath=".\Uln\PlnWrite.cpp"
 				>
 			</File>
 			<Filter
@@ -12074,6 +12094,14 @@
 		<Filter
 			Name="Uvl"
 			>
+			<File
+				RelativePath=".\Uvl\IntTool.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Uvl\IntType.h"
+				>
+			</File>
 			<File
 				RelativePath=".\Uvl\TfMean.cpp"
 				>

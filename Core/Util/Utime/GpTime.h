@@ -27,6 +27,7 @@ extern "C" {
 
 typedef struct gpTime_type {
 	int	sec0,	mil_sec0;
+	vTime_type t0;
 
 	float	sec;
 
@@ -35,6 +36,17 @@ typedef struct gpTime_type {
 	int	ms;	// last step
 
 }	gpTime_type;
+
+
+typedef struct vTimer_type {
+	vTime_type t0;
+
+	float  mpt; 
+
+	int		i;
+} vTimer_type;
+
+
 
 
 typedef gpTime_type gp_time_type;
@@ -62,9 +74,18 @@ int	gpTime_stop( gpTime_type *t );
 //#define gp_time_add gp_time_stop
 
 void	gpTime_print( FILE *fp, char *string, gpTime_type *t );
+int		gpTime_sprint( char *msg, char *string, gpTime_type *t );
+
 void	gpTime_log( LogCallback logCallback, char *string, gpTime_type *t );
 
-#define gp_time_print	gpTime_print
+float	gpTime_fps( gpTime_type *t );
+int		gpTime_fpm( gpTime_type *t );
+int		gpTime_mpf( gpTime_type *t );
+
+
+
+
+//#define gp_time_print	gpTime_print
 
 
 int	gpTime_base();
@@ -79,11 +100,12 @@ vTime_type 	vTime();
 
 char *	gp_dateTime_iso681( char *buf, time_t timeStamp );
 char *	gp_time_iso681( char *buf, time_t timeStamp );
+char *	gp_time_iso681( char *buf, time_t timeStamp );
 
 
 char *	gp_time_string( char *buf, int Fhour );
 
-char * gpTime_string( char *buf, int ltime, int flag );
+char * gpTime_string( char *buf, vTime_type ltime, int flag );
 
 
 int	gpTime_date( time_t ltime );
@@ -91,6 +113,11 @@ int	gpTime_date( time_t ltime );
 char *	gpTime_asctime( char *str, vTime_type vt );
 
 
+
+
+void	vTimer_init( vTimer_type *vt, float mpt );
+
+int		vTimer_test( vTimer_type *vt, vTime_type t );
 
 
 

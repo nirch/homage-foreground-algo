@@ -5,16 +5,16 @@
 #include	<string.h>
 
 
-#ifdef _DEBUG
+//#ifdef _DEBUG
 #define _DUMP 
-#endif
+//#endif
 
 
 #include	"Uigp/igp.h"
 #include	"Utime\GpTime.h"
 #include	"Ulog/Log.h"
 
-
+//#include "Wutil/UWgpw/GpwType.h"	
 
 
 
@@ -35,7 +35,7 @@
 #include "ImageVideoCodec\\ImageGetVideoDecoder.h"
 
 
-#include "Contour/ContourType.h"
+//#include "Contour/ContourType.h"
 #include "VimLib.h"
 
 
@@ -43,21 +43,25 @@
 #include "ImageCodec\ImageRead.h"
 
 
-#include "MattingLib//ColorBackground/UniformBackground.h"
+#include "MattingLib/UniformBackground/UniformBackground.h"
 
 
 
 
 static void		read_command_line(int argc, char *argv[],
+									int *contour,
 									int	*dFrame,
 									char *mFile,
 									char *roiFile,
 									int *F, char *inFile, 
-									int *outType, int *frameRate, char *outFile );
+									int *outType, int *frameRate, int *codec, char *outFile );
 
 
 
 image_type *ReadMask( char *inFile, int width, int height );
+
+image_type *	ReadMaskPlnA( char *inFile, int width, int height );
+
 
 
 int	WriteEndFile( char *str, char *outFile );
@@ -73,14 +77,14 @@ main( int argc, char **argv )
 char	inFile[256],	outFile[256],	mFile[256],	roiFile[256], file[256];
 int		outFormat;
 image_type	*tim,	*sim;
-int	frames;
+int	frames,	contour;
 int	i;
 
 gp_time_type	hmiTime;
-int	ret,	dFrame,	frameRate;
+int	ret,	dFrame,	frameRate,	codec;
 
 
-	read_command_line( argc, argv, &dFrame, mFile, roiFile, &frames, inFile, &outFormat, &frameRate, outFile );
+	read_command_line( argc, argv, &contour, &dFrame, mFile, roiFile, &frames, inFile, &outFormat, &frameRate, &codec, outFile );
 
 
 
@@ -99,6 +103,9 @@ int	ret,	dFrame,	frameRate;
 //	sprintf( file, "%s\\log.txt", "_dump" );
 	gp_filename_force_extension( outFile, ".txt" );
 	GPLOG_OPEN( outFile );
+
+
+	
 
 
 	CVideoDecoder	*videoDecoder = NULL;
@@ -138,8 +145,10 @@ int	ret,	dFrame,	frameRate;
 	CVideoStreamEncoder *videoStream = videoEncoder->CreateVideoStream( frameRate,
 							 width,
 							 height,
-							 AVI_CODEC_INDEO50,//1,
-							 80000 );
+							 AVI_CODEC_MSVC,
+							 //AVI_CODEC_MP42,//AVI_CODEC_INDEO50,//1,
+							// AVI_CODEC_INDEO50,//1,
+							 10000 );
 
 
 	if( videoStream->Open() == NULL )
@@ -150,10 +159,13 @@ int	ret,	dFrame,	frameRate;
 
 
 
-	CUniformBackground  *m_backgroundRemoval;
-	m_backgroundRemoval = new CUniformBackground();
+	CUniformBackground  *m_mat;
+	m_mat = new CUniformBackground();
 
-	m_backgroundRemoval->SetDframe( dFrame );
+	m_mat->SetDframe( dFrame );
+
+	m_mat->SetContour( contour );
+
 
 
 
@@ -169,14 +181,14 @@ int	ret,	dFrame,	frameRate;
 		box2i_crop( &roi, 0, 0, width, height );
 	}
 
-	m_backgroundRemoval->SetRoi( &roi );
+	m_mat->SetRoi( &roi );
 
 
-
+#ifdef _AA_
 	image_type *mim;
-
 	mim = ReadMask( mFile, videoDecoder->GetWidth(),videoDecoder->GetHeight() );
 
+	
 
 	if( mim == NULL ){
 		gpFilename_force_extension( mFile, "-m.bmp", file );
@@ -190,9 +202,11 @@ int	ret,	dFrame,	frameRate;
 	
 		IMAGE_DUMP( mim, "mask", 1, NULL );
 	}
+#endif
 
+	m_mat->ReadMask( mFile, videoDecoder->GetWidth(),videoDecoder->GetHeight() );
 
-//	m_backgroundRemoval->SetDframe( 90 );
+//	m_mat->SetDframe( 90 );
 
 
 
@@ -200,7 +214,7 @@ int	ret,	dFrame,	frameRate;
 
 	tim = image_alloc( videoDecoder->GetWidth(),videoDecoder->GetHeight(), 4, IMAGE_TYPE_U8, 1 );
 
-
+//	gpw_type *gpw = gpw_image( tim );
 
 	image_type *aim;
 	aim = NULL;
@@ -219,13 +233,18 @@ int	ret,	dFrame,	frameRate;
 
 
 
-
+#ifdef _AA_
 		if( i < 1 )
-			m_backgroundRemoval->ProcessHistogram( sim, mim );
-
+			m_mat->ProcessHistogram( sim, mim );
+#endif
 
 		
-		ret = m_backgroundRemoval->Process( sim, i, &bim );
+		ret = m_mat->Process( sim, i, &bim );
+
+		if( ret < 0 ){
+			WriteEndFile( "Failed\nEXCEPTION", outFile );
+			return( -1 );
+		}
 
 
 
@@ -236,7 +255,7 @@ int	ret,	dFrame,	frameRate;
 
 
 
-//		m_backgroundRemoval->GetSilhouette( &bim );
+//		m_mat->GetSilhouette( &bim );
 
 
 
@@ -263,8 +282,12 @@ int	ret,	dFrame,	frameRate;
 
 
 		if( outFormat == 3 ){
-			aim = imageA_set_alpha( sim, 255, bim, aim );
-			tim = imageA_final( aim, 0xFFFFFF, tim );
+//			aim = imageA_set_alpha( sim, 255, bim, aim );
+//			tim = imageA_final( aim, 0xFFFFFF, tim );
+
+			aim = imageA_set_color( sim, bim, 255, 0xFFFFFF, aim );
+			tim = image4_from( aim, tim );
+
 		}
 
 		if( outFormat == 4 ){
@@ -278,6 +301,9 @@ int	ret,	dFrame,	frameRate;
 
 
 
+//		sprintf( file, "%s-%.3d.pl", outFile, i );
+//		m_mat->WriteContour( file );
+
 		fprintf( stderr, " ." );
 		GPLOG( ("\n") );
 	}
@@ -285,7 +311,10 @@ int	ret,	dFrame,	frameRate;
 	fprintf( stderr, "\n" );
 
 
-	m_backgroundRemoval->Trace( stdout );
+	sprintf( file, "%s.plf", outFile, i );
+	m_mat->Write( file );
+
+	m_mat->Trace( stdout );
 
 
 	if( tim != NULL )
@@ -307,9 +336,9 @@ int	ret,	dFrame,	frameRate;
 	WriteEndFile( "success", outFile );
 
  
-//	m_backgroundRemoval->Trace( stdout );
+//	m_mat->Trace( stdout );
 
-	delete m_backgroundRemoval;
+	delete m_mat;
 
 	GPLOG_CLOSE();
 
@@ -345,7 +374,7 @@ WriteEndFile_delete( char *outFile )
 }
 
 
-
+#ifdef _AA_
 image_type *
 ReadMask( char *inFile, int width, int height )
 {
@@ -367,28 +396,56 @@ image_type *im;
 }
 
 
+image_type *
+ReadMaskPlnA( char *inFile, int width, int height )
+{
+	image_type *im;
+
+
+	plnA_type *apl;
+	if( plnA_read( inFile, &apl ) < 0 )
+		return( NULL );
+	
+
+
+//	im = image1_mask_plnA(  apl, width, height, NULL );
+	im = image1_mask_pln(  apl->a[0], width, height, NULL );
+
+
+	IMAGE_DUMP( im, "mask", 2, "pln" );
+
+	return( im );
+}
+#endif
 
 
 
 
 
 static char *Usage = 
-	"Usage: FaceTracking    [-D#]  maskFile   roiFile  [-F#]   inFile  [-bmp/-png/-avi/-avic] [-R#]  outFile";
+	"Usage: UniformMattingCA    [-C]  [-D#]  ctrFile   roiFile  [-F#]   inFile  [-bmp/-png/-avi/-avic] [-R#] [-MSVC/-mp4/-indeo] outFile";
 
 
 
 static void	
 read_command_line(int argc, char *argv[],
+	int *contour,
 				int	*dFarme,
 				char *mFile,
 				char *roiFile,
 				int *F,
 				char *inFile, 
-				int *outType, int *frameRate, char *outFile )
+				int *outType, int *frameRate, int *codec, char *outFile )
 {
 int     k;
 
 	k = 1;
+
+	*contour = 0;
+	if (k < argc && gp_strnicmp(argv[k], "-c", 2) == 0  ){
+		*contour = 1;
+		k++;
+	}
 
 
 	*dFarme = -1;
@@ -455,6 +512,25 @@ int     k;
 		k++;
 	}
 
+
+
+
+	// [-MSVC/-mp4/-indeo]
+	*codec = AVI_CODEC_MSVC;
+	if (k < argc && gp_strnicmp(argv[k], "-msvc", 5) == 0  ){
+		*codec = AVI_CODEC_MSVC;
+		k++;
+	}
+
+	if (k < argc && gp_strnicmp(argv[k], "-mp4", 4) == 0  ){
+		*codec = AVI_CODEC_MP42;
+		k++;
+	}
+
+	if (k < argc && gp_strnicmp(argv[k], "-indeo", 6) == 0  ){
+		*codec = AVI_CODEC_INDEO50;
+		k++;
+	}
 	
 	if (k < argc) {
 		sprintf( outFile, "%s", argv[k]);

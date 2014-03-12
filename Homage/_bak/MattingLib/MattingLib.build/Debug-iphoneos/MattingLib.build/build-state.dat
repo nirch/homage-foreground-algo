@@ -1,0 +1,869 @@
+TMattingLib
+v5
+r1
+cCheck dependencies
+cCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackground.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/ColorBackground.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/BackgroundRemoval.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundContour.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/ColorBackground.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundFill.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/BackgroundRemoval.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackground.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundContour.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundFill.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/libMattingLib.a normal armv7s
+cLibtool /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/libMattingLib.a normal armv7
+cCreateUniversalBinary /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/libMattingLib.a normal "armv7 armv7s"
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Script-0B890B7B8A844CC78741FCE6.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000050ED385D0000000000000110
+t1357723741
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/math.h
+c000000005118DFD2000000000000697B
+t1360584658
+s27003
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/stdlib.h
+c000000005118DFD20000000000003089
+t1360584658
+s12425
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/string.h
+c000000005118DFD20000000000001A3A
+t1360584658
+s6714
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/BnImage/BnImage.h
+c0000000052DA3BA10000000000000402
+t1390033825
+s1026
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageDump/ImageDump.h
+c00000000528F1DD100000000000008E5
+t1385110993
+s2277
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageLabel/BwLabel.h
+c0000000052F91F0D00000000000006C7
+t1392058125
+s1735
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageMorphology/ImageMorphology.h
+c000000004DF9EAAD0000000000000260
+t1308224173
+s608
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h
+c0000000050D032B40000000000001834
+t1355821748
+s6196
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Ulog/Log.h
+c0000000050CDA3440000000000000595
+t1355653956
+s1429
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/Bmp/ImageBmp.h
+c0000000049C2248A0000000000000318
+t1237460106
+s792
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/BnImage/BnImage.h
+c0000000052DA3BA10000000000000402
+t1390033825
+s1026
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/Image1/Image1Tool.h
+c00000000530CFBEF000000000000289E
+t1393359855
+s10398
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/Image2/Image2Tool.h
+c0000000050D4232F0000000000001BF7
+t1356079919
+s7159
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/Image3/Image3Tool.h
+c0000000052CBDC2C0000000000001428
+t1389091884
+s5160
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/Image6/Image6Tool.h
+c000000004A9F8E170000000000000ACD
+t1251970583
+s2765
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageC/ImageCTool.h
+c00000000505EBFA2000000000000038C
+t1348386722
+s908
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageDump/ImageDump.h
+c00000000528F1DD100000000000008E5
+t1385110993
+s2277
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageF/ImageFTool.h
+c0000000050BC590900000000000020E4
+t1354520841
+s8420
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageLabel/BwLabel.h
+c0000000052F91F0D00000000000006C7
+t1392058125
+s1735
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageLabel/ImageLabel.h
+c0000000052F91F0D00000000000006DC
+t1392058125
+s1756
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageMark/ImageMark.h
+c000000004BA60FC100000000000006EF
+t1269174209
+s1775
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageMorphology/ImageMorphology.h
+c000000004DF9EAAD0000000000000260
+t1308224173
+s608
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageResize/ImageResize.h
+c000000005296EB270000000000000A51
+t1385622311
+s2641
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageTool.h
+c00000000530DDABF000000000000413E
+t1393416895
+s16702
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h
+c0000000050D032B40000000000001834
+t1355821748
+s6196
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/PaletteType.h
+c000000004CD3AA0A0000000000000786
+t1288940042
+s1926
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageUI/ImageUITool.h
+c00000000528F5B380000000000000450
+t1385126712
+s1104
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageUS/ImageUSTool.h
+c0000000050D47E8100000000000005DB
+t1356103297
+s1499
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/Imagelabel/BwLabel.h
+c0000000052F91F0D00000000000006C7
+t1392058125
+s1735
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/UGeoApp/GeoApp.h
+c000000004DC79299000000000000081E
+t1304924825
+s2078
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/UPoly/Poly1d4Type.h
+c000000004D7341BA0000000000000480
+t1299399098
+s1152
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Ubox/Box2d.h
+c0000000050F27E4C0000000000001141
+t1358069324
+s4417
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Ucamera/Pt2dGroupType.h
+c000000005067496D00000000000003A1
+t1348946285
+s929
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Ucamera/Pt2dType.h
+c00000000529E337800000000000021C8
+t1386099576
+s8648
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h
+c000000005220C55300000000000031C2
+t1377879379
+s12738
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uln/Cln/../PlnType.h
+c000000005310E19300000000000021C8
+t1393615251
+s8648
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uln/Cln/ClnType.h
+c00000000530CFC780000000000001646
+t1393359992
+s5702
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uln/LnType.h
+c0000000052B3FF3B00000000000010A0
+t1387527995
+s4256
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Ulog/Log.h
+c0000000050CDA3440000000000000595
+t1355653956
+s1429
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Umat/Mat2fType.h
+c00000000461B7AE700000000000004D2
+t1176206055
+s1234
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Umath/LT2Type.h
+c0000000051B596260000000000000E8A
+t1370854950
+s3722
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Utime/GpTime.h
+c000000005311A1FE0000000000000826
+t1393664510
+s2086
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uvec/Vec2d.h
+c00000000527CDFB20000000000000A89
+t1383915442
+s2697
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uvec/Vec3d.h
+c00000000527A7F260000000000000C6F
+t1383759654
+s3183
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/libMattingLib.a
+t1393667551
+s192200
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp
+c0000000052E2375400000000000042EA
+t1390557012
+s17130
+i<string.h>
+i<math.h>
+i<stdlib.h>
+i"Ulog/Log.h"
+i"ImageType/ImageType.h"
+i"ImageDump/ImageDump.h"
+i"ImageMorphology/ImageMorphology.h"
+i"Imagelabel/BwLabel.h"
+i"BackgroundRemoval.h"
+i"BnImage/BnImage.h"
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.h
+c00000000528F045B0000000000000511
+t1385104475
+s1297
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp
+c00000000529072CE000000000000078C
+t1385198286
+s1932
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.h
+c00000000528F5CBB000000000000022A
+t1385127099
+s554
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp
+c000000005311AF780000000000005054
+t1393667960
+s20564
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.h
+c000000005311AAEC0000000000000743
+t1393666796
+s1859
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp
+c00000000530D0B3400000000000008F6
+t1393363764
+s2294
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp
+c0000000052F2785D00000000000008FD
+t1391622237
+s2301
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/BackgroundRemoval.o
+t1393667551
+s25228
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/ColorBackground.o
+t1393667551
+s6508
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/MattingLib.LinkFileList
+c00000000530F267700000000000002F7
+t1393501815
+s759
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackground.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundContour.o
+t1393667551
+s11240
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundFill.o
+t1393667551
+s13672
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/libMattingLib.a
+t1393667551
+s96176
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/BackgroundRemoval.o
+t1393667551
+s25188
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/ColorBackground.o
+t1393667551
+s6520
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/MattingLib.LinkFileList
+c00000000530F267700000000000002FC
+t1393501815
+s764
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackground.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundContour.o
+t1393667551
+s11240
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundFill.o
+t1393667551
+s13680
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/libMattingLib.a
+t1393667551
+s95976
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Script-0B890B7B8A844CC78741FCE6.sh
+c00000000530F2677000000000000000B
+t1393501815
+s11
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies55852ef8e6c1b841^65562ff8e6c1b841^---0#1#0#--18"Check dependencies36"281BD34D-A3D5-4974-ACE0-E3C2831F3207-
+
+CCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/BackgroundRemoval.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s415360350.744160
+e415360351.405002
+r1
+xCompileC
+xMattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/BackgroundRemoval.o
+x/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:13:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:13:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:201:6: warning: unused variable 'no' [-Wunused-variable]
+o        int no = image1_nPixel_nonzero( mim );
+o            ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:685:1: warning: unused function 'dbSilhouette_clear' [-Wunused-function]
+odbSilhouette_clear( image_type *im, image_type *mim )
+o^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:795:1: warning: unused function 'dbSilhouette_update_maskO' [-Wunused-function]
+odbSilhouette_update_maskO( image_type *im, image_type *mim, int i0, int i1, int j0, int j1 )
+o^
+o5 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp57afbe5ee5c1b841^3fac675fe5c1b841^-2057"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:13:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:13:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:201:6: warning: unused variable 'no' [-Wunused-variable]        int no = image1_nPixel_nonzero( mim );            ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:685:1: warning: unused function 'dbSilhouette_clear' [-Wunused-function]dbSilhouette_clear( image_type *im, image_type *mim )^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:795:1: warning: unused function 'dbSilhouette_update_maskO' [-Wunused-function]dbSilhouette_update_maskO( image_type *im, image_type *mim, int i0, int i1, int j0, int j1 )^5 warnings generated.5(36%IDEClangDiagnosticActivityLogMessage2@31"'LITTLE_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@118"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@108"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp0000000000000000^12#9#12#9#201#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^68#8#68#8#2737#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^95#9#95#9#1735#0#29"Lexical or Preprocessor Issue--2@28"'BIG_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@118"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@108"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp0000000000000000^12#9#12#9#201#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^69#8#69#8#2782#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^96#9#96#9#1762#0#29"Lexical or Preprocessor Issue--2@20"Unused variable 'no'-415360351#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@108"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp0000000000000000^200#5#200#5#4140#0#19"Unused Entity Issue--2@36"Unused function 'dbSilhouette_clear'-415360351#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@108"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp0000000000000000^684#0#684#0#12478#0#19"Unused Entity Issue--2@43"Unused function 'dbSilhouette_update_maskO'-415360351#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@108"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp0000000000000000^794#0#794#0#14248#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@108"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp0000000000000000^2655"CompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/BackgroundRemoval.o Background/BackgroundRemoval.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources/armv7 -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/BackgroundRemoval.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/BackgroundRemoval.dia -c /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp -o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/BackgroundRemoval.o36"93A3627F-75E2-4AD7-938A-350ADBD6C4D9-
+
+CCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/ColorBackground.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s415360350.744169
+e415360351.374207
+r1
+xCompileC
+xMattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/ColorBackground.o
+x/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp5caebe5ee5c1b841^1ee25f5fe5c1b841^-1362"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@31"'LITTLE_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@121"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp:11:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@111"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp0000000000000000^10#9#10#9#123#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^68#8#68#8#2737#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^95#9#95#9#1735#0#29"Lexical or Preprocessor Issue--2@28"'BIG_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@121"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp:11:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@111"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp0000000000000000^10#9#10#9#123#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^69#8#69#8#2782#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^96#9#96#9#1762#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@111"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp0000000000000000^2653"CompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/ColorBackground.o ColorBackground/ColorBackground.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources/armv7 -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/ColorBackground.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/ColorBackground.dia -c /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp -o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/ColorBackground.o36"EC4EEC6F-9724-4407-99B0-DBAE97EE3B2F-
+
+CCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackground.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s415360760.187680
+e415360760.310105
+r1
+xCompileC
+xMattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackground.o
+x/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:171:27: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        bImage_dump( m_bim, m_N, "cc", 1, "S" );
+o                                 ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:171:36: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        bImage_dump( m_bim, m_N, "cc", 1, "S" );
+o                                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:175:27: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        bImage_dump( m_bim, m_N, "cc", 1, "C" );
+o                                 ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:175:36: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        bImage_dump( m_bim, m_N, "cc", 1, "C" );
+o                                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:271:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o                bImage_dump( m_bim, m_N, "bim", m_iFrame, "B" );
+o                                         ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:271:45: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o                bImage_dump( m_bim, m_N, "bim", m_iFrame, "B" );
+o                                                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:319:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "Calibrate", &m_rTime );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:320:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "Compare", &m_tCompare );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:321:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "NN", &m_tNN );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:322:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "Guasian", &m_tGuasian );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:324:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "Bn-dd", &m_tBn );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:325:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "Update", &m_tUpdate );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:326:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "Contour", &m_tCln );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:328:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "UniformBackground", &m_gTime );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:351:6: warning: unused variable 'compare' [-Wunused-variable]
+o        int compare = gpTime_mpf( &m_tCompare);
+o            ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:352:6: warning: unused variable 'nn' [-Wunused-variable]
+o        int nn = gpTime_mpf( &m_tNN);
+o            ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:353:6: warning: unused variable 'g' [-Wunused-variable]
+o        int g = gpTime_mpf( &m_tGuasian);
+o            ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:354:6: warning: unused variable 'update' [-Wunused-variable]
+o        int update = gpTime_mpf( &m_tUpdate);
+o            ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:390:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o                bImage_dump( m_bim, m_N, "bim", m_iFrame, NULL );
+o                                         ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:1113:1: warning: unused function 'image1_nn2' [-Wunused-function]
+oimage1_nn2( image_type *im )
+o^
+o22 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cppce3530f8e6c1b841^95624ff8e6c1b841^-6799"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:171:27: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        bImage_dump( m_bim, m_N, "cc", 1, "S" );                                 ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:171:36: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        bImage_dump( m_bim, m_N, "cc", 1, "S" );                                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:175:27: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        bImage_dump( m_bim, m_N, "cc", 1, "C" );                                 ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:175:36: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        bImage_dump( m_bim, m_N, "cc", 1, "C" );                                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:271:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]                bImage_dump( m_bim, m_N, "bim", m_iFrame, "B" );                                         ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:271:45: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]                bImage_dump( m_bim, m_N, "bim", m_iFrame, "B" );                                                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:319:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "Calibrate", &m_rTime );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:320:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "Compare", &m_tCompare );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:321:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "NN", &m_tNN );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:322:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "Guasian", &m_tGuasian );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:324:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "Bn-dd", &m_tBn );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:325:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "Update", &m_tUpdate );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:326:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "Contour", &m_tCln );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:328:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "UniformBackground", &m_gTime );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:351:6: warning: unused variable 'compare' [-Wunused-variable]        int compare = gpTime_mpf( &m_tCompare);            ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:352:6: warning: unused variable 'nn' [-Wunused-variable]        int nn = gpTime_mpf( &m_tNN);            ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:353:6: warning: unused variable 'g' [-Wunused-variable]        int g = gpTime_mpf( &m_tGuasian);            ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:354:6: warning: unused variable 'update' [-Wunused-variable]        int update = gpTime_mpf( &m_tUpdate);            ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:390:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]                bImage_dump( m_bim, m_N, "bim", m_iFrame, NULL );                                         ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:1113:1: warning: unused function 'image1_nn2' [-Wunused-function]image1_nn2( image_type *im )^22 warnings generated.22(36%IDEClangDiagnosticActivityLogMessage2@31"'LITTLE_ENDIAN' macro redefined-415360760#18446744073709551615#0#3(2@123"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:11:-415360760#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^10#9#10#9#119#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360760#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360760#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^68#8#68#8#2737#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^95#9#95#9#1735#0#29"Lexical or Preprocessor Issue--2@28"'BIG_ENDIAN' macro redefined-415360760#18446744073709551615#0#3(2@123"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:11:-415360760#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^10#9#10#9#119#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360760#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360760#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^69#8#69#8#2782#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^96#9#96#9#1762#0#29"Lexical or Preprocessor Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^170#26#170#26#2845#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^170#35#170#35#2854#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^174#26#174#26#2920#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^174#35#174#35#2929#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^270#27#270#27#4288#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^270#44#270#44#4305#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^318#19#318#19#5011#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^319#19#319#19#5056#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^320#19#320#19#5102#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^321#19#321#19#5138#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^323#19#323#19#5186#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^324#19#324#19#5225#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^325#19#325#19#5269#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^327#19#327#19#5313#0#14"Semantic Issue--2@25"Unused variable 'compare'-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^350#5#350#5#5705#0#19"Unused Entity Issue--2@20"Unused variable 'nn'-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^351#5#351#5#5747#0#19"Unused Entity Issue--2@19"Unused variable 'g'-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^352#5#352#5#5779#0#19"Unused Entity Issue--2@24"Unused variable 'update'-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^353#5#353#5#5815#0#19"Unused Entity Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^389#27#389#27#6527#0#14"Semantic Issue--2@28"Unused function 'image1_nn2'-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^1112#0#1112#0#19458#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^2665"CompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackground.o ColorBackground/UniformBackground.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources/armv7 -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackground.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackground.dia -c /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp -o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackground.o36"1AA843F4-B60F-4FE4-A267-5AD457FF6134-
+
+CCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundContour.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s415360350.744927
+e415360351.374144
+r1
+xCompileC
+xMattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundContour.o
+x/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cppc4ccbe5ee5c1b841^3bdf5f5fe5c1b841^-1380"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@31"'LITTLE_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@130"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp:11:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@120"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp0000000000000000^10#9#10#9#119#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^68#8#68#8#2737#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^95#9#95#9#1735#0#29"Lexical or Preprocessor Issue--2@28"'BIG_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@130"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp:11:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@120"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp0000000000000000^10#9#10#9#119#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^69#8#69#8#2782#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^96#9#96#9#1762#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@120"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp0000000000000000^2707"CompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundContour.o ColorBackground/UniformBackgroundContour.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources/armv7 -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundContour.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundContour.dia -c /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp -o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundContour.o36"2B782C4A-D054-40FE-B158-7B801C3E46E3-
+
+CCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundFill.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s415360351.375545
+e415360351.494448
+r1
+xCompileC
+xMattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundFill.o
+x/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:42:22: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o                IMAGE_DUMP( m_eim, "edge", m_iFrame, NULL );
+o                                   ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageDump/ImageDump.h:47:61: note: expanded from macro 'IMAGE_DUMP'
+o#define IMAGE_DUMP( im, name, index, ext )  image_dump( im, name, index, ext )
+o                                                            ^
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cppe048605fe5c1b841^ddb37e5fe5c1b841^-1968"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:42:22: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]                IMAGE_DUMP( m_eim, "edge", m_iFrame, NULL );                                   ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageDump/ImageDump.h:47:61: note: expanded from macro 'IMAGE_DUMP'#define IMAGE_DUMP( im, name, index, ext )  image_dump( im, name, index, ext )                                                            ^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@31"'LITTLE_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:11:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@117"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp0000000000000000^10#9#10#9#123#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^68#8#68#8#2737#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^95#9#95#9#1735#0#29"Lexical or Preprocessor Issue--2@28"'BIG_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:11:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@117"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp0000000000000000^10#9#10#9#123#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^69#8#69#8#2782#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^96#9#96#9#1762#0#29"Lexical or Preprocessor Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360351#18446744073709551615#0#1(2@32"Expanded from macro 'IMAGE_DUMP'-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageDump/ImageDump.h0000000000000000^46#60#46#60#1252#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@117"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp0000000000000000^41#21#41#21#0#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@117"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp0000000000000000^2689"CompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundFill.o ColorBackground/UniformBackgroundFill.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources/armv7 -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundFill.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundFill.dia -c /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp -o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/UniformBackgroundFill.o36"1C29D27C-DCE3-49B8-A25B-849496557E08-
+
+CCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/BackgroundRemoval.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+s415360351.375552
+e415360351.527064
+r1
+xCompileC
+xMattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/BackgroundRemoval.o
+x/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp
+xnormal
+xarmv7s
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:13:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:13:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:201:6: warning: unused variable 'no' [-Wunused-variable]
+o        int no = image1_nPixel_nonzero( mim );
+o            ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:685:1: warning: unused function 'dbSilhouette_clear' [-Wunused-function]
+odbSilhouette_clear( image_type *im, image_type *mim )
+o^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:795:1: warning: unused function 'dbSilhouette_update_maskO' [-Wunused-function]
+odbSilhouette_update_maskO( image_type *im, image_type *mim, int i0, int i1, int j0, int j1 )
+o^
+o5 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp8849605fe5c1b841^7dec865fe5c1b841^-2057"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:13:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:13:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:201:6: warning: unused variable 'no' [-Wunused-variable]        int no = image1_nPixel_nonzero( mim );            ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:685:1: warning: unused function 'dbSilhouette_clear' [-Wunused-function]dbSilhouette_clear( image_type *im, image_type *mim )^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:795:1: warning: unused function 'dbSilhouette_update_maskO' [-Wunused-function]dbSilhouette_update_maskO( image_type *im, image_type *mim, int i0, int i1, int j0, int j1 )^5 warnings generated.5(36%IDEClangDiagnosticActivityLogMessage2@31"'LITTLE_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@118"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@108"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp0000000000000000^12#9#12#9#201#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^68#8#68#8#2737#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^95#9#95#9#1735#0#29"Lexical or Preprocessor Issue--2@28"'BIG_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@118"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@108"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp0000000000000000^12#9#12#9#201#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^69#8#69#8#2782#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^96#9#96#9#1762#0#29"Lexical or Preprocessor Issue--2@20"Unused variable 'no'-415360351#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@108"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp0000000000000000^200#5#200#5#4140#0#19"Unused Entity Issue--2@36"Unused function 'dbSilhouette_clear'-415360351#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@108"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp0000000000000000^684#0#684#0#12478#0#19"Unused Entity Issue--2@43"Unused function 'dbSilhouette_update_maskO'-415360351#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@108"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp0000000000000000^794#0#794#0#14248#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@108"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp0000000000000000^2662"CompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/BackgroundRemoval.o Background/BackgroundRemoval.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources/armv7s -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/BackgroundRemoval.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/BackgroundRemoval.dia -c /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/Background/BackgroundRemoval.cpp -o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/BackgroundRemoval.o36"F6A9FD67-0AD2-4DAD-9088-BC0CFD93D1B0-
+
+CCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/ColorBackground.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+s415360351.406466
+e415360351.524180
+r1
+xCompileC
+xMattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/ColorBackground.o
+x/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp
+xnormal
+xarmv7s
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp7427685fe5c1b841^514c865fe5c1b841^-1362"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@31"'LITTLE_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@121"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp:11:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@111"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp0000000000000000^10#9#10#9#123#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^68#8#68#8#2737#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^95#9#95#9#1735#0#29"Lexical or Preprocessor Issue--2@28"'BIG_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@121"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp:11:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@111"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp0000000000000000^10#9#10#9#123#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^69#8#69#8#2782#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^96#9#96#9#1762#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@111"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp0000000000000000^2660"CompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/ColorBackground.o ColorBackground/ColorBackground.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources/armv7s -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/ColorBackground.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/ColorBackground.dia -c /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/ColorBackground.cpp -o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/ColorBackground.o36"D57A6589-A794-4D8A-816C-CDD4EA62209A-
+
+CCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackground.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+s415360760.191230
+e415360760.308971
+r1
+xCompileC
+xMattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackground.o
+x/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp
+xnormal
+xarmv7s
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:171:27: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        bImage_dump( m_bim, m_N, "cc", 1, "S" );
+o                                 ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:171:36: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        bImage_dump( m_bim, m_N, "cc", 1, "S" );
+o                                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:175:27: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        bImage_dump( m_bim, m_N, "cc", 1, "C" );
+o                                 ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:175:36: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        bImage_dump( m_bim, m_N, "cc", 1, "C" );
+o                                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:271:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o                bImage_dump( m_bim, m_N, "bim", m_iFrame, "B" );
+o                                         ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:271:45: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o                bImage_dump( m_bim, m_N, "bim", m_iFrame, "B" );
+o                                                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:319:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "Calibrate", &m_rTime );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:320:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "Compare", &m_tCompare );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:321:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "NN", &m_tNN );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:322:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "Guasian", &m_tGuasian );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:324:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "Bn-dd", &m_tBn );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:325:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "Update", &m_tUpdate );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:326:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "Contour", &m_tCln );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:328:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o        gpTime_print( fp, "UniformBackground", &m_gTime );
+o                          ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:351:6: warning: unused variable 'compare' [-Wunused-variable]
+o        int compare = gpTime_mpf( &m_tCompare);
+o            ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:352:6: warning: unused variable 'nn' [-Wunused-variable]
+o        int nn = gpTime_mpf( &m_tNN);
+o            ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:353:6: warning: unused variable 'g' [-Wunused-variable]
+o        int g = gpTime_mpf( &m_tGuasian);
+o            ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:354:6: warning: unused variable 'update' [-Wunused-variable]
+o        int update = gpTime_mpf( &m_tUpdate);
+o            ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:390:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o                bImage_dump( m_bim, m_N, "bim", m_iFrame, NULL );
+o                                         ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:1113:1: warning: unused function 'image1_nn2' [-Wunused-function]
+oimage1_nn2( image_type *im )
+o^
+o22 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cppbe1531f8e6c1b841^27174ff8e6c1b841^-6799"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:171:27: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        bImage_dump( m_bim, m_N, "cc", 1, "S" );                                 ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:171:36: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        bImage_dump( m_bim, m_N, "cc", 1, "S" );                                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:175:27: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        bImage_dump( m_bim, m_N, "cc", 1, "C" );                                 ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:175:36: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        bImage_dump( m_bim, m_N, "cc", 1, "C" );                                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:271:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]                bImage_dump( m_bim, m_N, "bim", m_iFrame, "B" );                                         ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:271:45: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]                bImage_dump( m_bim, m_N, "bim", m_iFrame, "B" );                                                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:319:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "Calibrate", &m_rTime );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:320:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "Compare", &m_tCompare );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:321:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "NN", &m_tNN );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:322:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "Guasian", &m_tGuasian );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:324:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "Bn-dd", &m_tBn );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:325:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "Update", &m_tUpdate );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:326:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "Contour", &m_tCln );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:328:20: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]        gpTime_print( fp, "UniformBackground", &m_gTime );                          ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:351:6: warning: unused variable 'compare' [-Wunused-variable]        int compare = gpTime_mpf( &m_tCompare);            ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:352:6: warning: unused variable 'nn' [-Wunused-variable]        int nn = gpTime_mpf( &m_tNN);            ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:353:6: warning: unused variable 'g' [-Wunused-variable]        int g = gpTime_mpf( &m_tGuasian);            ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:354:6: warning: unused variable 'update' [-Wunused-variable]        int update = gpTime_mpf( &m_tUpdate);            ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:390:28: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]                bImage_dump( m_bim, m_N, "bim", m_iFrame, NULL );                                         ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:1113:1: warning: unused function 'image1_nn2' [-Wunused-function]image1_nn2( image_type *im )^22 warnings generated.22(36%IDEClangDiagnosticActivityLogMessage2@31"'LITTLE_ENDIAN' macro redefined-415360760#18446744073709551615#0#3(2@123"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:11:-415360760#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^10#9#10#9#119#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360760#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360760#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^68#8#68#8#2737#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^95#9#95#9#1735#0#29"Lexical or Preprocessor Issue--2@28"'BIG_ENDIAN' macro redefined-415360760#18446744073709551615#0#3(2@123"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp:11:-415360760#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^10#9#10#9#119#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360760#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360760#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^69#8#69#8#2782#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^96#9#96#9#1762#0#29"Lexical or Preprocessor Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^170#26#170#26#2845#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^170#35#170#35#2854#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^174#26#174#26#2920#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^174#35#174#35#2929#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^270#27#270#27#4288#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^270#44#270#44#4305#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^318#19#318#19#5011#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^319#19#319#19#5056#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^320#19#320#19#5102#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^321#19#321#19#5138#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^323#19#323#19#5186#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^324#19#324#19#5225#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^325#19#325#19#5269#0#14"Semantic Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^327#19#327#19#5313#0#14"Semantic Issue--2@25"Unused variable 'compare'-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^350#5#350#5#5705#0#19"Unused Entity Issue--2@20"Unused variable 'nn'-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^351#5#351#5#5747#0#19"Unused Entity Issue--2@19"Unused variable 'g'-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^352#5#352#5#5779#0#19"Unused Entity Issue--2@24"Unused variable 'update'-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^353#5#353#5#5815#0#19"Unused Entity Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^389#27#389#27#6527#0#14"Semantic Issue--2@28"Unused function 'image1_nn2'-415360760#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^1112#0#1112#0#19458#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp0000000000000000^2672"CompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackground.o ColorBackground/UniformBackground.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources/armv7s -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackground.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackground.dia -c /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.cpp -o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackground.o36"5A8DAF5D-D7BB-45A1-990C-8DC8100B168B-
+
+CCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundContour.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+s415360351.496074
+e415360351.616588
+r1
+xCompileC
+xMattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundContour.o
+x/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp
+xnormal
+xarmv7s
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cppe5257f5fe5c1b841^588eb05fe5c1b841^-1380"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@31"'LITTLE_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@130"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp:11:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@120"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp0000000000000000^10#9#10#9#119#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^68#8#68#8#2737#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^95#9#95#9#1735#0#29"Lexical or Preprocessor Issue--2@28"'BIG_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@130"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp:11:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@120"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp0000000000000000^10#9#10#9#119#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^69#8#69#8#2782#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^96#9#96#9#1762#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@120"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp0000000000000000^2714"CompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundContour.o ColorBackground/UniformBackgroundContour.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources/armv7s -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundContour.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundContour.dia -c /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundContour.cpp -o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundContour.o36"E70572DF-CCA4-461A-B3F2-4A84D96DCC13-
+
+CCompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundFill.o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+s415360351.528661
+e415360351.676399
+r1
+xCompileC
+xMattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundFill.o
+x/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp
+xnormal
+xarmv7s
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:11:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:42:22: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
+o                IMAGE_DUMP( m_eim, "edge", m_iFrame, NULL );
+o                                   ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageDump/ImageDump.h:47:61: note: expanded from macro 'IMAGE_DUMP'
+o#define IMAGE_DUMP( im, name, index, ext )  image_dump( im, name, index, ext )
+o                                                            ^
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp1380875fe5c1b841^98a6b05fe5c1b841^-1968"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:11:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:42:22: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]                IMAGE_DUMP( m_eim, "edge", m_iFrame, NULL );                                   ^/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageDump/ImageDump.h:47:61: note: expanded from macro 'IMAGE_DUMP'#define IMAGE_DUMP( im, name, index, ext )  image_dump( im, name, index, ext )                                                            ^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@31"'LITTLE_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:11:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@117"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp0000000000000000^10#9#10#9#123#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^68#8#68#8#2737#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^95#9#95#9#1735#0#29"Lexical or Preprocessor Issue--2@28"'BIG_ENDIAN' macro redefined-415360351#18446744073709551615#0#3(2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp:11:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@117"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp0000000000000000^10#9#10#9#123#0#30"Apple LLVM compiler 4.2 Notice--2@127"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib/ImageType/ImageType.h:13:-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^69#8#69#8#2782#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^96#9#96#9#1762#0#29"Lexical or Preprocessor Issue--2@56"Conversion from string literal to 'char *' is deprecated-415360351#18446744073709551615#0#1(2@32"Expanded from macro 'IMAGE_DUMP'-415360351#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageDump/ImageDump.h0000000000000000^46#60#46#60#1252#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@117"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp0000000000000000^41#21#41#21#0#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@117"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp0000000000000000^2696"CompileC MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundFill.o ColorBackground/UniformBackgroundFill.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/ImageLib -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../../Core/Util -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources/armv7s -I/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundFill.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundFill.dia -c /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackgroundFill.cpp -o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/UniformBackgroundFill.o36"0F63E142-7B9A-4028-86E7-9C941232FB35-
+
+CCreateUniversalBinary /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/libMattingLib.a normal "armv7 armv7s"
+s415360760.375665
+e415360760.469802
+r1
+xCreateUniversalBinary
+x/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/libMattingLib.a
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Create universal binary /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/libMattingLib.ac43f60f8e6c1b841^e54378f8e6c1b841^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/libMattingLib.a0000000000000000^751"CreateUniversalBinary ../Lib/Debug-iphoneos/libMattingLib.a normal "armv7 armv7s"    cd /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    libtool -static /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/libMattingLib.a /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/libMattingLib.a -o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos/libMattingLib.a36"079EC7DF-38B0-4F5B-A84F-1BFCA9D68BB3-
+
+CLibtool /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/libMattingLib.a normal armv7
+s415360760.316577
+e415360760.326364
+r1
+xLibtool
+x/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/libMattingLib.a
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Libtool MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/libMattingLib.a normal armv7a01851f8e6c1b841^438c53f8e6c1b841^---0#0#0#--1039"Libtool MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/libMattingLib.a normal armv7    cd /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos -filelist /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/MattingLib.LinkFileList -o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7/libMattingLib.a36"1A0E99B5-2C77-4C76-98B7-DA48A4740BE0-
+
+CLibtool /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/libMattingLib.a normal armv7s
+s415360760.316238
+e415360760.325390
+r1
+xLibtool
+x/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/libMattingLib.a
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Libtool MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/libMattingLib.a normal armv7se60851f8e6c1b841^904c53f8e6c1b841^---0#0#0#--1044"Libtool MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/libMattingLib.a normal armv7s    cd /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/../Lib/Debug-iphoneos -filelist /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/MattingLib.LinkFileList -o /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Objects-normal/armv7s/libMattingLib.a36"322A71EF-5DE2-4D1F-8D33-6017AAC75BED-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Script-0B890B7B8A844CC78741FCE6.sh
+s415360760.478160
+e415360760.493208
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Script-0B890B7B8A844CC78741FCE6.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'77da7af8e6c1b841^4a427ef8e6c1b841^---0#0#0#--355"PhaseScriptExecution "CMake PostBuild Rules" MattingLib.build/Debug-iphoneos/MattingLib.build/Script-0B890B7B8A844CC78741FCE6.sh    cd /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib    /bin/sh -c /Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/MattingLib.build/Debug-iphoneos/MattingLib.build/Script-0B890B7B8A844CC78741FCE6.sh36"6EFDE1AF-949C-4B9B-BB58-BCD9AB6F88D8-
+

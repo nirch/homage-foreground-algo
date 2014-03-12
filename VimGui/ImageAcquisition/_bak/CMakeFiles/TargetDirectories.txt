@@ -1,0 +1,3 @@
+/Users/shayrootman/Documents/_work/Gp_Vim/VimGui/ImageAcquisition/CMakeFiles/ALL_BUILD.dir
+/Users/shayrootman/Documents/_work/Gp_Vim/VimGui/ImageAcquisition/CMakeFiles/ImageAcquisition.dir
+/Users/shayrootman/Documents/_work/Gp_Vim/VimGui/ImageAcquisition/CMakeFiles/ZERO_CHECK.dir

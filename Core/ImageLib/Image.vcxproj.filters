@@ -561,16 +561,7 @@
     <ClCompile Include="Codecs\ImageEncoder.cpp">
       <Filter>Codecs</Filter>
     </ClCompile>
-    <ClCompile Include="ImageLabel\Image1Blob.c">
-      <Filter>ImageLabel</Filter>
-    </ClCompile>
-    <ClCompile Include="ImageLabel\Image1Label.c">
-      <Filter>ImageLabel</Filter>
-    </ClCompile>
     <ClCompile Include="ImageLabel\Image1LabelInletFilter.c">
-      <Filter>ImageLabel</Filter>
-    </ClCompile>
-    <ClCompile Include="ImageLabel\Image2BwLabel.c">
       <Filter>ImageLabel</Filter>
     </ClCompile>
     <ClCompile Include="ImageResize\ImageResample.c">
@@ -653,6 +644,21 @@
     </ClCompile>
     <ClCompile Include="Image1\Image1MaskPln.c">
       <Filter>Image1</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLabel\ImageLabelContour.cpp">
+      <Filter>ImageLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLabel\ImageLabel.cpp">
+      <Filter>ImageLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLabel\ImageBlob.cpp">
+      <Filter>ImageLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLabel\ImageLabelUI.cpp">
+      <Filter>ImageLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLabel\ImageLabelUS.cpp">
+      <Filter>ImageLabel</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

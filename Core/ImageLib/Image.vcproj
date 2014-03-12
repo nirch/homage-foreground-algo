@@ -8142,23 +8142,31 @@
 				>
 			</File>
 			<File
-				RelativePath=".\ImageLabel\Image1Blob.c"
-				>
-			</File>
-			<File
-				RelativePath=".\ImageLabel\Image1Label.c"
-				>
-			</File>
-			<File
 				RelativePath=".\ImageLabel\Image1LabelInletFilter.c"
 				>
 			</File>
 			<File
-				RelativePath=".\ImageLabel\Image2BwLabel.c"
+				RelativePath=".\ImageLabel\ImageBlob.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ImageLabel\ImageLabel.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\ImageLabel\ImageLabel.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ImageLabel\ImageLabelContour.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ImageLabel\ImageLabelUI.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ImageLabel\ImageLabelUS.cpp"
 				>
 			</File>
 		</Filter>

@@ -22,13 +22,25 @@ typedef struct bwLabel_type {
 	float	e1,	e2;
 	vec2d	v1;
 
+
+	short	i,	j;	//first pixel
 	box2i	b;
+
+	int	boundary;
+	float	av;
+	float	var;
+
+	int existence;
+
+	int	nB,	nE;
+
 }	bwLabel_type;
 
 
 
 typedef struct imageLabel_type {
 	image_type	*mim;
+	int	margin;
 
 
 	image_type *im;
@@ -59,7 +71,11 @@ int		bwLabel_no( bwLabel_type *bw, int nBw, int T );
 void	image2_bwLabel_remove_boundary( image_type *im, bwLabel_type *bw );
 
 
-void	image2_bwLabel_set_id( image_type *im, bwLabel_type *bw );
+void	imageLabel2_set_id( image_type *im, bwLabel_type *bw );
+
+void	imageLabel2_set_boundary( image_type *im, bwLabel_type *abw, int nB );
+
+void	imageLabel2_set_value( image_type *sim, image_type *im, bwLabel_type *abw, int nBw );
 
 void	image2_bwLabel_set_aux( image_type *im, bwLabel_type *aBw, int nBw );
 

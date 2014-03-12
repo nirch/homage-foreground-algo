@@ -28,17 +28,8 @@
     <Filter Include="Ugio">
       <UniqueIdentifier>{2fa502f1-cfc7-4fbd-a330-6d83b4e40370}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Ugio\Uheap">
-      <UniqueIdentifier>{fdafb24a-1d31-4dea-b0b5-d698cc9e28e0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Uhuffman">
       <UniqueIdentifier>{f2a537bd-24b7-4163-afff-4603fbf2fb8c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Uhuffman\Ujet1">
-      <UniqueIdentifier>{4806396f-9628-46ef-a840-16add3eecc68}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Uigp">
-      <UniqueIdentifier>{a333ed13-f55b-4601-94fa-30d512122fce}</UniqueIdentifier>
     </Filter>
     <Filter Include="Uinf">
       <UniqueIdentifier>{71eda19d-4f94-4519-8662-82983f681b5a}</UniqueIdentifier>
@@ -127,6 +118,24 @@
     <Filter Include="Umath\Blt">
       <UniqueIdentifier>{acf1d1f6-67ae-49ba-98e2-24adc83e1cb2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Uigp">
+      <UniqueIdentifier>{a333ed13-f55b-4601-94fa-30d512122fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ujet1">
+      <UniqueIdentifier>{4806396f-9628-46ef-a840-16add3eecc68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Umath\Plane">
+      <UniqueIdentifier>{b9651c2b-dd97-413b-80d1-dd168b22a971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Uln\Cln">
+      <UniqueIdentifier>{8a76a860-2978-477e-acf5-f96b4670c0b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Uheap">
+      <UniqueIdentifier>{fdafb24a-1d31-4dea-b0b5-d698cc9e28e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Umath\St">
+      <UniqueIdentifier>{a508baf9-2954-4e78-98f5-3dc1658d9905}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ubase64\Base64.cpp">
@@ -211,10 +220,10 @@
       <Filter>Ugio</Filter>
     </ClCompile>
     <ClCompile Include="Uheap\HeapSTool.c">
-      <Filter>Ugio\Uheap</Filter>
+      <Filter>Uheap</Filter>
     </ClCompile>
     <ClCompile Include="Uheap\HeapTool.c">
-      <Filter>Ugio\Uheap</Filter>
+      <Filter>Uheap</Filter>
     </ClCompile>
     <ClCompile Include="Uhuffman\Huffman.c">
       <Filter>Uhuffman</Filter>
@@ -226,7 +235,7 @@
       <Filter>Uhuffman</Filter>
     </ClCompile>
     <ClCompile Include="Ujet1\Jet1Tool.c">
-      <Filter>Uhuffman\Ujet1</Filter>
+      <Filter>Ujet1</Filter>
     </ClCompile>
     <ClCompile Include="Uigp\GpBuildNumber.c">
       <Filter>Uigp</Filter>
@@ -669,15 +678,6 @@
     <ClCompile Include="Uln\LnTool1.c">
       <Filter>Uln</Filter>
     </ClCompile>
-    <ClCompile Include="Uln\LnWrite.c">
-      <Filter>Uln</Filter>
-    </ClCompile>
-    <ClCompile Include="Uln\PlnTool.c">
-      <Filter>Uln</Filter>
-    </ClCompile>
-    <ClCompile Include="Uln\PlnWrite.c">
-      <Filter>Uln</Filter>
-    </ClCompile>
     <ClCompile Include="Ufbst\FbstGet.c">
       <Filter>Ufbst</Filter>
     </ClCompile>
@@ -759,12 +759,6 @@
     <ClCompile Include="Uln\PlnFit.cpp">
       <Filter>Uln</Filter>
     </ClCompile>
-    <ClCompile Include="Uln\PlnGroup.c">
-      <Filter>Uln</Filter>
-    </ClCompile>
-    <ClCompile Include="Uln\PlnParallel.c">
-      <Filter>Uln</Filter>
-    </ClCompile>
     <ClCompile Include="Uln\PlnEigen.cpp">
       <Filter>Uln</Filter>
     </ClCompile>
@@ -791,6 +785,51 @@
     </ClCompile>
     <ClCompile Include="Umath\MatrixSvd.c">
       <Filter>Umath</Filter>
+    </ClCompile>
+    <ClCompile Include="UThread\VQueue.cpp">
+      <Filter>UThread</Filter>
+    </ClCompile>
+    <ClCompile Include="Uvl\IntTool.cpp">
+      <Filter>Uvl</Filter>
+    </ClCompile>
+    <ClCompile Include="Umath\Plane\Plane3d.cpp">
+      <Filter>Umath\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="Uln\Cln\ClnTool.cpp">
+      <Filter>Uln\Cln</Filter>
+    </ClCompile>
+    <ClCompile Include="Uln\Cln\ClnWrite.cpp">
+      <Filter>Uln\Cln</Filter>
+    </ClCompile>
+    <ClCompile Include="Uln\PlnWrite.cpp">
+      <Filter>Uln</Filter>
+    </ClCompile>
+    <ClCompile Include="Uln\PlnFTool.cpp">
+      <Filter>Uln</Filter>
+    </ClCompile>
+    <ClCompile Include="Uln\PlnGroup.cpp">
+      <Filter>Uln</Filter>
+    </ClCompile>
+    <ClCompile Include="Uln\PlnParallel.cpp">
+      <Filter>Uln</Filter>
+    </ClCompile>
+    <ClCompile Include="Uln\PlnParallelDistance.cpp">
+      <Filter>Uln</Filter>
+    </ClCompile>
+    <ClCompile Include="Uln\PlnSide.cpp">
+      <Filter>Uln</Filter>
+    </ClCompile>
+    <ClCompile Include="Uln\PlnTool.cpp">
+      <Filter>Uln</Filter>
+    </ClCompile>
+    <ClCompile Include="UThread\VLogger.cpp">
+      <Filter>UThread</Filter>
+    </ClCompile>
+    <ClCompile Include="Uln\PlnRead.cpp">
+      <Filter>Uln</Filter>
+    </ClCompile>
+    <ClCompile Include="Umath\St\StTool.c">
+      <Filter>Umath\St</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -825,10 +864,10 @@
       <Filter>Ugio</Filter>
     </ClInclude>
     <ClInclude Include="Uheap\HeapSType.h">
-      <Filter>Ugio\Uheap</Filter>
+      <Filter>Uheap</Filter>
     </ClInclude>
     <ClInclude Include="Uheap\HeapType.h">
-      <Filter>Ugio\Uheap</Filter>
+      <Filter>Uheap</Filter>
     </ClInclude>
     <ClInclude Include="Uhuffman\Huffman.h">
       <Filter>Uhuffman</Filter>
@@ -837,7 +876,7 @@
       <Filter>Uhuffman</Filter>
     </ClInclude>
     <ClInclude Include="Ujet1\Jet1Type.h">
-      <Filter>Uhuffman\Ujet1</Filter>
+      <Filter>Ujet1</Filter>
     </ClInclude>
     <ClInclude Include="Uigp\GpBuildNumber.h">
       <Filter>Uigp</Filter>
@@ -1070,6 +1109,24 @@
     <ClInclude Include="Ulog\LogFile.h">
       <Filter>Ulog</Filter>
     </ClInclude>
+    <ClInclude Include="UThread\VQueue.h">
+      <Filter>UThread</Filter>
+    </ClInclude>
+    <ClInclude Include="Uvl\IntType.h">
+      <Filter>Uvl</Filter>
+    </ClInclude>
+    <ClInclude Include="Umath\Plane\Plane3d.h">
+      <Filter>Umath\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="Uln\Cln\ClnType.h">
+      <Filter>Uln\Cln</Filter>
+    </ClInclude>
+    <ClInclude Include="UThread\VLogger.h">
+      <Filter>UThread</Filter>
+    </ClInclude>
+    <ClInclude Include="Umath\St\StType.h">
+      <Filter>Umath\St</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Ubase64\Makefile">
@@ -1100,13 +1157,13 @@
       <Filter>Ugio</Filter>
     </None>
     <None Include="Uheap\Makefile">
-      <Filter>Ugio\Uheap</Filter>
+      <Filter>Uheap</Filter>
     </None>
     <None Include="Uhuffman\Makefile">
       <Filter>Uhuffman</Filter>
     </None>
     <None Include="Ujet1\Makefile">
-      <Filter>Uhuffman\Ujet1</Filter>
+      <Filter>Ujet1</Filter>
     </None>
     <None Include="Uigp\hypotA.tab">
       <Filter>Uigp</Filter>

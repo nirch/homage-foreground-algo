@@ -402,6 +402,11 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="ImageF\ImageFYCrCb.c" />
+    <ClCompile Include="ImageLabel\ImageBlob.cpp" />
+    <ClCompile Include="ImageLabel\ImageLabel.cpp" />
+    <ClCompile Include="ImageLabel\ImageLabelContour.cpp" />
+    <ClCompile Include="ImageLabel\ImageLabelUI.cpp" />
+    <ClCompile Include="ImageLabel\ImageLabelUS.cpp" />
     <ClCompile Include="ImageTransform\Image3KLTransform.c" />
     <ClCompile Include="ImageTransform\ImageDct.c">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -1062,20 +1067,7 @@
     <ClCompile Include="ImageUS\ImageUSTool.c" />
     <ClCompile Include="Codecs\ImageDecoder.cpp" />
     <ClCompile Include="Codecs\ImageEncoder.cpp" />
-    <ClCompile Include="ImageLabel\Image1Blob.c" />
-    <ClCompile Include="ImageLabel\Image1Label.c">
-      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
-      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
-      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
-      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
-    </ClCompile>
     <ClCompile Include="ImageLabel\Image1LabelInletFilter.c" />
-    <ClCompile Include="ImageLabel\Image2BwLabel.c">
-      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
-      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
-      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
-      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
-    </ClCompile>
     <ClCompile Include="ImageResize\ImageResample.c" />
     <ClCompile Include="ImageResize\ImageResize.c" />
     <ClCompile Include="ImageResize\ImageResizeBilinear.c" />

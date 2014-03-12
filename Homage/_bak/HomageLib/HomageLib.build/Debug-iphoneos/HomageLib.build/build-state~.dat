@@ -1,0 +1,206 @@
+THomageLib
+v5
+r1
+cCheck dependencies
+cCompileC HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/Homage.o /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/Homage.o /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/libHomageLib.a normal armv7s
+cLibtool /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/libHomageLib.a normal armv7
+cCreateUniversalBinary /Users/shayrootman/Documents/_work/Homage/HomageLib/../Lib/Debug-iphoneos/libHomageLib.a normal "armv7 armv7s"
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Script-D86298671AD848018641826D.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000050ED385D0000000000000110
+t1357723741
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/math.h
+c000000005118DFD2000000000000697B
+t1360584658
+s27003
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/string.h
+c000000005118DFD20000000000001A3A
+t1360584658
+s6714
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h
+c000000005220C55300000000000031C2
+t1377879379
+s12738
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uln/PlnType.h
+c00000000530D01FD0000000000002196
+t1393361405
+s8598
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Ulog/Log.h
+c0000000050CDA3440000000000000595
+t1355653956
+s1429
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Homage/MattingLib/ColorBackground/UniformBackground.h
+c00000000530DE52900000000000006BF
+t1393419561
+s1727
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/VimGui/Gpw/Gpw.h
+c00000000528603F80000000000001147
+t1384514552
+s4423
+
+N/Users/shayrootman/Documents/_work/Homage/HomageLib/../Lib/Debug-iphoneos/libHomageLib.a
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp
+c00000000530DEA8B0000000000000630
+t1393420939
+s1584
+i<math.h>
+i<string.h>
+i"Uigp/igp.h"
+i"Ulog/Log.h"
+i"Uln/PlnType.h"
+i"Gpw/Gpw.h"
+i"Homage.h"
+i"MattingLib/ColorBackground/UniformBackground.h"
+
+N/Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.h
+c00000000530DE06A000000000000054D
+t1393418346
+s1357
+
+N/Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/Homage.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/HomageLib.LinkFileList
+c00000000530DEA8B0000000000000081
+t1393420939
+s129
+
+N/Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/libHomageLib.a
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/Homage.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/HomageLib.LinkFileList
+c00000000530DEA8B0000000000000082
+t1393420939
+s130
+
+N/Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/libHomageLib.a
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Script-D86298671AD848018641826D.sh
+c00000000530DEA8B000000000000000B
+t1393420939
+s11
+
+CBuild AST from /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencieseaeb590b22beb841^55c2630b22beb841^---0#1#0#--18"Check dependencies36"4FB9D2D9-4F09-4172-B230-E142B20C8ACB-
+
+CCompileC HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/Homage.o /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s415113739.392347
+e415113739.506493
+r1
+xCompileC
+xHomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/Homage.o
+x/Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp:14:
+o../../Gp_vim/Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp:14:
+o../../Gp_vim/Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp6493640b22beb841^00579e0b22beb841^-934"In file included from /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp:14:../../Gp_vim/Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp:14:../../Gp_vim/Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@31"'LITTLE_ENDIAN' macro redefined-415113739#18446744073709551615#0#2(2@88"In file included from /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp:14:-415113739#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@78"file://localhost/Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp0000000000000000^13#9#13#9#228#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415113739#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^68#8#68#8#2737#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^95#9#95#9#1735#0#29"Lexical or Preprocessor Issue--2@28"'BIG_ENDIAN' macro redefined-415113739#18446744073709551615#0#2(2@88"In file included from /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp:14:-415113739#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp0000000000000000^13#9#13#9#228#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415113739#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^69#8#69#8#2782#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^96#9#96#9#1762#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp0000000000000000^2421"CompileC HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/Homage.o Homage.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Homage/HomageLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/shayrootman/Documents/_work/Homage/HomageLib/../Lib/Debug-iphoneos/include -I../../Gp_vim/VimGui -I../../Gp_vim/Core/Util -I../../Gp_vim/Core/ImageLib -I../../Gp_vim/Homage -I/Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/DerivedSources/armv7 -I/Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Homage/HomageLib/../Lib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/Homage.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/Homage.dia -c /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp -o /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/Homage.o36"A373DBE0-0CA4-4CEE-B19C-27A5F55360AF-
+
+CCompileC HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/Homage.o /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+s415113739.392371
+e415113739.503014
+r1
+xCompileC
+xHomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/Homage.o
+x/Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp
+xnormal
+xarmv7s
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp:14:
+o../../Gp_vim/Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp:14:
+o../../Gp_vim/Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp978b640b22beb841^b2499e0b22beb841^-934"In file included from /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp:14:../../Gp_vim/Core/Util/Uigp/igp.h:96:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp:14:../../Gp_vim/Core/Util/Uigp/igp.h:97:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@31"'LITTLE_ENDIAN' macro redefined-415113739#18446744073709551615#0#2(2@88"In file included from /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp:14:-415113739#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@78"file://localhost/Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp0000000000000000^13#9#13#9#228#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415113739#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^68#8#68#8#2737#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^95#9#95#9#1735#0#29"Lexical or Preprocessor Issue--2@28"'BIG_ENDIAN' macro redefined-415113739#18446744073709551615#0#2(2@88"In file included from /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp:14:-415113739#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp0000000000000000^13#9#13#9#228#0#30"Apple LLVM compiler 4.2 Notice--2@27"Previous definition is here-415113739#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/include/arm/endian.h0000000000000000^69#8#69#8#2782#0#30"Apple LLVM compiler 4.2 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^96#9#96#9#1762#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp0000000000000000^2428"CompileC HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/Homage.o Homage.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Homage/HomageLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/shayrootman/Documents/_work/Homage/HomageLib/../Lib/Debug-iphoneos/include -I../../Gp_vim/VimGui -I../../Gp_vim/Core/Util -I../../Gp_vim/Core/ImageLib -I../../Gp_vim/Homage -I/Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/DerivedSources/armv7s -I/Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Homage/HomageLib/../Lib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/Homage.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/Homage.dia -c /Users/shayrootman/Documents/_work/Homage/HomageLib/Homage.cpp -o /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/Homage.o36"5BC45189-4136-474B-90C9-875B9350541B-
+
+CCreateUniversalBinary /Users/shayrootman/Documents/_work/Homage/HomageLib/../Lib/Debug-iphoneos/libHomageLib.a normal "armv7 armv7s"
+s415113739.530643
+e415113739.590687
+r1
+xCreateUniversalBinary
+x/Users/shayrootman/Documents/_work/Homage/HomageLib/../Lib/Debug-iphoneos/libHomageLib.a
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Create universal binary /Users/shayrootman/Documents/_work/Homage/HomageLib/../Lib/Debug-iphoneos/libHomageLib.ab6308f0b22beb841^3d609e0b22beb841^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/shayrootman/Documents/_work/Homage/HomageLib/../Lib/Debug-iphoneos/libHomageLib.a000000000080d041^711"CreateUniversalBinary ../Lib/Debug-iphoneos/libHomageLib.a normal "armv7 armv7s"    cd /Users/shayrootman/Documents/_work/Homage/HomageLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    libtool -static /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/libHomageLib.a /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/libHomageLib.a -o /Users/shayrootman/Documents/_work/Homage/HomageLib/../Lib/Debug-iphoneos/libHomageLib.a36"FBCDD949-5599-4AE6-8830-0986D1CBC17A-
+
+CLibtool /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/libHomageLib.a normal armv7
+s415113739.512804
+e415113739.523569
+r1
+xLibtool
+x/Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/libHomageLib.a
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Libtool HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/libHomageLib.a normal armv73960830b22beb841^075d9e0b22beb841^---0#0#0#--998"Libtool HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/libHomageLib.a normal armv7    cd /Users/shayrootman/Documents/_work/Homage/HomageLib    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/shayrootman/Documents/_work/Homage/HomageLib/../Lib/Debug-iphoneos -filelist /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/HomageLib.LinkFileList -o /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7/libHomageLib.a36"2D449448-B90D-4022-BCF9-691459A05D21-
+
+CLibtool /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/libHomageLib.a normal armv7s
+s415113739.509494
+e415113739.520850
+r1
+xLibtool
+x/Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/libHomageLib.a
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Libtool HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/libHomageLib.a normal armv7sa48a820b22beb841^cd5a9e0b22beb841^---0#0#0#--1003"Libtool HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/libHomageLib.a normal armv7s    cd /Users/shayrootman/Documents/_work/Homage/HomageLib    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/shayrootman/Documents/_work/Homage/HomageLib/../Lib/Debug-iphoneos -filelist /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/HomageLib.LinkFileList -o /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Objects-normal/armv7s/libHomageLib.a36"E973C587-BCE6-4D3E-A3C2-BC79975AE525-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Script-D86298671AD848018641826D.sh
+s415113739.602532
+e415113739.625838
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Script-D86298671AD848018641826D.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'66149b0b22beb841^4be6a00b22beb841^---0#0#0#--335"PhaseScriptExecution "CMake PostBuild Rules" HomageLib.build/Debug-iphoneos/HomageLib.build/Script-D86298671AD848018641826D.sh    cd /Users/shayrootman/Documents/_work/Homage/HomageLib    /bin/sh -c /Users/shayrootman/Documents/_work/Homage/HomageLib/HomageLib.build/Debug-iphoneos/HomageLib.build/Script-D86298671AD848018641826D.sh36"6BF67134-E3C4-4EE6-8A6C-D6D500F4C2E5-
+

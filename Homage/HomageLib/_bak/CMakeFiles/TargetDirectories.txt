@@ -1,0 +1,3 @@
+/Users/shayrootman/Documents/_work/VimMove/VimMoveLib/CMakeFiles/ALL_BUILD.dir
+/Users/shayrootman/Documents/_work/VimMove/VimMoveLib/CMakeFiles/VimMoveLib.dir
+/Users/shayrootman/Documents/_work/VimMove/VimMoveLib/CMakeFiles/ZERO_CHECK.dir

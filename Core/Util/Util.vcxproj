@@ -759,12 +759,20 @@
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="Uln\Cln\ClnTool.cpp" />
+    <ClCompile Include="Uln\Cln\ClnWrite.cpp" />
     <ClCompile Include="Uln\CrPlnToolN.c" />
     <ClCompile Include="Uln\PlnEigen.cpp" />
     <ClCompile Include="Uln\PlnFit.cpp" />
     <ClCompile Include="Uln\PlnFitA.cpp" />
-    <ClCompile Include="Uln\PlnGroup.c" />
-    <ClCompile Include="Uln\PlnParallel.c" />
+    <ClCompile Include="Uln\PlnFTool.cpp" />
+    <ClCompile Include="Uln\PlnGroup.cpp" />
+    <ClCompile Include="Uln\PlnParallel.cpp" />
+    <ClCompile Include="Uln\PlnParallelDistance.cpp" />
+    <ClCompile Include="Uln\PlnRead.cpp" />
+    <ClCompile Include="Uln\PlnSide.cpp" />
+    <ClCompile Include="Uln\PlnTool.cpp" />
+    <ClCompile Include="Uln\PlnWrite.cpp" />
     <ClCompile Include="Ulog\LogFile.cpp" />
     <ClCompile Include="Ulz\lz12_decode.c">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -816,7 +824,9 @@
     <ClCompile Include="Umath\Blt\Blt.cpp" />
     <ClCompile Include="Umath\Eigen2dTool.c" />
     <ClCompile Include="Umath\MatrixSvd.c" />
+    <ClCompile Include="Umath\Plane\Plane3d.cpp" />
     <ClCompile Include="Umath\Sl\SlTool.c" />
+    <ClCompile Include="Umath\St\StTool.c" />
     <ClCompile Include="Umat\Mat2fBase.c">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1053,7 +1063,9 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="UThread\VExcute.cpp" />
+    <ClCompile Include="UThread\VLogger.cpp" />
     <ClCompile Include="UThread\VPipeTask.cpp" />
+    <ClCompile Include="UThread\VQueue.cpp" />
     <ClCompile Include="Utime\GpTime.c" />
     <ClCompile Include="Uunity\unity.c">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -1308,6 +1320,7 @@
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="Uvl\IntTool.cpp" />
     <ClCompile Include="Uvl\TfMean.cpp" />
     <ClCompile Include="Uvl\TfTool.cpp" />
     <ClCompile Include="Uvl\Vl2fTool.c" />
@@ -1557,9 +1570,6 @@
       <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
       <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
     </ClCompile>
-    <ClCompile Include="Uln\LnWrite.c" />
-    <ClCompile Include="Uln\PlnTool.c" />
-    <ClCompile Include="Uln\PlnWrite.c" />
     <ClCompile Include="Ufbst\FbstGet.c">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -1621,11 +1631,14 @@
     <ClInclude Include="Ujet2\Jet2Type.h" />
     <ClInclude Include="Ujni\VimJni.h" />
     <ClInclude Include="Ujni\VimJvm.h" />
+    <ClInclude Include="Uln\Cln\ClnType.h" />
     <ClInclude Include="Ulog\LogFile.h" />
     <ClInclude Include="Ulz\lz.h" />
     <ClInclude Include="Umath\Blt\BltType.h" />
     <ClInclude Include="Umath\EigenType.h" />
+    <ClInclude Include="Umath\Plane\Plane3d.h" />
     <ClInclude Include="Umath\Sl\pLineType.h" />
+    <ClInclude Include="Umath\St\StType.h" />
     <ClInclude Include="Umat\Mat2fType.h" />
     <ClInclude Include="Umath\LsfType.h" />
     <ClInclude Include="Umath\LT2sType.h" />
@@ -1647,13 +1660,16 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </CustomBuildStep>
     <ClInclude Include="UThread\VExcute.h" />
+    <ClInclude Include="UThread\VLogger.h" />
     <ClInclude Include="UThread\VPipeTask.h" />
+    <ClInclude Include="UThread\VQueue.h" />
     <ClInclude Include="Utime\GpTime.h" />
     <ClInclude Include="Uunity\unity.h" />
     <ClInclude Include="Uvec\BitVector.h" />
     <ClInclude Include="Uvec\Vec2d.h" />
     <ClInclude Include="Uvec\Vec3d.h" />
     <ClInclude Include="Uview\ViewType.h" />
+    <ClInclude Include="Uvl\IntType.h" />
     <ClInclude Include="Uvl\TfType.h" />
     <ClInclude Include="Uvl\Vl2fType.h" />
     <ClInclude Include="Uvl\Vl3dType.h" />
