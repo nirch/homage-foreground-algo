@@ -1,0 +1,28 @@
+TALL_BUILD
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/ALL_BUILD.build/Script-A712CAC145984DEAB2D8BAE6.sh
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/ALL_BUILD.build/Script-A712CAC145984DEAB2D8BAE6.sh
+c0000000050E83D9000000000000000C8
+t1357397392
+s200
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5d535c107598b641^f64166107598b641^---0#1#0#--18"Check dependencies36"515F6BE5-F18D-44C5-ACAE-E4C28670D350-
+
+CPhaseScriptExecution "CMake Rules" /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/ALL_BUILD.build/Script-A712CAC145984DEAB2D8BAE6.sh
+s379090192.400929
+e379090192.461848
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/ALL_BUILD.build/Script-A712CAC145984DEAB2D8BAE6.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'793e67107598b641^018576107598b641^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-379090192#0#8#-0#-----2@26"echo Build\ all\ projects-379090192#9#26#-0#-----2@19"Build all projects-379090192#35#19#-0#-----0#0#0#--325"PhaseScriptExecution "CMake Rules" Image.build/Debug-iphoneos/ALL_BUILD.build/Script-A712CAC145984DEAB2D8BAE6.sh    cd /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib    /bin/sh -c /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/ALL_BUILD.build/Script-A712CAC145984DEAB2D8BAE6.sh36"10A9C255-8960-4813-8163-EBB392DF40A0-
+

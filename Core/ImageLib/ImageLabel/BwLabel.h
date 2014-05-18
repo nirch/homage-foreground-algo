@@ -9,6 +9,13 @@ extern "C" {
 #include	"Uigp/igp.h"
 #include "Ubox/Box2d.h"
 
+typedef struct lbm_type {
+	short i;
+	short j0;
+	short j1;
+	short id;
+} lbm_type;
+
 
 
 	// Image2BwLabel.c
@@ -53,20 +60,10 @@ typedef struct imageLabel_type {
 
 
 
-imageLabel_type *imageLabel_alloc();
-
-void	imageLabel_destroy( imageLabel_type *abw );
-
-//imageLabel_type *imageLabelUI( image_type *sim, imageLabel_type *abw );
-//
-//imageLabel_type *imageLabelUI_T( image_type *sim, int T, imageLabel_type *abw );
-
-
 
 
 void	image2_bwLabel( image_type *im, bwLabel_type **tbw, int *tnBw );
 
-int		bwLabel_no( bwLabel_type *bw, int nBw, int T );
 
 void	image2_bwLabel_remove_boundary( image_type *im, bwLabel_type *bw );
 
@@ -79,6 +76,8 @@ void	imageLabel2_set_value( image_type *sim, image_type *im, bwLabel_type *abw, 
 
 void	image2_bwLabel_set_aux( image_type *im, bwLabel_type *aBw, int nBw );
 
+void	imageLabelUS_set_box( imageLabel_type *abw );
+
 
 void	image2_bwLabel_set_direction( image_type *im, bwLabel_type *bw, int nBw );
 
@@ -86,7 +85,13 @@ void	image2_bwLabel_set_direction( image_type *im, bwLabel_type *bw, int nBw );
 int		bwLabel_gesture_id( bwLabel_type *bw, int nBw, int T );
 
 
-void	bwLabel_order( bwLabel_type *abw, int nBw, int aI[], int *nI );
+
+
+
+
+
+
+
 
 
 

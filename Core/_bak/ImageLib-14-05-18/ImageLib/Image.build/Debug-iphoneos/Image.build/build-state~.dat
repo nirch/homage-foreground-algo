@@ -1,0 +1,3149 @@
+TImage
+v5
+r1
+cCheck dependencies
+cCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageClustringIsodata.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDecoder.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageEncoder.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageEncoder.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Histogram.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000503C83D40000000000000132
+t1346143188
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/math.h
+c000000005075EE00000000000000697B
+t1349905920
+s27003
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/stdio.h
+c000000005075EE000000000000004523
+t1349905920
+s17699
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/string.h
+c000000005075EE000000000000001A3A
+t1349905920
+s6714
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/BMP/BmpDecoder.cpp
+c0000000047DF48C900000000000004CB
+t1205815497
+s1227
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/BMP/BmpEncoder.cpp
+c000000004B503D4200000000000007FC
+t1263549762
+s2044
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/BMP/ImageReadBmp.c
+c000000004D79C0C900000000000025E8
+t1299824841
+s9704
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/BMP/ImageWriteBmp.c
+c000000004E33CD4600000000000016A1
+t1312017734
+s5793
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustring.h
+c000000004D36B82600000000000001D7
+t1295431718
+s471
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c
+c000000004D36B82600000000000006B6
+t1295431718
+s1718
+i<string.h>
+i<stdio.h>
+i<math.h>
+i"Uigp/igp.h"
+i"ImageType/ImageType.h"
+i"ImageUS/ImageUSTool.h"
+i"ImageDump/ImageDump.h"
+i"Histogram/Histogram.h"
+i"Clustring/ImageClustring.h"
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp
+c000000004B4F928A000000000000028A
+t1263506058
+s650
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageEncoder.cpp
+c000000004CA669CB0000000000000C72
+t1285974475
+s3186
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Debug-iphoneos/libImage.a
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherAll.c
+c000000004DAEAE8D0000000000001A40
+t1303293581
+s6720
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherErr.c
+c000000004FA6E2240000000000003018
+t1336336932
+s12312
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherErrExp.c
+c0000000043A2A02000000000000094B0
+t1134731296
+s38064
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherFloyd.c
+c000000004FA6E2410000000000000D28
+t1336336961
+s3368
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherOrd.c
+c0000000043A2A02000000000000010BE
+t1134731296
+s4286
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherPat.c
+c0000000043A2A0200000000000001229
+t1134731296
+s4649
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageEnhancement.c
+c000000004FE0BFD10000000000002014
+t1340129233
+s8212
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageGrayEnhancement.c
+c000000004FE0BFE20000000000001472
+t1340129250
+s5234
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/GifDecoder.cpp
+c000000004B5045240000000000000664
+t1263551780
+s1636
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/GifEncoder.cpp
+c000000004B503D42000000000000121A
+t1263549762
+s4634
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/ImageReadGif.c
+c000000004FA6E25C0000000000003616
+t1336336988
+s13846
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/ImageReadGifFrame.c
+c000000004FA6E2C60000000000002549
+t1336337094
+s9545
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/ImageWriteGif.c
+c00000000509B80460000000000003A8D
+t1352368198
+s14989
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/LzwEncoding.c
+c0000000043A2A02300000000000029EF
+t1134731299
+s10735
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c
+c000000004D9C22EB0000000000000380
+t1302078187
+s896
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.h
+c000000004D9C22EC00000000000002AD
+t1302078188
+s685
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/HistogramClustringIsoda.c
+c000000004E117F4900000000000011EB
+t1309769545
+s4587
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/HistogramOrder.c
+c000000004D2D9F0900000000000001EF
+t1294835465
+s495
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/BitMatrix.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/BmpDecoder.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/BmpEncoder.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/GifDecoder.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/GifEncoder.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Guasian.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Histogram.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/HistogramClustringIsoda.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/HistogramOrder.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image.LinkFileList
+c0000000050E83CD0000000000000626E
+t1357397200
+s25198
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Average.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Blob.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Bluring.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Convolution.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1ConvolutionM.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1ConvolutionSeparably.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1CornerFilter.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1EdgeSobol.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1EqualNeighbor.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1FilterBox.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1FilterIir.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1FisherMatrix.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1From.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Gravity.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Histogram.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Integral.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Interpolate.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Label.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1LabelInletFilter.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Majority.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Mask.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Median.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Morphology.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1NoiseEstimation.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Pixel.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Sample.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Sample2.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Ssd.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Tool.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image24To8.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image24To8DitherFloyd.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Accumulate.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Bilateral.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2BwLabel.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Color.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Convolution.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Derivative.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2DynamicRange.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Edge.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2EdgeSobol.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Interpolate.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Log.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Pyramid.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Ssd.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Tool.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2YUV.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Bilnear.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Bluring.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Color.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Convolution.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3DewarpLt2.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Distance.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3DynamicRange.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Extend.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3From.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3KLTransform.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3MapTransform.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Resize43.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Sample2_1331.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Tool.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3YCrCb.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image4CopyIn.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image4Tool.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image4to1.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image6Convolution.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image6From.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image6Tool.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image6YCrCb.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image8to24.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageAFEigen.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageAdaptivePalette.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageAdd.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageAlpha.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageApp.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageApp1.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageApp2.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageAppW.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageAppend.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageAux.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageBackgroundRemoval.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageBand.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageCTool.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageClustringIsodata.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageComparison.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageCreate.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageCrop.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageCut.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageCutUarray.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDct.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDct88.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDecoder.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDewarpLt2.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDifference.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDitherAll.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDitherErr.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDitherErrExp.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDitherFloyd.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDitherOrd.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDitherPat.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDraw.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDump.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageEncoder.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageEnhancement.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageEqual.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageExG.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageExtend.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFAccumulate.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFArithmetic.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFConvolution.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFDensity.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFDynamicRange.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFFT.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFHistogram.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFLog.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFMedian.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFPyramid.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFResizeBilinear.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFTool.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFYCrCb.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFields.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFile.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFlipH.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFlipV.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFourier.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageGrayEnhancement.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageHistogram.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageHsiTune.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageInterlive.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageInterpolatePv.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageIo.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageLeak.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageLevel.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageLinearCombination.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageLogo.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageMask.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageNdi.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageNdrgi.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageNdrgiF.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageNegative.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImagePixel.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImagePreview.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImagePrint.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImagePyramid.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageReadBmp.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageReadGif.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageReadGifFrame.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageReadPSD.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageReadYuv.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageResample.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageResize.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageResizeBilinear.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageResizeIpp.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageRgbYCrCb.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageRgbYiq.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSampleDown.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSampleDownTransparent.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSampleG.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSampleNew.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSamplingF.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSline.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSmartPalette.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageStretch.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSubtruct.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageToR.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageToY.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageTransparent.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageUSInterpolate.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageUSInterpolateV.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageUSTool.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageWriteBmp.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageWriteGif.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageYUVSampling.c.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImagefFilterBox.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/LzwEncoding.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/PaletteTool.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/PsdRead.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/PsdTool.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/PsdWrite.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/image4From.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/imageSample.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/imageSampleColumn.o
+t2
+s0
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Script-4D4B1DB1F7F449B6B1F324EF.sh
+c0000000050E83CD000000000000000BE
+t1357397200
+s190
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/Guasian.c
+c00000000480C6AE300000000000002DE
+t1208773347
+s734
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/Image.c
+c000000004FDF781B0000000000001257
+t1340045339
+s4695
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/Image4CopyIn.c
+c0000000050E81965000000000000080F
+t1357388133
+s2063
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/Image4Tool.c
+c000000004DAEAB9100000000000022F5
+t1303292817
+s8949
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/Image4to1.c
+c0000000043A2A023000000000000048A
+t1134731299
+s1162
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageAdaptivePalette.c
+c0000000043A2A02300000000000012DB
+t1134731299
+s4827
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageAdd.c
+c0000000043EC764900000000000008DA
+t1139570249
+s2266
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageAlpha.c
+c0000000043A2A02300000000000003AA
+t1134731299
+s938
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageAppend.c
+c000000004DDA2CA3000000000000034F
+t1306143907
+s847
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageAux.c
+c0000000050A9E87E00000000000003EC
+t1353312382
+s1004
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageBackgroundRemoval.c
+c0000000044BE1481000000000000079C
+t1153307777
+s1948
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageBand.c
+c000000004B387AA600000000000008DB
+t1261992614
+s2267
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageComparison.c
+c000000004C171AAA0000000000001FAD
+t1276582570
+s8109
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageCreate.c
+c000000004D6137ED0000000000000FFE
+t1298216941
+s4094
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageCrop.c
+c000000004FDCB0200000000000000E6F
+t1339863072
+s3695
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageCut.c
+c000000004CA5E2FE0000000000001DCA
+t1285939966
+s7626
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageCutUarray.c
+c000000004BD54A2B0000000000000DEF
+t1272269355
+s3567
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageDewarpLt2.c
+c000000004A50A0D20000000000000C95
+t1246798034
+s3221
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageDifference.c
+c000000004FA6E330000000000000123D
+t1336337200
+s4669
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageEqual.cpp
+c0000000043A2A02400000000000005F0
+t1134731300
+s1520
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageExtend.c
+c000000004C370B6A0000000000001368
+t1278675818
+s4968
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageFields.c
+c000000004D84C9250000000000001769
+t1300547877
+s5993
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageFile.c
+c000000004FA6E34A00000000000002AF
+t1336337226
+s687
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageFlipH.c
+c000000004FD3BBA700000000000007F2
+t1339276199
+s2034
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageFlipV.c
+c000000004B3706B00000000000000ACD
+t1261897392
+s2765
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageHistogram.c
+c000000004FE9B6F5000000000000087A
+t1340716789
+s2170
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageHsiTune.c
+c0000000043EF0A3C00000000000024B1
+t1139739196
+s9393
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageInterlive.c
+c000000004A5B32D50000000000000AAF
+t1247490773
+s2735
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageInterpolatePv.c
+c00000000505990B700000000000003FD
+t1348047031
+s1021
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageIo.c
+c000000004FEFF61F0000000000000637
+t1341126175
+s1591
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageLeak.c
+c0000000050D993FB0000000000000283
+t1356436475
+s643
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageLevel.c
+c000000004FE0BFEF0000000000001C59
+t1340129263
+s7257
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageLinearCombination.c
+c000000004E4BA14E0000000000000786
+t1313579342
+s1926
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageLogo.c
+c00000000447EBE810000000000000506
+t1149156993
+s1286
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageMask.c
+c000000004FA6DF46000000000000083F
+t1336336198
+s2111
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageNegative.c
+c000000004FA6E369000000000000033A
+t1336337257
+s826
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImagePixel.c
+c000000004BA0CE710000000000000365
+t1268829809
+s869
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImagePreview.c
+c000000004DB3B06400000000000003F8
+t1303621732
+s1016
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImagePyramid.c
+c0000000043A2A0250000000000000663
+t1134731301
+s1635
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageRgbYCrCb.c
+c000000004BD566DC000000000000188A
+t1272276700
+s6282
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageRgbYiq.c
+c0000000043A2A0260000000000000307
+t1134731302
+s775
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageSline.c
+c0000000043A2A02600000000000005B3
+t1134731302
+s1459
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageSmartPalette.c
+c000000004FA6E3850000000000001E08
+t1336337285
+s7688
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageStretch.c
+c0000000043A2A02600000000000007CC
+t1134731302
+s1996
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageSubtruct.c
+c000000004BFB7DA600000000000007EA
+t1274772902
+s2026
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageToR.c
+c000000004FD456BA000000000000081D
+t1339315898
+s2077
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageToY.c
+c000000004CAC7AF200000000000002D6
+t1286372082
+s726
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageTransparent.c
+c00000000509B9A0900000000000035CA
+t1352374793
+s13770
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/PaletteTool.c
+c000000004E58D3D20000000000003ACF
+t1314444242
+s15055
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/image4From.c
+c000000004E48BE380000000000000F39
+t1313390136
+s3897
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Average.c
+c00000000507BC07A0000000000000D02
+t1350287482
+s3330
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Bluring.c
+c0000000050D470B7000000000000139A
+t1356099767
+s5018
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Convolution.c
+c00000000480C7638000000000000080F
+t1208776248
+s2063
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1ConvolutionM.c
+c000000004FA6DF470000000000000528
+t1336336199
+s1320
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1ConvolutionSeparably.c
+c000000004A4BED040000000000000A1D
+t1246489860
+s2589
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1CornerFilter.c
+c000000004B7926BF0000000000000EC5
+t1266230975
+s3781
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1EdgeSobol.c
+c000000004C1760F50000000000000F47
+t1276600565
+s3911
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1EqualNeighbor.c
+c000000004B407D1300000000000006FB
+t1262517523
+s1787
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1FilterBox.c
+c000000004A8181190000000000001268
+t1250001177
+s4712
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1FilterIir.c
+c000000004A0D404600000000000013AB
+t1242382406
+s5035
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1FisherMatrix.c
+c000000004FA6DF47000000000000067F
+t1336336199
+s1663
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1From.c
+c000000004FA664AA0000000000000695
+t1336304810
+s1685
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Gravity.c
+c000000004D2083A900000000000020AF
+t1293976489
+s8367
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Histogram.c
+c000000004FE0638F00000000000019C9
+t1340105615
+s6601
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Integral.c
+c000000004D2EBE3A0000000000000464
+t1294908986
+s1124
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Interpolate.c
+c00000000505E876200000000000057B6
+t1348372322
+s22454
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Majority.c
+c000000004D3D7E320000000000000EA8
+t1295875634
+s3752
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Mask.c
+c000000004DD3C5A10000000000000718
+t1305724321
+s1816
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Median.c
+c000000004ED5EC090000000000000877
+t1322642441
+s2167
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1NoiseEstimation.c
+c00000000441289E00000000000000653
+t1142065632
+s1619
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Pixel.c
+c0000000049D8883D000000000000078F
+t1238927421
+s1935
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Sample.c
+c000000004FA6E1F10000000000000F69
+t1336336881
+s3945
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Sample2.c
+c000000004C1CAB7200000000000006B4
+t1276947314
+s1716
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Ssd.c
+c000000004D106A410000000000000BA7
+t1292921409
+s2983
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Tool.c
+c000000005079166F0000000000001D00
+t1350112879
+s7424
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Accumulate.c
+c000000004CDFFA3700000000000031E8
+t1289746999
+s12776
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Bilateral.c
+c000000004FA6E43900000000000024F8
+t1336337465
+s9464
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Color.c
+c000000004AA8ABF30000000000000D66
+t1252568051
+s3430
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Convolution.c
+c000000004D81E52C0000000000000CF7
+t1300358444
+s3319
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Derivative.c
+c000000004BBC234500000000000005E9
+t1270620997
+s1513
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2DynamicRange.c
+c000000004D820B5800000000000005B9
+t1300368216
+s1465
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Edge.c
+c0000000049AE3D85000000000000034B
+t1236155781
+s843
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2EdgeSobol.c
+c00000000505E876200000000000018FE
+t1348372322
+s6398
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Interpolate.c
+c0000000049AE3EC500000000000004A8
+t1236156101
+s1192
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Log.cpp
+c0000000049C22C7E0000000000000A74
+t1237462142
+s2676
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Pyramid.c
+c00000000447092180000000000000EA5
+t1148228120
+s3749
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Ssd.c
+c0000000049B7A2010000000000000648
+t1236771329
+s1608
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Tool.c
+c000000004D81EF1D00000000000015E1
+t1300360989
+s5601
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image24To8/Image24To8.c
+c000000004FA6E51E0000000000002C76
+t1336337694
+s11382
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image24To8/Image24To8DitherFloyd.c
+c000000004FA6E5380000000000004F5D
+t1336337720
+s20317
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image24To8/Image8to24.c
+c0000000049564D670000000000000A6E
+t1230392679
+s2670
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Bilnear.c
+c000000004FEBDF800000000000000464
+t1340858240
+s1124
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Bluring.c
+c00000000482BF4510000000000000B37
+t1210840145
+s2871
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Color.c
+c000000004FFC93FB00000000000015FC
+t1341953019
+s5628
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Convolution.c
+c0000000043A91FA80000000000000AB0
+t1135157160
+s2736
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3DewarpLt2.c
+c000000004A509B9A0000000000001B29
+t1246796698
+s6953
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Distance.c
+c00000000479F1DA10000000000000322
+t1201610145
+s802
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3DynamicRange.c
+c000000004D7AB0BB0000000000000B72
+t1299886267
+s2930
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Extend.c
+c000000004C370A10000000000000038A
+t1278675472
+s906
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3From.c
+c000000004E48BB2C000000000000115C
+t1313389356
+s4444
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3MapTransform.c
+c000000004FF00BC300000000000002AD
+t1341131715
+s685
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Resize43.c
+c00000000502A399C00000000000005C5
+t1344944540
+s1477
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Sample2_1331.c
+c000000004C98C93E0000000000000297
+t1285081406
+s663
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Tool.c
+c000000004FA6DF4600000000000025CA
+t1336336198
+s9674
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3YCrCb.c
+c000000004A2418260000000000001052
+t1243879462
+s4178
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image6/Image6Convolution.c
+c0000000043C664A10000000000000EC7
+t1137075361
+s3783
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image6/Image6From.c
+c000000004D65145F0000000000000680
+t1298469983
+s1664
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image6/Image6Tool.c
+c000000004D81F0520000000000003387
+t1300361298
+s13191
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image6/Image6YCrCb.c
+c000000004FA6DF4700000000000015FC
+t1336336199
+s5628
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageApp/ImageApp.c
+c00000000501E57660000000000001B54
+t1344165734
+s6996
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageApp/ImageApp1.c
+c00000000504DFEBE0000000000000C51
+t1347288766
+s3153
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageApp/ImageApp2.c
+c0000000050517A53000000000000169E
+t1347517011
+s5790
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageApp/ImageAppW.c
+c0000000050517F6F00000000000018AA
+t1347518319
+s6314
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageC/ImageCTool.c
+c00000000507695480000000000001031
+t1349948744
+s4145
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageDump/ImageDump.c
+c00000000505E886C000000000000111F
+t1348372588
+s4383
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageDump/ImageDump.h
+c0000000050A0F57400000000000008E5
+t1352725876
+s2277
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageAFEigen.cpp
+c0000000050A7FA330000000000000ACC
+t1353185843
+s2764
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFAccumulate.c
+c00000000504C8FBE00000000000026CA
+t1347194814
+s9930
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFArithmetic.cpp
+c00000000504C42E9000000000000162E
+t1347175145
+s5678
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFConvolution.c
+c000000004BCB275400000000000014D5
+t1271605076
+s5333
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFDensity.c
+c000000004DD8BA490000000000000C78
+t1306049097
+s3192
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFDynamicRange.c
+c0000000049880ADD0000000000000AC1
+t1233652445
+s2753
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFHistogram.c
+c000000004D034EFB00000000000003C2
+t1292062459
+s962
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFLog.cpp
+c000000004D5F96EC0000000000000B31
+t1298110188
+s2865
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFMedian.c
+c000000004ED5EC090000000000000E61
+t1322642441
+s3681
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFPyramid.c
+c0000000045586F940000000000001254
+t1163423636
+s4692
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFResizeBilinear.c
+c000000004D089F6C000000000000095C
+t1292410732
+s2396
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFTool.c
+c0000000050BC59CF0000000000003175
+t1354521039
+s12661
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFYCrCb.c
+c00000000496DD271000000000000071B
+t1231934065
+s1819
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImagefFilterBox.cpp
+c000000004FA6E00500000000000004B3
+t1336336389
+s1203
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageLabel/Image1Blob.c
+c000000004DE0D8930000000000000A03
+t1306581139
+s2563
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageLabel/Image1Label.c
+c000000004D16283D000000000000181A
+t1293297725
+s6170
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageLabel/Image1LabelInletFilter.c
+c000000004D1757C100000000000009EA
+t1293375425
+s2538
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageLabel/Image2BwLabel.c
+c000000004DE0E05E0000000000002021
+t1306583134
+s8225
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageMark/ImageDraw.c
+c000000004BA60FCB000000000000253C
+t1269174219
+s9532
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageMark/ImagePrint.c
+c00000000466526EA000000000000049E
+t1181034218
+s1182
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageMorphology/BitMatrix.cpp
+c000000004FA6E1F1000000000000A9E1
+t1336336881
+s43489
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageMorphology/Image1Morphology.cpp
+c000000004DF9EB1400000000000009D9
+t1308224276
+s2521
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageResample.c
+c000000004C8B71E40000000000007361
+t1284207076
+s29537
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageResize.c
+c000000004FA6E0240000000000000765
+t1336336420
+s1893
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageResizeBilinear.c
+c000000004FA6E1F00000000000000CC7
+t1336336880
+s3271
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageResizeIpp.c
+c000000004F50918E0000000000000960
+t1330680206
+s2400
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageSampleDown.c
+c0000000043EC76570000000000002C71
+t1139570263
+s11377
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageSampleDownTransparent.c
+c00000000441AA5A900000000000011FA
+t1142597033
+s4602
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageSampleG.c
+c000000004BD58F230000000000001901
+t1272287011
+s6401
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageSampleNew.c
+c000000004CAC5140000000000000192E
+t1286361408
+s6446
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageSamplingF.c
+c0000000043A2A0260000000000005B7A
+t1134731302
+s23418
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/imageSample.c
+c000000004CB0BF6600000000000009FA
+t1286651750
+s2554
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/imageSampleColumn.c
+c000000004E50AA890000000000000742
+t1313909385
+s1858
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageTransform/Image3KLTransform.c
+c000000004EE4BC990000000000002470
+t1323613337
+s9328
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageTransform/ImageDct.c
+c000000004FA6E55C00000000000013B0
+t1336337756
+s5040
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageTransform/ImageDct88.c
+c000000004FA6E5B70000000000000958
+t1336337847
+s2392
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageTransform/ImageFFT.c
+c000000004FA6E5B70000000000001DD8
+t1336337847
+s7640
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageTransform/ImageFourier.c
+c0000000043A2A0290000000000000A7F
+t1134731305
+s2687
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h
+c0000000050D032B40000000000001834
+t1355821748
+s6196
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageUS/ImageUSInterpolate.c
+c00000000503CA92800000000000004F2
+t1346152744
+s1266
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageUS/ImageUSInterpolateV.c
+c000000004FDCDDEF0000000000000646
+t1339874799
+s1606
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageUS/ImageUSTool.c
+c0000000050D480440000000000001136
+t1356103748
+s4406
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageUS/ImageUSTool.h
+c0000000050D47E8100000000000005DB
+t1356103297
+s1499
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/PSD/ImageReadPSD.c
+c000000004FA6E5B700000000000064E2
+t1336337847
+s25826
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/PSD/PsdRead.c
+c000000004FA6E6750000000000003F58
+t1336338037
+s16216
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/PSD/PsdTool.c
+c000000004FA6E6750000000000000868
+t1336338037
+s2152
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/PSD/PsdWrite.c
+c00000000505E886C0000000000001764
+t1348372588
+s5988
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/VegetationIndex/ImageExG.c
+c0000000049461E590000000000000661
+t1229332057
+s1633
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/VegetationIndex/ImageNdi.c
+c000000004A5B0F5A0000000000000A05
+t1247481690
+s2565
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/VegetationIndex/ImageNdrgi.c
+c000000004C65333F0000000000000D54
+t1281700671
+s3412
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/VegetationIndex/ImageNdrgiF.c
+c000000004B66BE010000000000000996
+t1265024513
+s2454
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/YUV/Image2YUV.cpp
+c00000000508C29AE00000000000012F1
+t1351362990
+s4849
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/YUV/ImageReadYuv.c
+c000000004AAFAC600000000000001BBF
+t1253026912
+s7103
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/YUV/ImageYUVSampling.c.cpp
+c000000004AAF8A720000000000000496
+t1253018226
+s1174
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h
+c000000004F9F7D2B0000000000002FAD
+t1335852331
+s12205
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/BMP/BmpDecoder.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/BMP/BmpEncoder.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/BMP/ImageReadBmp.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/BMP/ImageWriteBmp.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageEncoder.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherAll.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherErr.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherErrExp.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherFloyd.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherOrd.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherPat.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageEnhancement.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageGrayEnhancement.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/GifDecoder.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/GifEncoder.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/ImageReadGif.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/ImageReadGifFrame.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/ImageWriteGif.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/LzwEncoding.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/HistogramClustringIsoda.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/HistogramOrder.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/Guasian.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/Image.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/Image4CopyIn.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/Image4Tool.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/Image4to1.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageAdaptivePalette.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageAdd.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageAlpha.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageAppend.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageAux.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageBackgroundRemoval.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageBand.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageComparison.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageCreate.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageCrop.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageCut.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageCutUarray.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageDewarpLt2.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageDifference.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageEqual.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageExtend.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageFields.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageFile.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageFlipH.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageFlipV.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageHistogram.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageHsiTune.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageInterlive.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageInterpolatePv.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageIo.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageLeak.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageLevel.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageLinearCombination.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageLogo.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageMask.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageNegative.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImagePixel.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImagePreview.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImagePyramid.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageRgbYCrCb.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageRgbYiq.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageSline.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageSmartPalette.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageStretch.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageSubtruct.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageToR.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageToY.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageTransparent.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/PaletteTool.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/image4From.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Average.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Bluring.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Convolution.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1ConvolutionM.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1ConvolutionSeparably.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1CornerFilter.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1EdgeSobol.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1EqualNeighbor.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1FilterBox.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1FilterIir.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1FisherMatrix.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1From.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Gravity.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Histogram.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Integral.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Interpolate.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Majority.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Mask.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Median.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1NoiseEstimation.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Pixel.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Sample.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Sample2.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Ssd.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Tool.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Accumulate.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Bilateral.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Color.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Convolution.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Derivative.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2DynamicRange.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Edge.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2EdgeSobol.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Interpolate.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Log.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Pyramid.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Ssd.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Tool.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image24To8/Image24To8.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image24To8/Image24To8DitherFloyd.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image24To8/Image8to24.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Bilnear.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Bluring.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Color.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Convolution.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3DewarpLt2.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Distance.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3DynamicRange.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Extend.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3From.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3MapTransform.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Resize43.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Sample2_1331.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Tool.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3YCrCb.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image6/Image6Convolution.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image6/Image6From.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image6/Image6Tool.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image6/Image6YCrCb.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageApp/ImageApp.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageApp/ImageApp1.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageApp/ImageApp2.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageApp/ImageAppW.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageC/ImageCTool.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageDump/ImageDump.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageAFEigen.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFAccumulate.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFArithmetic.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFConvolution.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFDensity.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFDynamicRange.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFHistogram.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFLog.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFMedian.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFPyramid.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFResizeBilinear.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFTool.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFYCrCb.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImagefFilterBox.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageLabel/Image1Blob.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageLabel/Image1Label.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageLabel/Image1LabelInletFilter.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageLabel/Image2BwLabel.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageMark/ImageDraw.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageMark/ImagePrint.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageMorphology/BitMatrix.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageMorphology/Image1Morphology.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageResample.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageResize.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageResizeBilinear.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageResizeIpp.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageSampleDown.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageSampleDownTransparent.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageSampleG.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageSampleNew.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageSamplingF.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/imageSample.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/imageSampleColumn.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageTransform/Image3KLTransform.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageTransform/ImageDct.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageTransform/ImageDct88.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageTransform/ImageFFT.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageTransform/ImageFourier.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageUS/ImageUSInterpolate.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageUS/ImageUSInterpolateV.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageUS/ImageUSTool.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/PSD/ImageReadPSD.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/PSD/PsdRead.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/PSD/PsdTool.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/PSD/PsdWrite.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/VegetationIndex/ImageExG.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/VegetationIndex/ImageNdi.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/VegetationIndex/ImageNdrgi.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/VegetationIndex/ImageNdrgiF.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/YUV/Image2YUV.cpp
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/YUV/ImageReadYuv.c
+r0
+
+CBuild AST from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/YUV/ImageYUVSampling.c.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies037b64507498b641^da3af4507498b641^---0#1#0#--18"Check dependencies36"6979503E-AC17-40C9-AB65-17B876A7DB71-
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/BitMatrix.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageMorphology/BitMatrix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/BmpDecoder.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/BMP/BmpDecoder.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/BmpEncoder.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/BMP/BmpEncoder.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/GifDecoder.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/GifDecoder.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/GifEncoder.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/GifEncoder.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Guasian.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/Guasian.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Histogram.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s379090000.975853
+e379090001.107601
+r0
+xCompileC
+xImage.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Histogram.o
+x/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:91:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:92:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:123:2: error: unknown type name 'vTime_type'; did you mean 'gpTime_type'?
+o        vTime_type      timeStamp;
+o        ^~~~~~~~~~
+o        gpTime_type
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Utime/GpTime.h:28:3: note: 'gpTime_type' declared here
+o}       gpTime_type;
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:21:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/Image1/Image1Tool.h:158:58: warning: declaration of 'struct matrix_type' will not be visible outside of this function [-Wvisibility]
+oimage_type *    image_convolutionM( image_type *sim, struct matrix_type *m, image_type *im );
+o                                                            ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/Image1/Image1Tool.h:250:62: warning: declaration of 'struct matrix2_type' will not be visible outside of this function [-Wvisibility]
+ovoid    image1_fisher_matrix( image_type *sim, box2i *b, struct matrix2_type *m );
+o                                                                ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:26:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageF/ImageFTool.h:79:63: warning: declaration of 'struct matrix3_type' will not be visible outside of this function [-Wvisibility]
+oimage_type *    imageF_transform_matrix( image_type *sim, struct matrix3_type *m, image_type *im );
+o                                                                 ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageF/ImageFTool.h:264:60: warning: declaration of 'struct pt2dA_type' will not be visible outside of this function [-Wvisibility]
+oimage_type *    imageF_density( int width, int height, struct pt2dA_type *apt, float h, image_type *im );
+o                                                              ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageF/ImageFTool.h:266:55: warning: declaration of 'struct pt2dA_type' will not be visible outside of this function [-Wvisibility]
+oimage_type *    imageFM_density( image_type *mim, struct pt2dA_type *apt, float h, image_type *im );
+o                                                         ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:30:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/Bmp/ImageBmp.h:36:44: warning: declaration of 'struct gio_type' will not be visible outside of this function [-Wvisibility]
+ostruct image_type *     image_read_bmp( struct gio_type *gio );
+o                                               ^
+o8 warnings and 1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c6ff4f9507498b641^72fa1a517498b641^-4898"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:91:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:92:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:123:2: error: unknown type name 'vTime_type'; did you mean 'gpTime_type'?        vTime_type      timeStamp;        ^~~~~~~~~~        gpTime_type/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Utime/GpTime.h:28:3: note: 'gpTime_type' declared here}       gpTime_type;        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:21:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/Image1/Image1Tool.h:158:58: warning: declaration of 'struct matrix_type' will not be visible outside of this function [-Wvisibility]image_type *    image_convolutionM( image_type *sim, struct matrix_type *m, image_type *im );                                                            ^/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/Image1/Image1Tool.h:250:62: warning: declaration of 'struct matrix2_type' will not be visible outside of this function [-Wvisibility]void    image1_fisher_matrix( image_type *sim, box2i *b, struct matrix2_type *m );                                                                ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:26:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageF/ImageFTool.h:79:63: warning: declaration of 'struct matrix3_type' will not be visible outside of this function [-Wvisibility]image_type *    imageF_transform_matrix( image_type *sim, struct matrix3_type *m, image_type *im );                                                                 ^/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageF/ImageFTool.h:264:60: warning: declaration of 'struct pt2dA_type' will not be visible outside of this function [-Wvisibility]image_type *    imageF_density( int width, int height, struct pt2dA_type *apt, float h, image_type *im );                                                              ^/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageF/ImageFTool.h:266:55: warning: declaration of 'struct pt2dA_type' will not be visible outside of this function [-Wvisibility]image_type *    imageFM_density( image_type *mim, struct pt2dA_type *apt, float h, image_type *im );                                                         ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:30:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/Bmp/ImageBmp.h:36:44: warning: declaration of 'struct gio_type' will not be visible outside of this function [-Wvisibility]struct image_type *     image_read_bmp( struct gio_type *gio );                                               ^8 warnings and 1 error generated.9(36%IDEClangDiagnosticActivityLogMessage2@31"'LITTLE_ENDIAN' macro redefined-379090001#18446744073709551615#0#3(2@102"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c0000000000000000^4#9#4#9#108#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:13:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.1 Notice--2@27"Previous definition is here-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h0000000000000000^68#8#68#8#2737#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^90#9#90#9#1573#0#29"Lexical or Preprocessor Issue--2@28"'BIG_ENDIAN' macro redefined-379090001#18446744073709551615#0#3(2@102"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c0000000000000000^4#9#4#9#108#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:13:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.1 Notice--2@27"Previous definition is here-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h0000000000000000^69#8#69#8#2782#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^91#9#91#9#1600#0#29"Lexical or Preprocessor Issue--2@59"Unknown type name 'vTime_type'; did you mean 'gpTime_type'?-379090001#18446744073709551615#0#2(2@102"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c0000000000000000^4#9#4#9#108#0#30"Apple LLVM compiler 4.1 Notice--2@27"'gpTime_type' declared here-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@82"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Utime/GpTime.h0000000000000000^27#2#27#2#347#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^122#1#122#1#2693#0#14"Semantic Issue1(3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^122#1#122#11#2693#10#-2@80"Declaration of 'struct matrix_type' will not be visible outside of this function-379090001#18446744073709551615#0#3(2@102"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c0000000000000000^4#9#4#9#108#0#30"Apple LLVM compiler 4.1 Notice--2@116"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^269#9#269#9#6136#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:21:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageTool.h0000000000000000^20#9#20#9#375#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Tool.h0000000000000000^157#57#157#57#4360#0#14"Semantic Issue--2@81"Declaration of 'struct matrix2_type' will not be visible outside of this function-379090001#18446744073709551615#0#3(2@102"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c0000000000000000^4#9#4#9#108#0#30"Apple LLVM compiler 4.1 Notice--2@116"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^269#9#269#9#6136#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:21:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageTool.h0000000000000000^20#9#20#9#375#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Tool.h0000000000000000^249#61#249#61#6836#0#14"Semantic Issue--2@81"Declaration of 'struct matrix3_type' will not be visible outside of this function-379090001#18446744073709551615#0#3(2@102"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c0000000000000000^4#9#4#9#108#0#30"Apple LLVM compiler 4.1 Notice--2@116"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^269#9#269#9#6136#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:26:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageTool.h0000000000000000^25#9#25#9#505#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFTool.h0000000000000000^78#62#78#62#2249#0#14"Semantic Issue--2@79"Declaration of 'struct pt2dA_type' will not be visible outside of this function-379090001#18446744073709551615#0#3(2@102"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c0000000000000000^4#9#4#9#108#0#30"Apple LLVM compiler 4.1 Notice--2@116"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^269#9#269#9#6136#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:26:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageTool.h0000000000000000^25#9#25#9#505#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFTool.h0000000000000000^263#59#263#59#7728#0#14"Semantic Issue--2@79"Declaration of 'struct pt2dA_type' will not be visible outside of this function-379090001#18446744073709551615#0#3(2@102"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c0000000000000000^4#9#4#9#108#0#30"Apple LLVM compiler 4.1 Notice--2@116"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^269#9#269#9#6136#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:26:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageTool.h0000000000000000^25#9#25#9#505#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFTool.h0000000000000000^265#54#265#54#7829#0#14"Semantic Issue--2@77"Declaration of 'struct gio_type' will not be visible outside of this function-379090001#18446744073709551615#0#3(2@102"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c:5:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c0000000000000000^4#9#4#9#108#0#30"Apple LLVM compiler 4.1 Notice--2@116"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^269#9#269#9#6136#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:30:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageTool.h0000000000000000^29#9#29#9#605#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@86"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/BMP/ImageBmp.h0000000000000000^35#43#35#43#711#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c0000000000000000^2452"CompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Histogram.o Histogram/Histogram.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Debug-iphoneos/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../../Image -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/DerivedSources/armv7 -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Histogram.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Histogram.dia -c /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/Histogram.c -o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Histogram.o36"37AD17CB-6ECA-4B0C-AB53-F83DF96D2865-
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/HistogramClustringIsoda.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/HistogramClustringIsoda.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/HistogramOrder.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Histogram/HistogramOrder.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/Image.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Average.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Average.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Blob.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageLabel/Image1Blob.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Bluring.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Bluring.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Convolution.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Convolution.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1ConvolutionM.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1ConvolutionM.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1ConvolutionSeparably.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1ConvolutionSeparably.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1CornerFilter.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1CornerFilter.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1EdgeSobol.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1EdgeSobol.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1EqualNeighbor.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1EqualNeighbor.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1FilterBox.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1FilterBox.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1FilterIir.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1FilterIir.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1FisherMatrix.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1FisherMatrix.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1From.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1From.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Gravity.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Gravity.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Histogram.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Histogram.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Integral.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Integral.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Interpolate.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Interpolate.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Label.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageLabel/Image1Label.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1LabelInletFilter.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageLabel/Image1LabelInletFilter.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Majority.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Majority.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Mask.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Mask.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Median.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Median.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Morphology.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageMorphology/Image1Morphology.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1NoiseEstimation.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1NoiseEstimation.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Pixel.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Pixel.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Sample.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Sample.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Sample2.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Sample2.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Ssd.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Ssd.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image1Tool.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Tool.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image24To8.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image24To8/Image24To8.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image24To8DitherFloyd.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image24To8/Image24To8DitherFloyd.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Accumulate.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Accumulate.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Bilateral.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Bilateral.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2BwLabel.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageLabel/Image2BwLabel.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Color.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Color.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Convolution.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Convolution.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Derivative.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Derivative.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2DynamicRange.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2DynamicRange.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Edge.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Edge.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2EdgeSobol.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2EdgeSobol.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Interpolate.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Interpolate.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Log.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Log.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Pyramid.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Pyramid.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Ssd.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Ssd.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2Tool.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image2/Image2Tool.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image2YUV.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/YUV/Image2YUV.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Bilnear.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Bilnear.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Bluring.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Bluring.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Color.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Color.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Convolution.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Convolution.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3DewarpLt2.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3DewarpLt2.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Distance.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Distance.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3DynamicRange.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3DynamicRange.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Extend.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Extend.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3From.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3From.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3KLTransform.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageTransform/Image3KLTransform.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3MapTransform.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3MapTransform.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Resize43.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Resize43.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Sample2_1331.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Sample2_1331.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3Tool.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3Tool.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image3YCrCb.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image3/Image3YCrCb.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image4CopyIn.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/Image4CopyIn.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image4Tool.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/Image4Tool.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image4to1.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/Image4to1.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image6Convolution.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image6/Image6Convolution.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image6From.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image6/Image6From.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image6Tool.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image6/Image6Tool.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image6YCrCb.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image6/Image6YCrCb.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/Image8to24.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image24To8/Image8to24.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageAFEigen.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageAFEigen.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageAdaptivePalette.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageAdaptivePalette.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageAdd.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageAdd.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageAlpha.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageAlpha.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageApp.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageApp/ImageApp.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageApp1.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageApp/ImageApp1.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageApp2.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageApp/ImageApp2.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageAppW.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageApp/ImageAppW.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageAppend.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageAppend.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageAux.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageAux.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageBackgroundRemoval.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageBackgroundRemoval.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageBand.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageBand.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageCTool.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageC/ImageCTool.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageClustringIsodata.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s379090000.975838
+e379090001.102512
+r0
+xCompileC
+xImage.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageClustringIsodata.o
+x/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:7:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:91:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:7:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:92:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:10:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:123:2: error: unknown type name 'vTime_type'; did you mean 'gpTime_type'?
+o        vTime_type      timeStamp;
+o        ^~~~~~~~~~
+o        gpTime_type
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Utime/GpTime.h:28:3: note: 'gpTime_type' declared here
+o}       gpTime_type;
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:10:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:21:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/Image1/Image1Tool.h:158:58: warning: declaration of 'struct matrix_type' will not be visible outside of this function [-Wvisibility]
+oimage_type *    image_convolutionM( image_type *sim, struct matrix_type *m, image_type *im );
+o                                                            ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/Image1/Image1Tool.h:250:62: warning: declaration of 'struct matrix2_type' will not be visible outside of this function [-Wvisibility]
+ovoid    image1_fisher_matrix( image_type *sim, box2i *b, struct matrix2_type *m );
+o                                                                ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:10:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:26:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageF/ImageFTool.h:79:63: warning: declaration of 'struct matrix3_type' will not be visible outside of this function [-Wvisibility]
+oimage_type *    imageF_transform_matrix( image_type *sim, struct matrix3_type *m, image_type *im );
+o                                                                 ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageF/ImageFTool.h:264:60: warning: declaration of 'struct pt2dA_type' will not be visible outside of this function [-Wvisibility]
+oimage_type *    imageF_density( int width, int height, struct pt2dA_type *apt, float h, image_type *im );
+o                                                              ^
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageF/ImageFTool.h:266:55: warning: declaration of 'struct pt2dA_type' will not be visible outside of this function [-Wvisibility]
+oimage_type *    imageFM_density( image_type *mim, struct pt2dA_type *apt, float h, image_type *im );
+o                                                         ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:10:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:30:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/Bmp/ImageBmp.h:36:44: warning: declaration of 'struct gio_type' will not be visible outside of this function [-Wvisibility]
+ostruct image_type *     image_read_bmp( struct gio_type *gio );
+o                                               ^
+o8 warnings and 1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.ca5f3f9507498b641^5ed81a517498b641^-4742"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:7:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:91:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:7:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:92:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:10:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:123:2: error: unknown type name 'vTime_type'; did you mean 'gpTime_type'?        vTime_type      timeStamp;        ^~~~~~~~~~        gpTime_type/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Utime/GpTime.h:28:3: note: 'gpTime_type' declared here}       gpTime_type;        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:10:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:21:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/Image1/Image1Tool.h:158:58: warning: declaration of 'struct matrix_type' will not be visible outside of this function [-Wvisibility]image_type *    image_convolutionM( image_type *sim, struct matrix_type *m, image_type *im );                                                            ^/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/Image1/Image1Tool.h:250:62: warning: declaration of 'struct matrix2_type' will not be visible outside of this function [-Wvisibility]void    image1_fisher_matrix( image_type *sim, box2i *b, struct matrix2_type *m );                                                                ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:10:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:26:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageF/ImageFTool.h:79:63: warning: declaration of 'struct matrix3_type' will not be visible outside of this function [-Wvisibility]image_type *    imageF_transform_matrix( image_type *sim, struct matrix3_type *m, image_type *im );                                                                 ^/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageF/ImageFTool.h:264:60: warning: declaration of 'struct pt2dA_type' will not be visible outside of this function [-Wvisibility]image_type *    imageF_density( int width, int height, struct pt2dA_type *apt, float h, image_type *im );                                                              ^/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageF/ImageFTool.h:266:55: warning: declaration of 'struct pt2dA_type' will not be visible outside of this function [-Wvisibility]image_type *    imageFM_density( image_type *mim, struct pt2dA_type *apt, float h, image_type *im );                                                         ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:10:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:30:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/Bmp/ImageBmp.h:36:44: warning: declaration of 'struct gio_type' will not be visible outside of this function [-Wvisibility]struct image_type *     image_read_bmp( struct gio_type *gio );                                               ^8 warnings and 1 error generated.9(36%IDEClangDiagnosticActivityLogMessage2@31"'LITTLE_ENDIAN' macro redefined-379090001#18446744073709551615#0#2(2@114"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:7:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@105"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c0000000000000000^6#9#6#9#75#0#30"Apple LLVM compiler 4.1 Notice--2@27"Previous definition is here-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h0000000000000000^68#8#68#8#2737#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^90#9#90#9#1573#0#29"Lexical or Preprocessor Issue--2@28"'BIG_ENDIAN' macro redefined-379090001#18446744073709551615#0#2(2@114"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:7:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c0000000000000000^6#9#6#9#75#0#30"Apple LLVM compiler 4.1 Notice--2@27"Previous definition is here-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h0000000000000000^69#8#69#8#2782#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^91#9#91#9#1600#0#29"Lexical or Preprocessor Issue--2@59"Unknown type name 'vTime_type'; did you mean 'gpTime_type'?-379090001#18446744073709551615#0#2(2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:10:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c0000000000000000^9#9#9#9#102#0#30"Apple LLVM compiler 4.1 Notice--2@27"'gpTime_type' declared here-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@82"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Utime/GpTime.h0000000000000000^27#2#27#2#347#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^122#1#122#1#2693#0#14"Semantic Issue1(3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^122#1#122#11#2693#10#-2@80"Declaration of 'struct matrix_type' will not be visible outside of this function-379090001#18446744073709551615#0#3(2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:10:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c0000000000000000^9#9#9#9#102#0#30"Apple LLVM compiler 4.1 Notice--2@116"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^269#9#269#9#6136#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:21:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageTool.h0000000000000000^20#9#20#9#375#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Tool.h0000000000000000^157#57#157#57#4360#0#14"Semantic Issue--2@81"Declaration of 'struct matrix2_type' will not be visible outside of this function-379090001#18446744073709551615#0#3(2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:10:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c0000000000000000^9#9#9#9#102#0#30"Apple LLVM compiler 4.1 Notice--2@116"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^269#9#269#9#6136#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:21:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageTool.h0000000000000000^20#9#20#9#375#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image1/Image1Tool.h0000000000000000^249#61#249#61#6836#0#14"Semantic Issue--2@81"Declaration of 'struct matrix3_type' will not be visible outside of this function-379090001#18446744073709551615#0#3(2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:10:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c0000000000000000^9#9#9#9#102#0#30"Apple LLVM compiler 4.1 Notice--2@116"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^269#9#269#9#6136#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:26:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageTool.h0000000000000000^25#9#25#9#505#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFTool.h0000000000000000^78#62#78#62#2249#0#14"Semantic Issue--2@79"Declaration of 'struct pt2dA_type' will not be visible outside of this function-379090001#18446744073709551615#0#3(2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:10:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c0000000000000000^9#9#9#9#102#0#30"Apple LLVM compiler 4.1 Notice--2@116"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^269#9#269#9#6136#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:26:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageTool.h0000000000000000^25#9#25#9#505#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFTool.h0000000000000000^263#59#263#59#7728#0#14"Semantic Issue--2@79"Declaration of 'struct pt2dA_type' will not be visible outside of this function-379090001#18446744073709551615#0#3(2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:10:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c0000000000000000^9#9#9#9#102#0#30"Apple LLVM compiler 4.1 Notice--2@116"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^269#9#269#9#6136#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:26:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageTool.h0000000000000000^25#9#25#9#505#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFTool.h0000000000000000^265#54#265#54#7829#0#14"Semantic Issue--2@77"Declaration of 'struct gio_type' will not be visible outside of this function-379090001#18446744073709551615#0#3(2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c:10:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c0000000000000000^9#9#9#9#102#0#30"Apple LLVM compiler 4.1 Notice--2@116"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:270:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^269#9#269#9#6136#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageTool.h:30:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageTool.h0000000000000000^29#9#29#9#605#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@86"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/BMP/ImageBmp.h0000000000000000^35#43#35#43#711#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@105"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c0000000000000000^2524"CompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageClustringIsodata.o Clustring/ImageClustringIsodata.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Debug-iphoneos/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../../Image -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/DerivedSources/armv7 -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageClustringIsodata.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageClustringIsodata.dia -c /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Clustring/ImageClustringIsodata.c -o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageClustringIsodata.o36"F5265D01-3A75-48EB-B49C-29BD92E94976-
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageComparison.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageComparison.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageCreate.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageCreate.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageCrop.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageCrop.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageCut.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageCut.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageCutUarray.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageCutUarray.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDct.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageTransform/ImageDct.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDct88.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageTransform/ImageDct88.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDecoder.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379090000.975845
+e379090001.105537
+r0
+xCompileC
+xImage.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDecoder.o
+x/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp:6:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:91:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp:6:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:13:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:92:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp:6:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:123:2: error: unknown type name 'vTime_type'; did you mean 'gpTime_type'?
+o        vTime_type      timeStamp;
+o        ^~~~~~~~~~
+o        gpTime_type
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Utime/GpTime.h:28:3: note: 'gpTime_type' declared here
+o}       gpTime_type;
+o        ^
+o2 warnings and 1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cppf1f5f9507498b641^39ec1a517498b641^-1785"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp:6:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:91:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp:6:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:13:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:92:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp:6:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:123:2: error: unknown type name 'vTime_type'; did you mean 'gpTime_type'?        vTime_type      timeStamp;        ^~~~~~~~~~        gpTime_type/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Utime/GpTime.h:28:3: note: 'gpTime_type' declared here}       gpTime_type;        ^2 warnings and 1 error generated.3(36%IDEClangDiagnosticActivityLogMessage2@31"'LITTLE_ENDIAN' macro redefined-379090001#18446744073709551615#0#3(2@104"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp:6:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@95"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp0000000000000000^5#9#5#9#114#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:13:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.1 Notice--2@27"Previous definition is here-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h0000000000000000^68#8#68#8#2737#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^90#9#90#9#1573#0#29"Lexical or Preprocessor Issue--2@28"'BIG_ENDIAN' macro redefined-379090001#18446744073709551615#0#3(2@104"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp:6:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@95"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp0000000000000000^5#9#5#9#114#0#30"Apple LLVM compiler 4.1 Notice--2@115"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:13:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^12#9#12#9#218#0#30"Apple LLVM compiler 4.1 Notice--2@27"Previous definition is here-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h0000000000000000^69#8#69#8#2782#0#30"Apple LLVM compiler 4.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Uigp/igp.h0000000000000000^91#9#91#9#1600#0#29"Lexical or Preprocessor Issue--2@59"Unknown type name 'vTime_type'; did you mean 'gpTime_type'?-379090001#18446744073709551615#0#2(2@104"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp:6:-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@95"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp0000000000000000^5#9#5#9#114#0#30"Apple LLVM compiler 4.1 Notice--2@27"'gpTime_type' declared here-379090001#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@82"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/Util/Utime/GpTime.h0000000000000000^27#2#27#2#347#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^122#1#122#1#2693#0#14"Semantic Issue1(3@93"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageType/ImageType.h0000000000000000^122#1#122#11#2693#10#-0#0#0#-19%DVTDocumentLocation4@95"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp0000000000000000^2571"CompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDecoder.o Codecs/ImageDecoder.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Debug-iphoneos/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../../Image -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/DerivedSources/armv7 -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDecoder.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDecoder.dia -c /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageDecoder.cpp -o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDecoder.o36"E7C7F29D-1AC7-40BD-894F-6B5AB9C57A17-
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDewarpLt2.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageDewarpLt2.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDifference.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageDifference.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDitherAll.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherAll.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDitherErr.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherErr.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDitherErrExp.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherErrExp.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDitherFloyd.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherFloyd.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDitherOrd.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherOrd.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDitherPat.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageDitherPat.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDraw.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageMark/ImageDraw.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageDump.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageDump/ImageDump.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageEncoder.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageEncoder.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s379090000.975846
+e379090001.204478
+r0
+xCompileC
+xImage.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageEncoder.o
+x/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageEncoder.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageEncoder.cpp:7:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageCodec.h:6:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:91:10: warning: 'LITTLE_ENDIAN' macro redefined
+o#define         LITTLE_ENDIAN           0
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here
+o#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageEncoder.cpp:7:
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageCodec.h:6:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:92:10: warning: 'BIG_ENDIAN' macro redefined
+o#define         BIG_ENDIAN                      1
+o                ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here
+o#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN
+o        ^
+oIn file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageEncoder.cpp:12:
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:123:2: error: unknown type name 'vTime_type'; did you mean 'gpTime_type'?
+o        vTime_type      timeStamp;
+o        ^~~~~~~~~~
+o        gpTime_type
+o/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Utime/GpTime.h:28:3: note: 'gpTime_type' declared here
+o}       gpTime_type;
+o        ^
+o2 warnings and 1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageEncoder.cpp49f5f9507498b641^3e3f34517498b641^-1756"In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageEncoder.cpp:7:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageCodec.h:6:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:91:10: warning: 'LITTLE_ENDIAN' macro redefined#define         LITTLE_ENDIAN           0                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:69:9: note: previous definition is here#define LITTLE_ENDIAN   __DARWIN_LITTLE_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageEncoder.cpp:7:In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageCodec.h:6:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Uigp/igp.h:92:10: warning: 'BIG_ENDIAN' macro redefined#define         BIG_ENDIAN                      1                ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/arm/endian.h:70:9: note: previous definition is here#define BIG_ENDIAN      __DARWIN_BIG_ENDIAN        ^In file included from /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageEncoder.cpp:12:/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib/ImageType/ImageType.h:123:2: error: unknown type name 'vTime_type'; did you mean 'gpTime_type'?        vTime_type      timeStamp;        ^~~~~~~~~~        gpTime_type/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util/Utime/GpTime.h:28:3: note: 'gpTime_type' declared here}       gpTime_type;        ^2 warnings and 1 error generated.-0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageEncoder.cpp0000000000000000^2571"CompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageEncoder.o Codecs/ImageEncoder.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Debug-iphoneos/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../ImageLib -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../Util -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/../../Image -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/include -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/DerivedSources/armv7 -I/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Debug-iphoneos -MMD -MT dependencies -MF /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageEncoder.d --serialize-diagnostics /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageEncoder.dia -c /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Codecs/ImageEncoder.cpp -o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageEncoder.o36"0502A794-849D-46E8-ACB0-FE2B35080F7A-
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageEnhancement.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageEnhancement.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageEqual.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageEqual.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageExG.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/VegetationIndex/ImageExG.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageExtend.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageExtend.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFAccumulate.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFAccumulate.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFArithmetic.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFArithmetic.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFConvolution.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFConvolution.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFDensity.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFDensity.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFDynamicRange.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFDynamicRange.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFFT.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageTransform/ImageFFT.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFHistogram.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFHistogram.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFLog.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFLog.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFMedian.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFMedian.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFPyramid.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFPyramid.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFResizeBilinear.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFResizeBilinear.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFTool.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFTool.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFYCrCb.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImageFYCrCb.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFields.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageFields.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFile.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageFile.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFlipH.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageFlipH.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFlipV.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageFlipV.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageFourier.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageTransform/ImageFourier.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageGrayEnhancement.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Dithering/ImageGrayEnhancement.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageHistogram.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageHistogram.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageHsiTune.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageHsiTune.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageInterlive.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageInterlive.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageInterpolatePv.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageInterpolatePv.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageIo.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageIo.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageLeak.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageLeak.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageLevel.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageLevel.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageLinearCombination.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageLinearCombination.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageLogo.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageLogo.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageMask.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageMask.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageNdi.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/VegetationIndex/ImageNdi.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageNdrgi.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/VegetationIndex/ImageNdrgi.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageNdrgiF.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/VegetationIndex/ImageNdrgiF.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageNegative.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageNegative.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImagePixel.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImagePixel.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImagePreview.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImagePreview.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImagePrint.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageMark/ImagePrint.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImagePyramid.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImagePyramid.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageReadBmp.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/BMP/ImageReadBmp.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageReadGif.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/ImageReadGif.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageReadGifFrame.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/ImageReadGifFrame.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageReadPSD.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/PSD/ImageReadPSD.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageReadYuv.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/YUV/ImageReadYuv.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageResample.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageResample.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageResize.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageResize.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageResizeBilinear.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageResizeBilinear.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageResizeIpp.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageResizeIpp.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageRgbYCrCb.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageRgbYCrCb.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageRgbYiq.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageRgbYiq.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSampleDown.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageSampleDown.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSampleDownTransparent.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageSampleDownTransparent.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSampleG.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageSampleG.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSampleNew.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageSampleNew.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSamplingF.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/ImageSamplingF.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSline.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageSline.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSmartPalette.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageSmartPalette.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageStretch.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageStretch.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageSubtruct.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageSubtruct.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageToR.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageToR.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageToY.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageToY.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageTransparent.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/ImageTransparent.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageUSInterpolate.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageUS/ImageUSInterpolate.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageUSInterpolateV.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageUS/ImageUSInterpolateV.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageUSTool.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageUS/ImageUSTool.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageWriteBmp.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/BMP/ImageWriteBmp.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageWriteGif.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/ImageWriteGif.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImageYUVSampling.c.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/YUV/ImageYUVSampling.c.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/ImagefFilterBox.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageF/ImagefFilterBox.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/LzwEncoding.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Gif/LzwEncoding.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/PaletteTool.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/PaletteTool.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/PsdRead.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/PSD/PsdRead.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/PsdTool.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/PSD/PsdTool.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/PsdWrite.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/PSD/PsdWrite.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/image4From.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image/image4From.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/imageSample.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/imageSample.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Image.build/Debug-iphoneos/Image.build/Objects-normal/armv7/imageSampleColumn.o /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/ImageResize/imageSampleColumn.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Debug-iphoneos/libImage.a normal armv7
+r0
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Debug-iphoneos/Image.build/Script-4D4B1DB1F7F449B6B1F324EF.sh
+r0
+

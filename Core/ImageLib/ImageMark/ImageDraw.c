@@ -155,6 +155,7 @@ image4_draw_point( image_type *im, int x, int y, int color )
 		*IMAGE4_PIXEL( im, y-1, x ) = color;
 	if( x > 0 )
 		*IMAGE4_PIXEL( im, y, x-1 ) = color;
+
 	*IMAGE4_PIXEL( im, y, x ) = color;
 
 	if( x < im->column-2 )
@@ -164,6 +165,16 @@ image4_draw_point( image_type *im, int x, int y, int color )
 		*IMAGE4_PIXEL( im, y+1, x ) = color;
 }
 
+
+void
+image4_draw_pointA( image_type *im, int x, int y, int color )
+{
+	if( x < 1 || x >= im->column-2 || y < 1 || y >= im->row-2 )
+		return;
+
+	if( y > 0 && x >= 0  )
+		*IMAGE4_PIXEL( im, y, x ) = color;
+}
 
 
 

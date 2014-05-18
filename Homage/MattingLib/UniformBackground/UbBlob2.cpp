@@ -33,6 +33,7 @@ static int	imageLabelUS_remove_B( image_type *sim, imageLabel_type *abw, int nT,
 static void	imageLabelUS_remove( image_type *sim, imageLabel_type *abw, int color );
 
 
+void	imageLabelUS2_value( imageLabel_type *abw, image_type *sim );
 
 
 
@@ -45,19 +46,38 @@ int	CUniformBackground::ProcessBlob2()
 	image_type *im = image1_sample2N( m_cim, NULL );
 
 
+	if( m_iFrame == m_dFrame ){
+		IMAGE_DUMP_SCALE( im, 32, "blob", m_iFrame, "1" );
+	}
+
 	// remove
-	m_abwBlob = imageLabelUS( im, 4, 1, m_abwBlob );
+	m_abwBlob = imageLabelUS_N( im, 4, 1, 0, m_abwBlob );
 
 	imageLabelUS_remove_A( im,  m_abwBlob, 0x5 );
 
 
-	// fill
-	m_abwBlob = imageLabelUS( im, 1, 0, m_abwBlob );
+	if( m_iFrame == m_dFrame ){
+		IMAGE_DUMP_SCALE( im, 32, "blob", m_iFrame, "2" );
+	}
 
-	imageLabelUS_remove_B( im,  m_abwBlob, 120*120, 0x06 );
+	// fill
+	m_abwBlob = imageLabelUS_N( im, 1, 0, 0, m_abwBlob );
+
+	imageLabelUS2_value( m_abwBlob, m_dim );
+	imageLabelUS_remove_B( im,  m_abwBlob, m_prm->fillBlob, 0x06 );
+
+
+	if( m_iFrame == m_dFrame ){
+		IMAGE_DUMP_SCALE( im, 32,"blob", m_iFrame, "3" );
+	}
 
 
 	image1_set( m_cim, im );
+
+	if( m_iFrame == m_dFrame ){
+		IMAGE_DUMP_SCALE( im, 32,"blob", m_iFrame, "4" );
+		IMAGE_DUMP( m_cim,"blob", m_iFrame, "5" );
+	}
 
 	image_destroy( im, 1 );
 
@@ -143,7 +163,7 @@ static int
 		bwLabel_type *bw = &abw->a[i];
 		bw->existence = 0;
 		if( bw->id != i )	continue;
-		if( i == n )	continue;
+		if( i == n || i == 0 )	continue;
 
 		bw->existence = -1;
 	}
@@ -161,13 +181,13 @@ static int
 {
 
 
-
+	float vT = 12;
 	int	i;
 	for( i = 0 ; i < abw->nA ; i++ ){
 		bwLabel_type *bw = &abw->a[i];
 		bw->existence = 0;
 		if( bw->id != i )	continue;
-		if( bw->no > nT )	continue;
+		if( bw->no > nT || bw->av < vT  )	continue;
 
 		bw->existence = -1;
 
@@ -195,5 +215,58 @@ static void
 		for( j = 0 ; j < sim->width ; j++, sp++, tp++ )
 			if( abw->a[*tp].existence < 0 )
 				*sp = color;
+	}
+}
+
+
+
+
+
+
+
+
+
+void
+imageLabelUS2_value( imageLabel_type *abw, image_type *sim )
+{
+	int	i,	j;
+	short	*bp;
+	u_char	*sp;
+
+	bwLabel_type *bw;
+
+	for( i = 0 ; i < abw->nA ; i++ ){
+		abw->a[i].no = 0;
+		abw->a[i].av = 0;
+		abw->a[i].var = 0;
+	}
+
+
+
+	sp = sim->data;
+	bp = abw->im->data_s;
+	for( i = 0 ; i < abw->im->height ; i++ ){
+		u_char *sp0 = IMAGE_PIXEL( sim, 2*i, 0 );
+		u_char *sp2 = sp0 + sim->width;
+
+
+		for( j = 0 ; j < abw->im->width ; j++, bp++, sp0 += 2, sp2 += 2 ){
+			bw = &abw->a[*bp];
+			int val = ( sp0[0] + sp0[1] + sp2[0] + sp2[1])>> 2;
+			bw->no++;
+			bw->av += val;
+//			bw->var += val * val;
+		}
+	}
+
+
+
+	for( i = 0 ; i < abw->nA ; i++ ){
+		bwLabel_type *bw = &abw->a[i];
+
+		if( bw->no == 0  )	continue;
+
+		bw->av /= bw->no;
+//		bw->var = bw->var / bw->no - bw->av*bw->av;
 	}
 }

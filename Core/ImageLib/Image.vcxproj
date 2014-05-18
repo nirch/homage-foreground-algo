@@ -404,9 +404,11 @@
     <ClCompile Include="ImageF\ImageFYCrCb.c" />
     <ClCompile Include="ImageLabel\ImageBlob.cpp" />
     <ClCompile Include="ImageLabel\ImageLabel.cpp" />
-    <ClCompile Include="ImageLabel\ImageLabelContour.cpp" />
     <ClCompile Include="ImageLabel\ImageLabelUI.cpp" />
+    <ClCompile Include="ImageLabel\ImageLabelUIContour.cpp" />
     <ClCompile Include="ImageLabel\ImageLabelUS.cpp" />
+    <ClCompile Include="ImageLabel\ImageLabelUSContour.cpp" />
+    <ClCompile Include="ImageLabel\ImageLabelUSN.cpp" />
     <ClCompile Include="ImageTransform\Image3KLTransform.c" />
     <ClCompile Include="ImageTransform\ImageDct.c">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

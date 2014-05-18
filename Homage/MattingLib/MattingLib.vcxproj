@@ -83,6 +83,7 @@
     <ClCompile Include="UniformBackground\UbBlob1.cpp" />
     <ClCompile Include="UniformBackground\UbBlob2.cpp" />
     <ClCompile Include="UniformBackground\UbContour.cpp" />
+    <ClCompile Include="UniformBackground\UbPrm.cpp" />
     <ClCompile Include="UniformBackground\UbSmooth.cpp" />
     <ClCompile Include="UniformBackground\UbThin.cpp" />
     <ClCompile Include="UniformBackground\UbUpdate.cpp" />

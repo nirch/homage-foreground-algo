@@ -114,7 +114,7 @@ imageLabel_print( imageLabel_type *abw, FILE *fp )
 
 
 int
-imageLabel_printA( bwLabel_type *bw, int nBw, FILE *fp )
+bwLabel_printA( bwLabel_type *bw, int nBw, FILE *fp )
 {
 	int	i,	no;
 
@@ -127,3 +127,55 @@ imageLabel_printA( bwLabel_type *bw, int nBw, FILE *fp )
 	return( no );
 }
 
+
+
+
+
+
+void
+bwLabel_merge( bwLabel_type *abw, int nBw, int id1, int id )
+{
+	int	i;
+
+	abw[id].no += abw[id1 ].no;
+
+	for( i = id1 ; i < nBw ; i++ ){
+		if( abw[i].id == id1 )
+			abw[i].id = id;
+	}
+}
+
+
+int
+bwLabel_no( bwLabel_type *bw, int nBw, int T )
+{
+	int	i,	no;
+
+	for( i = 0, no = 0 ; i < nBw ; i++ ){
+		if( bw[i].id != i )	continue;
+		if( T <= 0 || bw[i].no > T )	no++;
+	}
+
+	return( no );
+}
+
+
+void
+bwLabel_order( bwLabel_type *aBw, int nBw, int aI[], int *nI )
+{
+	int	i,	j;
+	bwLabel_type	*bw;
+
+	*nI = 0;
+	for( i = 0 ; i < nBw ; i++ ){
+		bw = &aBw[i];
+		if( bw->id != i )	continue;
+
+		for( j = *nI ; j > 0 ; j-- ){
+			if( aBw[aI[j-1]].no > bw->no )	break;
+			aI[j] = aI[j-1];
+		}
+		aI[j] = i;
+		(*nI)++;
+	}
+}

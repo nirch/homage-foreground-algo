@@ -156,7 +156,23 @@ int	i,	j,	i1,	j1;
 
 
 
+image_type *
+image_sample2L( image_type *sim, int level, image_type *im )
+{
+	image_type	*tim;
+	int	i;
 
+
+	im = image_sample2( sim, im  );
+
+	for( i = 1 ; i < level ; i++ ){
+		tim = image_sample2( im, NULL );
+		image_destroy( im, 1 );
+		im = tim;
+	}
+
+	return( im );
+}
 
 image_type *	
 image_sample2( image_type *sim, image_type *im )

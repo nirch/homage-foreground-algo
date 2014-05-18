@@ -11,6 +11,14 @@
 #include "ImageType/ImageType.h"
 
 
+typedef struct ubPrm_type {
+	int thin;
+
+	int fillBlob;
+
+} ubPrm_type;
+
+
 typedef	struct bImage_type {
 	int n;
 	int	r;
@@ -34,10 +42,15 @@ public:
 
 	void	SetRoi( box2i_type *b );
 
+	void	SetFlip( int flip )	{ m_flip = flip; }
+
+	int	Init( char *xmlFile, char *ctrFile, int width, int height );
+
 	int	ReadMask( char *inFile, int width, int height );
 
-//	int	ProcessHistogram( image_type *sim, image_type *mim );
-	int	ProcessInitBackground( image_type *sim, image_type *mim );
+	int ProcessBackground( image_type *sim, int iFrame );
+	
+	int	ProcessInitBackground( image_type *sim, image_type *mim, int fState = 0 );
 
 
 	int	Process( image_type *sim, int iFrame, image_type **cim );
@@ -76,12 +89,18 @@ protected:
 
 	int	ProcessContour();
 
+	int	ProcessContourUI();
+	
+	int	ReadPrm( char *inFile );
 
 
 
+	ubPrm_type *m_prm;
 
 	int	m_iFrame;
 	int	m_dFrame;
+
+	int m_flip;
 
 	float m_T;
 	
@@ -99,6 +118,8 @@ protected:
 //	image_type	*m_mim;	// silhate
 
 	image_type	*m_bim;
+	
+	image_type	*m_bimDx;
 
 	image_type	*m_bimC;
 
@@ -131,6 +152,9 @@ public:
 
 	image_type	*m_mim;	// silhate
 
+	int	m_state;
+
+
 
 	gpTime_type	m_rTime;
 	gpTime_type	m_tCompare;
@@ -152,6 +176,12 @@ public:
 
 	char m_processLog[1024];
 };
+
+
+
+ubPrm_type *	ubPrm_alloc();
+
+void	ubPrm_destroy( ubPrm_type *prm );
 
 
 #endif

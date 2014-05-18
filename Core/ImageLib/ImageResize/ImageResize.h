@@ -25,6 +25,8 @@ image_type *	image4_dup( image_type *sim, int d, image_type *im );
 
 //image_type *	image4_sample2( image_type *sim, image_type *im );
 
+image_type *	image_sample2L( image_type *sim, int level, image_type *im );
+
 image_type *	image_sample2( image_type *sim, image_type *im );
 
 image_type *	image1_sample2( image_type *sim, image_type *im );

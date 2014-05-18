@@ -60,6 +60,9 @@ void	image2_print( image_type *sim, int i0, int j0, int n );
 	// ImageDraw.c
 void	image4_draw_point( image_type *im, int x, int y, int color );
 
+void	image4_draw_pointA( image_type *im, int x, int y, int color );
+
+
 void	image4_draw_circle( image_type *sim, float x, float y, float r, int color );
 
 void	image_mask_circle( image_type *im, float x, float y, float r, int color );

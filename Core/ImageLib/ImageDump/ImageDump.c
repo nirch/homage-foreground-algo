@@ -220,19 +220,12 @@ image_dump_dup( image_type *sim, int d, float a, char *name, int index, char *ex
 
 
 void
-image_dump( image_type *im, char *name, int index, char *ext )
+image_dump( image_type *im, char *name, int index, char *suffix )
 {
 char	file[256];
 
+#ifdef _AA_
 	if( Fdump == 0 )	return;
-
-
-	//if( IMAGE_TYPE(im) == IMAGE_TYPE_S12 && im->channel == 1 ){
-	//	image2_dump( im, name,  index, ext );
-	//	return;
-	//}
-
-
 
 	if( index == -1 )
 		sprintf( file, "%s/%s.bmp", Dump_dir, name );
@@ -240,7 +233,10 @@ char	file[256];
 				sprintf( file, "%s/%s-%.3d.bmp", Dump_dir, name, index );
 			else
 				sprintf( file, "%s/%s-%.3d-%s.bmp", Dump_dir, name, index, ext );
+#endif
 
+	if( gpDump_filename( name, index, suffix, ".bmp", file ) < 0 )
+		return;
 
 
 	image_write_bmp( im, file );

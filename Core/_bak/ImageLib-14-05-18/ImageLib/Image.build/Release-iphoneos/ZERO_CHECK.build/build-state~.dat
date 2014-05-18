@@ -1,0 +1,28 @@
+TZERO_CHECK
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Release-iphoneos/ZERO_CHECK.build/Script-4010909568D748E9AB358D4D.sh
+
+N/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Release-iphoneos/ZERO_CHECK.build/Script-4010909568D748E9AB358D4D.sh
+c000000005311B7B200000000000000C9
+t1393670066
+s201
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies76518c32efc1b841^c9749032efc1b841^---0#1#0#--18"Check dependencies36"B477A35C-F354-4278-A4AE-F2390835B86D-
+
+CPhaseScriptExecution "CMake Rules" /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Release-iphoneos/ZERO_CHECK.build/Script-4010909568D748E9AB358D4D.sh
+s415362866.566177
+e415362866.640543
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Release-iphoneos/ZERO_CHECK.build/Script-4010909568D748E9AB358D4D.sh
+oecho ""
+o
+omake -f /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'6bbb9132efc1b841^4912a432efc1b841^-157"echo ""make -f /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-415362866#0#8#-0#-----2@93"make -f /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/CMakeScripts/ReRunCMake.make-415362866#9#93#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-415362866#102#55#-0#-----0#0#0#--331"PhaseScriptExecution "CMake Rules" Image.build/Release-iphoneos/ZERO_CHECK.build/Script-4010909568D748E9AB358D4D.sh    cd /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib    /bin/sh -c /Users/shayrootman/Documents/_work/Gp_Vim/Core/ImageLib/Image.build/Release-iphoneos/ZERO_CHECK.build/Script-4010909568D748E9AB358D4D.sh36"EEC72843-31CB-4E2E-8034-8F2BD2808A6E-
+

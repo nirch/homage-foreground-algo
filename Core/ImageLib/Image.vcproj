@@ -8158,15 +8158,19 @@
 				>
 			</File>
 			<File
-				RelativePath=".\ImageLabel\ImageLabelContour.cpp"
-				>
-			</File>
-			<File
 				RelativePath=".\ImageLabel\ImageLabelUI.cpp"
 				>
 			</File>
 			<File
+				RelativePath=".\ImageLabel\ImageLabelUIContour.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\ImageLabel\ImageLabelUS.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ImageLabel\ImageLabelUSContour.cpp"
 				>
 			</File>
 		</Filter>

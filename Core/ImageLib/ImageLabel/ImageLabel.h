@@ -24,11 +24,17 @@ int	imageLabel_bigest( imageLabel_type *abw, int color );
 
 int	imageLabel_print( imageLabel_type *abw, FILE *fp );
 
-int	imageLabel_printA( bwLabel_type *bw, int nBw, FILE *fp );
+
+void	bwLabel_merge( bwLabel_type *abw, int nBw, int id1, int id );
+
+int		bwLabel_printA( bwLabel_type *bw, int nBw, FILE *fp );
+
+int		bwLabel_no( bwLabel_type *bw, int nBw, int T );
+
+void	bwLabel_order( bwLabel_type *abw, int nBw, int aI[], int *nI );
 
 
-
-	// Image1Label.c
+	// ImageLabelUI.c
 imageLabel_type *imageLabelUI( image_type *sim, imageLabel_type *abw );
 
 imageLabel_type *imageLabelUI_T( image_type *sim, int T, int margin, imageLabel_type *abw );
@@ -37,22 +43,32 @@ image_type *	image1_label( image_type *sim, bwLabel_type **tbw, int *tnBw, image
 
 void	imageLabelUI_filter( image_type *sim, image_type *lim, bwLabel_type *aBw, int nBw, int nT );
 
-//int		imageLabel_print( bwLabel_type *bw, int nBw, FILE *fp );
 
 void	imageLabelUI_set_id( imageLabel_type *abw );
 
 void	imageLabelUI_set_aux( image_type *im, bwLabel_type *aBw, int nBw );
 
+void	imageLabelUI_set_box( imageLabel_type *abw );
+
+
 int		imageLabelUI_eigen2d( image_type *im, int id, box2i_type *b, struct eigen2d_type *e );
 
 
 
-	// Image1Blob.c
-imageLabel_type *imageLabelUS( image_type *sim, int T, int inv, imageLabel_type *abw );
+	// ImageLabelUS.cpp
+imageLabel_type *imageLabelUS( image_type *sim, int T, int inv, int margin, imageLabel_type *abw );
+
+imageLabel_type *imageLabelUS_N( image_type *sim, int T, int inv, int margin, imageLabel_type *abw );
+
 
 int		imageLabelUS_set_pixel( image_type *sim, imageLabel_type *abw, int value );
 
 void	imageLabelUS_create( image_type *im, bwLabel_type **tbw, int *tnBw );
+
+void	imageLabelUS_value( imageLabel_type *abw, image_type *sim );
+
+int		imageLabelUS_eigen2d( imageLabel_type *abw, int id,  struct eigen2d_type *e );
+
 
 
 
@@ -76,9 +92,11 @@ void	image1_fill_blob( image_type *sim, int nP, int pT, int bT, int value );
 void	image1_fill_blobV( image_type *vim, image_type *sim, int nP, int pT, int bT, int vT, int value );
 
 
-	// ImageLabelContour.cpp
-cln_type *	imageLabelUS_contour( image_type *im, int id );
+	// ImageLabelUIContour.cpp
+cln_type *	imageLabelUI_contour( image_type *im, int id );
 
+	// ImageLabelUSContour.cpp
+cln_type *	imageLabelUS_contour( image_type *im, int id );
 
 #ifdef __cplusplus
 }

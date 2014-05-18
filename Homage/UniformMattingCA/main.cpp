@@ -14,7 +14,6 @@
 #include	"Utime\GpTime.h"
 #include	"Ulog/Log.h"
 
-//#include "Wutil/UWgpw/GpwType.h"	
 
 
 
@@ -53,14 +52,12 @@ static void		read_command_line(int argc, char *argv[],
 									int	*dFrame,
 									char *mFile,
 									char *roiFile,
+									int *flip,
 									int *F, char *inFile, 
 									int *outType, int *frameRate, int *codec, char *outFile );
 
 
 
-image_type *ReadMask( char *inFile, int width, int height );
-
-image_type *	ReadMaskPlnA( char *inFile, int width, int height );
 
 
 
@@ -80,11 +77,11 @@ image_type	*tim,	*sim;
 int	frames,	contour;
 int	i;
 
-gp_time_type	hmiTime;
-int	ret,	dFrame,	frameRate,	codec;
+gp_time_type	hmiTime,	aTime;
+int	ret,	dFrame,	frameRate,	codec,	flip;
 
 
-	read_command_line( argc, argv, &contour, &dFrame, mFile, roiFile, &frames, inFile, &outFormat, &frameRate, &codec, outFile );
+	read_command_line( argc, argv, &contour, &dFrame, mFile, roiFile, &flip, &frames, inFile, &outFormat, &frameRate, &codec, outFile );
 
 
 
@@ -184,33 +181,19 @@ int	ret,	dFrame,	frameRate,	codec;
 	m_mat->SetRoi( &roi );
 
 
-#ifdef _AA_
-	image_type *mim;
-	mim = ReadMask( mFile, videoDecoder->GetWidth(),videoDecoder->GetHeight() );
+	char xmlFile[256];
+	gpFilename_force_extension( mFile, ".xml", xmlFile );
+	m_mat->Init( xmlFile, mFile, videoDecoder->GetWidth(),videoDecoder->GetHeight() );
 
-	
+//	m_mat->ReadMask( mFile, videoDecoder->GetWidth(),videoDecoder->GetHeight() );
 
-	if( mim == NULL ){
-		gpFilename_force_extension( mFile, "-m.bmp", file );
-		mim = image1_read_file( file );
-
-		if( mim == NULL ){
-			mim = image_alloc( videoDecoder->GetWidth(),videoDecoder->GetHeight(), 1, IMAGE_TYPE_U8, 1 );
-			image1_const( mim,  255 );
-			image1_color(mim, 0, 490, 96, 1420-490, 1080-96 );;
-		}
-	
-		IMAGE_DUMP( mim, "mask", 1, NULL );
-	}
-#endif
-
-	m_mat->ReadMask( mFile, videoDecoder->GetWidth(),videoDecoder->GetHeight() );
-
-//	m_mat->SetDframe( 90 );
+	if( flip == 1 )
+		m_mat->SetFlip( 1 );
 
 
 
 	gp_time_init( &hmiTime );
+	gp_time_init( &aTime );
 
 	tim = image_alloc( videoDecoder->GetWidth(),videoDecoder->GetHeight(), 4, IMAGE_TYPE_U8, 1 );
 
@@ -231,7 +214,8 @@ int	ret,	dFrame,	frameRate,	codec;
 		gp_time_start( &hmiTime );
 
 
-
+//		if( flip == 1 )
+//			image_flipV( sim );
 
 #ifdef _AA_
 		if( i < 1 )
@@ -277,15 +261,17 @@ int	ret,	dFrame,	frameRate,	codec;
 		if( outFormat == 2 ){
 			sprintf( file, "%s-%.2d.png", outFile, i );
 			aim = imageA_set_alpha( sim, 255, bim, aim );
+		
+
 			image_write_png_TA( aim, file );
 		}
 
 
 		if( outFormat == 3 ){
-//			aim = imageA_set_alpha( sim, 255, bim, aim );
-//			tim = imageA_final( aim, 0xFFFFFF, tim );
-
-			aim = imageA_set_color( sim, bim, 255, 0xFFFFFF, aim );
+			gpTime_start( &aTime );
+//			aim = imageA_set_color( sim, bim, 255, 0xFFFFFF, aim );
+			aim = imageA_set_colorN( sim, bim, 0xFFFFFF, aim );
+			gpTime_stop( &aTime );
 			tim = image4_from( aim, tim );
 
 		}
@@ -342,8 +328,9 @@ int	ret,	dFrame,	frameRate,	codec;
 
 	GPLOG_CLOSE();
 
+	gpTime_print( stderr, "Alpha", &aTime );
 	gpTime_print( stderr, "total", &hmiTime );
-	fprintf( stderr, "fps: %f\n", hmiTime.no / hmiTime.sec );
+//	fprintf( stderr, "fps: %f\n", hmiTime.no / hmiTime.sec );
 
 
 	return( 1 );
@@ -423,7 +410,7 @@ ReadMaskPlnA( char *inFile, int width, int height )
 
 
 static char *Usage = 
-	"Usage: UniformMattingCA    [-C]  [-D#]  ctrFile   roiFile  [-F#]   inFile  [-bmp/-png/-avi/-avic] [-R#] [-MSVC/-mp4/-indeo] outFile";
+	"Usage: UniformMattingCA    [-C]  [-D#]  ctrFile   roiFile  [-Flip]  [-F#]   inFile  [-bmp/-png/-avi/-avic] [-R#] [-MSVC/-mp4/-indeo] outFile";
 
 
 
@@ -433,6 +420,7 @@ read_command_line(int argc, char *argv[],
 				int	*dFarme,
 				char *mFile,
 				char *roiFile,
+				int *flip,
 				int *F,
 				char *inFile, 
 				int *outType, int *frameRate, int *codec, char *outFile )
@@ -464,6 +452,14 @@ int     k;
 		sprintf( roiFile, "%s", argv[k]);
 		k++;
 	}
+
+
+	*flip = -1;
+	if (k < argc && gp_strnicmp(argv[k], "-Flip", 5 ) == 0  ){
+		*flip = 1;
+		k++;
+	}
+
 
 	*F = -1;
 	if (k < argc && gp_strnicmp(argv[k], "-F", 2) == 0  ){

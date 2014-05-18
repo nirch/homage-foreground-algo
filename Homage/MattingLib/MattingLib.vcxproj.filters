@@ -52,6 +52,9 @@
     <ClCompile Include="UniformBackground\UniformBackground.cpp">
       <Filter>UniformBackground</Filter>
     </ClCompile>
+    <ClCompile Include="UniformBackground\UbPrm.cpp">
+      <Filter>UniformBackground</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Background\BackgroundRemoval.h">

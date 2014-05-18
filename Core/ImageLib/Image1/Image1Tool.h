@@ -44,6 +44,9 @@ image_type *	image1_stretch( image_type *sim, image_type *im );
 
 image_type *	image1_axb( image_type *sim, float a, float b, image_type *im );
 
+image_type *	image1S_axb( image_type *sim, float a, float b, image_type *im );
+
+
 
 // tp = a* (sp -b) + b;
 image_type *	image1_contrast( image_type *sim, float a, float b, image_type *im );
@@ -177,6 +180,9 @@ image_type *	image1_pyramid_up( image_type *im );
 image_type *	image1_gridient_sobol( image_type *sim, image_type *tim );
 
 image_type *	image1_gridient_sobol_value( image_type *sim, image_type *tim );
+
+image_type *	image1M_gridient_sobol_value( image_type *sim, image_type *mim, image_type *im );
+
 
 image_type *	image1_gridient_to_value( image_type *sim, image_type *tim );
 

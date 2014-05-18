@@ -280,9 +280,9 @@ float	sx,	sy;
 	sx = sy = 0;
 
 	tp = im->data_ui;
-	for( i = b->y0, n = 0 ; i < b->y1 ; i++ ){
+	for( i = b->y0, n = 0 ; i <= b->y1 ; i++ ){
 		tp = IMAGE4_PIXEL( im, i, b->x0 );
-		for( j = b->x0 ; j < b->x1 ; j++, tp++ ){
+		for( j = b->x0 ; j <= b->x1 ; j++, tp++ ){
 			if( *tp != id )	continue;
 
 			sx += j;
@@ -311,6 +311,17 @@ float	sx,	sy;
 
 
 	matrix2S_eigen( &m, &e->e1, &e->v1, &e->e2 );
+
+
+	// test 
+	matrix2_type m1,	m2;
+	m1.a00 = e->v1.x;
+	m1.a10 = e->v1.y;
+	m1.a00 = -e->v1.y;
+	m1.a10 = e->v1.x;
+
+	matrix2_mult( &m1, &m, &m2 );
+
 
 	return( 1 );
 
@@ -381,6 +392,59 @@ bwLabel_type *bw;
 		}
 	}
 }
+
+
+
+void
+imageLabelUI_set_box( imageLabel_type *abw )
+{
+	//m_abwC->im, m_abwC->a, m_abwC->nA
+
+	int	i,	j;
+	bwLabel_type *bw;
+
+	for( i = 0 ; i < abw->nA ; i++ )
+		abw->a[i].no = 0;
+
+
+	u_int *sp = abw->im->data_ui;
+	for( i = 0 ; i < abw->im->height ; i++ ){
+		int val = *sp++;
+		int n = 1;
+		int	j0 = 0;
+		for( j = 1 ; j < abw->im->width ; j++, sp++ ){
+		
+			if( *sp == val ){
+				n++;
+				continue;
+			}
+
+
+			bw = &abw->a[val];
+			
+
+
+
+			if( bw->no <= 0 ){
+				bw->b.x0 = j0;
+				bw->b.x1 = j-1;
+				bw->b.y0 = bw->b.y1 = i;
+			}
+			else	{
+				bw->b.y1 = i;
+				if( j0 < bw->b.x0 )	bw->b.x0 = j0;
+				if( j-1 > bw->b.x1 )	bw->b.x1 = j-1;
+			}
+
+			bw->no += n;
+
+			val = *sp;
+			n = 1;
+			j0 = j;
+		}
+	}
+}
+
 
 
 int
