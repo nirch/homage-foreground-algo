@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(UNAME),Windows_NT)
 LOCAL_PATH := $(call  my-dir)
 else
-LOCAL_PATH := $(abspath $(call my-dir)/../ImageLib/)
+LOCAL_PATH := $(abspath $(call my-dir)/../../ImageLib/)
 endif
 
 
@@ -102,10 +102,14 @@ LOCAL_SRC_FILES := 	\
 	./ImageF/ImageFPyramid.c \
 	./ImageF/ImageFResizeBilinear.c \
 	./ImageF/ImageFYCrCb.c \
-	./ImageLabel/Image1Blob.c \
-	./ImageLabel/Image1Label.c \
 	./ImageLabel/Image1LabelInletFilter.c \
-	./ImageLabel/Image2BwLabel.c \
+	./ImageLabel/ImageBlob.cpp \
+	./ImageLabel/ImageLabel.cpp \
+	./ImageLabel/ImageLabelUI.cpp \
+	./ImageLabel/ImageLabelUIContour.cpp \
+	./ImageLabel/ImageLabelUS.cpp \
+	./ImageLabel/ImageLabelUSContour.cpp \
+	./ImageLabel/ImageLabelUSN.cpp \
 	./ImageMark/ImageDraw.c \
 	./ImageMark/ImagePrint.c \
 	./ImageResize/ImageResample.c \

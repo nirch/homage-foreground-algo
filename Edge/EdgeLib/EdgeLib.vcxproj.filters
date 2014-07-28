@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="LineDetector">
+      <UniqueIdentifier>{632e8f61-4c2d-4edd-82e4-b385bacf5383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ridge">
+      <UniqueIdentifier>{e6a06f05-22fd-445d-a53a-58616e34c4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ridge\pRidgePrm">
+      <UniqueIdentifier>{3f5c26e4-8dec-47f0-8de9-2abaec4587e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hunch">
+      <UniqueIdentifier>{e77a0c65-eb76-4a21-b774-2b0074dacbcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Edge">
+      <UniqueIdentifier>{7f85c5a9-86d9-40d8-a19b-5dacdf8ac3af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LineDetector\LineDetector.cpp">
+      <Filter>LineDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="Ridge\pRidgeDetector.cpp">
+      <Filter>Ridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Ridge\pRidgeLinking.cpp">
+      <Filter>Ridge</Filter>
+    </ClCompile>
+    <ClCompile Include="LineDetector\pEdgeLinking.cpp">
+      <Filter>LineDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="LineDetector\pEdgeDetector.cpp">
+      <Filter>LineDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="LineDetector\pEdgeLine.cpp">
+      <Filter>LineDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="Ridge\pRidgeLine.cpp">
+      <Filter>Ridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Ridge\pRidgeEdgeMask.cpp">
+      <Filter>Ridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Ridge\RidgeDetector.cpp">
+      <Filter>Ridge</Filter>
+    </ClCompile>
+    <ClCompile Include="LineDetector\pEdgeDump.cpp">
+      <Filter>LineDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="LineDetector\pEdgePrm.cpp">
+      <Filter>LineDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="LineDetector\LineDetectorDraw.cpp">
+      <Filter>LineDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="LineDetector\pEdgeStatic.cpp">
+      <Filter>LineDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="LineDetector\plEdge.cpp">
+      <Filter>LineDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="Ridge\pRidgePrm\pRidgeDetectPrm.cpp">
+      <Filter>Ridge\pRidgePrm</Filter>
+    </ClCompile>
+    <ClCompile Include="Ridge\pRidgePrm\pRidgeLinePrm.cpp">
+      <Filter>Ridge\pRidgePrm</Filter>
+    </ClCompile>
+    <ClCompile Include="Ridge\pRidgePrm\pRidgePrm.cpp">
+      <Filter>Ridge\pRidgePrm</Filter>
+    </ClCompile>
+    <ClCompile Include="Ridge\plRidge.cpp">
+      <Filter>Ridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Ridge\pRidgeLineN.cpp">
+      <Filter>Ridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Hunch\HunchDetector.cpp">
+      <Filter>Hunch</Filter>
+    </ClCompile>
+    <ClCompile Include="Hunch\HunchDetectorDraw.cpp">
+      <Filter>Hunch</Filter>
+    </ClCompile>
+    <ClCompile Include="Hunch\pHunchDetect.cpp">
+      <Filter>Hunch</Filter>
+    </ClCompile>
+    <ClCompile Include="Hunch\pHunchPrm.cpp">
+      <Filter>Hunch</Filter>
+    </ClCompile>
+    <ClCompile Include="Hunch\pHunchTool.cpp">
+      <Filter>Hunch</Filter>
+    </ClCompile>
+    <ClCompile Include="LineDetector\pEdgeSLine.cpp">
+      <Filter>LineDetector</Filter>
+    </ClCompile>
+    <ClCompile Include="Ridge\plRidgeUnion.cpp">
+      <Filter>Ridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Ridge\pRidgeMask.cpp">
+      <Filter>Ridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Edge\GradCenter.cpp">
+      <Filter>Edge</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LineDetector\LineDetector.h">
+      <Filter>LineDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="LineDetector\pEdgeType.h">
+      <Filter>LineDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="Ridge\PRidgeType.h">
+      <Filter>Ridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Ridge\RidgeDetector.h">
+      <Filter>Ridge</Filter>
+    </ClInclude>
+    <ClInclude Include="LineDetector\plEdgeType.h">
+      <Filter>LineDetector</Filter>
+    </ClInclude>
+    <ClInclude Include="Ridge\pRidgePrm\pRidgePrm.h">
+      <Filter>Ridge\pRidgePrm</Filter>
+    </ClInclude>
+    <ClInclude Include="Ridge\plRidgeType.h">
+      <Filter>Ridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Hunch\HunchDetector.h">
+      <Filter>Hunch</Filter>
+    </ClInclude>
+    <ClInclude Include="Hunch\pHunchType.h">
+      <Filter>Hunch</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge\GradCenter.h">
+      <Filter>Edge</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

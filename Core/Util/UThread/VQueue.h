@@ -37,6 +37,8 @@ public:
 
 	~CVQueue(void);
 
+	int Init( char *dir, char *prefix, int spy = 0 );
+	int Init( char *dir, int id, int spy = 0 );
 
 	int Add( void *data[], int nData );
 
@@ -51,6 +53,16 @@ public:
 
 	int WaitForOut();
 
+	void SetSpy( int spy )	{ m_spy = spy; }
+	int Spy( void *data[], int nData );
+
+	static int Dump( void *data[], int nData, char *prefix, int index, char *suffix  );
+
+	static int Write( void *data[], int nData, char *file  );
+
+	
+	static int Read( void *data[], int *nData, char *file );
+
 
 private:
 	qData_type* CopyData( qData_type *d );
@@ -60,6 +72,9 @@ private:
 	int	m_nQ;
 	qData_type	**m_aq;
 
+	int	m_spy;
+	char	m_dir[256];
+	char	m_prefix[256];
 
 private:
 

@@ -136,6 +136,9 @@
     <Filter Include="Umath\St">
       <UniqueIdentifier>{a508baf9-2954-4e78-98f5-3dc1658d9905}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Umath\Ellipse">
+      <UniqueIdentifier>{24a1630b-8a00-4c68-86aa-8c01e9ebaffe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ubase64\Base64.cpp">
@@ -603,9 +606,6 @@
     <ClCompile Include="Ucamera\Pt2dApproximateLineAxB.c">
       <Filter>Ucamera</Filter>
     </ClCompile>
-    <ClCompile Include="Ucamera\Pt2dApproximateLinePv.c">
-      <Filter>Ucamera</Filter>
-    </ClCompile>
     <ClCompile Include="Ucamera\Pt2dApproximatePolylink.c">
       <Filter>Ucamera</Filter>
     </ClCompile>
@@ -830,6 +830,33 @@
     </ClCompile>
     <ClCompile Include="Umath\St\StTool.c">
       <Filter>Umath\St</Filter>
+    </ClCompile>
+    <ClCompile Include="Uvl\Map2dTool.cpp">
+      <Filter>Uvl</Filter>
+    </ClCompile>
+    <ClCompile Include="UThread\VProcess.cpp">
+      <Filter>UThread</Filter>
+    </ClCompile>
+    <ClCompile Include="Ucamera\Pt2dFTool.cpp">
+      <Filter>Ucamera</Filter>
+    </ClCompile>
+    <ClCompile Include="Uln\PlnApproximate.cpp">
+      <Filter>Uln</Filter>
+    </ClCompile>
+    <ClCompile Include="Uln\PlnSmooth.cpp">
+      <Filter>Uln</Filter>
+    </ClCompile>
+    <ClCompile Include="Umath\Ellipse\Ellipse.cpp">
+      <Filter>Umath\Ellipse</Filter>
+    </ClCompile>
+    <ClCompile Include="Ucamera\Pt2dApproximateLinePv.cpp">
+      <Filter>Ucamera</Filter>
+    </ClCompile>
+    <ClCompile Include="UThread\VThreadPosix.cpp">
+      <Filter>UThread</Filter>
+    </ClCompile>
+    <ClCompile Include="UThread\VSemaphorePosix.cpp">
+      <Filter>UThread</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1126,6 +1153,21 @@
     </ClInclude>
     <ClInclude Include="Umath\St\StType.h">
       <Filter>Umath\St</Filter>
+    </ClInclude>
+    <ClInclude Include="Uvl\Map2dType.h">
+      <Filter>Uvl</Filter>
+    </ClInclude>
+    <ClInclude Include="UThread\VProcess.h">
+      <Filter>UThread</Filter>
+    </ClInclude>
+    <ClInclude Include="Umath\Ellipse\EllipseType.h">
+      <Filter>Umath\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="UThread\VThreadPosix.h">
+      <Filter>UThread</Filter>
+    </ClInclude>
+    <ClInclude Include="UThread\VSemaphorePosix.h">
+      <Filter>UThread</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

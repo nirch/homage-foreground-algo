@@ -4,7 +4,7 @@ UNAME := $(shell uname)
 ifeq ($(UNAME),Windows_NT)
 LOCAL_PATH := $(call  my-dir)
 else
-LOCAL_PATH := $(abspath $(call my-dir)/../Util)
+LOCAL_PATH := $(abspath $(call my-dir)/../../Util)
 endif
 
 include $(CLEAR_VARS)
@@ -20,7 +20,7 @@ LOCAL_SRC_FILES := 	./Ubox/Box2Dump.c \
 	./Ucamera/Pt2dApproximateAb.c \
 	./Ucamera/Pt2dApproximateLine.c \
 	./Ucamera/Pt2dApproximateLineAxB.c \
-	./Ucamera/Pt2dApproximateLinePv.c \
+	./Ucamera/Pt2dApproximateLinePv.cpp \
 	./Ucamera/Pt2dApproximatePolylink.c \
 	./Ucamera/Pt2dApproximatePolynom.c \
  	./Ucamera/Pt2dComponnet.c \
@@ -41,9 +41,10 @@ LOCAL_SRC_FILES := 	./Ubox/Box2Dump.c \
 	./Uigp/GpDump.c \
 	./Uigp/GpMemoryLeak.c \
 	./Uigp/hyputA.c \
+	./Uln/Cln/ClnTool.cpp \
+	./Uln/Cln/ClnWrite.cpp \
 	./Uln/CrPlnTool.c \
 	./Uln/CrPlnToolN.c \
-	./Uln/Dp/DpTool.cpp \
 	./Uln/LnBox.c \
 	./Uln/LnCircle.c \
 	./Uln/LnFromGapp.c \
@@ -52,10 +53,19 @@ LOCAL_SRC_FILES := 	./Ubox/Box2Dump.c \
 	./Uln/LnTool.c \
 	./Uln/LnTool1.c \
 	./Uln/LnWrite.c \
-	./Uln/PlnGroup.c \
-	./Uln/PlnParallel.c \
-	./Uln/PlnTool.c \
-	./Uln/PlnWrite.c \
+	./Uln/PlnApproximate.cpp \
+	./Uln/PlnEigen.cpp \
+	./Uln/PlnFit.cpp \
+	./Uln/PlnFitA.cpp \
+	./Uln/PlnFTool.cpp \
+	./Uln/PlnGroup.cpp \
+	./Uln/PlnParallel.cpp \
+	./Uln/PlnParallelDistance.cpp \
+	./Uln/PlnRead.cpp \
+	./Uln/PlnSide.cpp \
+	./Uln/PlnSmooth.cpp \
+	./Uln/PlnTool.cpp \
+	./Uln/PlnWrite.cpp \
 	./Ulog/Log.c \
 	./Umath/base/MathLinearEquation2.c \
 	./Umath/base/MathLinearEquation3.c \

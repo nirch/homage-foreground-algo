@@ -12,6 +12,7 @@
 extern "C" {
 #endif
 
+#include "Uvl/Vl2fType.h"
 #include "Ucamera/Pt2dType.h"
 
 
@@ -45,6 +46,9 @@ typedef struct pln_type {
 	int	id;
 
 	float	qulity;
+
+
+	struct ellipse_type *e;
 
 } pln_type;
 
@@ -132,6 +136,9 @@ void	pln_trim( pln_type *pl, int direct, float gt );
 
 pln_type *	pln_copy_sub( pln_type *spl, float gt0, float gt1 );
 
+pln_type *pln_copy_subR( pln_type *spl, float gt0, float gt1 );
+
+
 void	pln_appendL( pln_type *pl, vec2f_type *ctr, ln_type *link );
 
 void	pln_append( pln_type *pl, pln_type *pl1 );
@@ -189,10 +196,16 @@ plnA_type *	plnA_copy( plnA_type *apl, int fData, plnA_type *capl );
 
 int	pln_distance( pln_type *pl, vec2f_type *p, dPln_type *d );
 
+int	pln_distance_pln( pln_type *bpl, pln_type *pl, dPln_type *md );
+
+
 void	pln_box( pln_type *pl, box2f_type *box );
 
 
 plnA_type *		plnA_alloc( int n );
+
+plnA_type *		plnA_realloc( plnA_type *apl, int n );
+
 
 void	plnA_destroy( plnA_type *apl );
 
@@ -224,6 +237,9 @@ void	plnA_scale( plnA_type *aP, float scale );
 void	pln_sample( pln_type *pl, float t0, float r, int n, int direct, pt2dA_type *apt );
 
 void	pln_sampleN( pln_type *pl, float D, float r, pt2dA_type *apt );
+
+pt2dA_type * pln_sampleP( pln_type *pl, float gt0, float gt1, float dt, pt2dA_type *apt );
+
 
 
 pln_type *	pln_split( pln_type *spl, float gt, float dt );
@@ -286,6 +302,8 @@ int	pln_parallel_distance(  pln_type *bpl, pln_type *pl, float dt, float aT, flo
 
 float	pln_straightline_measure( pln_type *pl, float gt, float dt, int n );
 
+int		pln_straightline( pln_type *pl, float gt0, float gt1, float dt, vl2f_type *vl );
+
 
 
 void	pPln_reorder( pPln_type a[], int n );
@@ -323,17 +341,22 @@ void	pln_close( pln_type *pl, float T );
 
 
 typedef struct lnFit_type {
+	float gt;
 	lt2_type	lt;
 
 	float	dis;
 	float cover;
+
 } lnFit_type;
 
 
 	// PlnFit.cpp
-int	pln_fit( pln_type *pl, pln_type *bpl0, float gt0, float gt1, int cycle, lnFit_type *f );
+int	pln_fit( pln_type *pl, pln_type *bpl0, float gt0, float gt1, int fside, int cycle, lnFit_type *f );
 
-int	pln_fit_step( pln_type *pl, pln_type *bpl, float gt0, float gt1, lt2_type *lt );
+int	pln_fit_local( pln_type *pl, pln_type *bpl, float gt, float dt, int side, int cycle, lnFit_type *f );
+
+
+int	pln_fit_step( pln_type *pl, pln_type *bpl, float gt0, float gt1, int fside, lt2_type *lt );
 
 
 int	pln_fit_compare( pln_type *pl, pln_type *bpl, float gt0, float gt1, float dT, float *cover, float *dis );
@@ -358,6 +381,12 @@ pt2dGroupA_type *	pt2dGroupA_set_pln( pt2dGroupA_type *ag, plnA_type *apl );
 float	plnA_parallel_distance(  plnA_type *apl, float r0, float r1 );
 
 float	plnA_parallel_distanceH(  plnA_type *apl, float r0, float r1 );
+
+
+	// PlnApproximate.cpp
+int	pln_approximateA( pt2dA_type *apt, int fClose, pln_type **pl );
+
+int	pln_approximate( gapp_type *gapp, int fClose, pln_type **pl );
 
 
 	// lnFromGapp.c
@@ -386,6 +415,12 @@ int		pln_inside( pln_type *p, pln_type *p2 );
 int		pln_point_side( pln_type *pl, vec2d *p );
 
 
+	// PlnSmooth.cpp
+int		plnA_smooth( plnA_type *apl );
+
+pln_type *	pln_smooth( pln_type *pl );
+
+
 
 	// PlnVTool.cpp
 plnF_type *		plnF_alloc( int n );
@@ -401,6 +436,7 @@ void	plnF_clear( plnF_type *vpl, int iFrame );
 #ifdef _DUMP
 #define PLNA_DUMP( apl, name, index, ext )  plnA_dump( apl, name, index, ext )
 #define PLN_DUMP( pl, name, index, ext )  pln_dump( pl, name, index, ext )
+#define PLNA_DUMPF( apl, name, index, ext, flag )  if( flag )	plnA_dump( apl, name, index, ext )
 
 #else
 #define PLNA_DUMP( apl, name, index, ext )

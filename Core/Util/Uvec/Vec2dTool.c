@@ -233,6 +233,8 @@ int	i;
 }
 
 
+
+
 void
 vec2fA_approximate_line( vec2fA_type *av, vec2f_type *ctr, vec2f_type *v, float *len )
 {

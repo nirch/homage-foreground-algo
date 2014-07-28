@@ -18,7 +18,7 @@ extern "C" {
 
 
 
-#define		MAX_PLN		32
+#define		MAX_PLN		64
 
 
 typedef struct cln_type {
@@ -40,10 +40,10 @@ typedef struct cln_type {
 
 
 typedef struct clnA_type {
-	int	nC;
-	int	NC;
+	int	nA;
+	int	NA;
 
-	cln_type	**c;
+	cln_type	**a;
 
 } clnA_type;
 
@@ -52,6 +52,12 @@ typedef struct clnA_type {
 cln_type *	cln_alloc();
 
 void	cln_destroy( cln_type *c );
+
+
+clnA_type *	clnA_alloc( int n );
+
+void	clnA_destroy( clnA_type *ac );
+
 
 
 void	cln_set_ctr( cln_type *c );
@@ -76,6 +82,8 @@ cln_type *	cln_make_copyS( cln_type *sc, int state );
 
 cln_type *	cln_detach_plink( cln_type *sc, int iPlink );
 
+
+cln_type *	cln_lt2( cln_type *sc, lt2_type *lt, cln_type *c );
 
 
 void	cln_affine( cln_type *c, float a, float b, float s, float t );

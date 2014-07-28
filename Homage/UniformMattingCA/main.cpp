@@ -39,7 +39,7 @@
 
 
 
-#include "ImageCodec\ImageRead.h"
+
 
 
 #include "MattingLib/UniformBackground/UniformBackground.h"
@@ -50,8 +50,9 @@
 static void		read_command_line(int argc, char *argv[],
 									int *contour,
 									int	*dFrame,
+									char *prmFile,
 									char *mFile,
-									char *roiFile,
+									char *bFile,
 									int *flip,
 									int *F, char *inFile, 
 									int *outType, int *frameRate, int *codec, char *outFile );
@@ -71,7 +72,7 @@ int	WriteEndFile_delete( char *outFile );
 int
 main( int argc, char **argv )
 {
-char	inFile[256],	outFile[256],	mFile[256],	roiFile[256], file[256];
+char	inFile[256],	outFile[256],	mFile[256],	file[256],	xmlFile[256],	bFile[256];
 int		outFormat;
 image_type	*tim,	*sim;
 int	frames,	contour;
@@ -81,12 +82,12 @@ gp_time_type	hmiTime,	aTime;
 int	ret,	dFrame,	frameRate,	codec,	flip;
 
 
-	read_command_line( argc, argv, &contour, &dFrame, mFile, roiFile, &flip, &frames, inFile, &outFormat, &frameRate, &codec, outFile );
+	read_command_line( argc, argv, &contour, &dFrame, xmlFile, mFile, bFile, &flip, &frames, inFile, &outFormat, &frameRate, &codec, outFile );
 
 
 
 
-	image_dump_set_dir( "_dump" );
+//	image_dump_set_dir( "_dump" );
 
 	gpDump_set_dir( "_dump" );
 
@@ -98,9 +99,21 @@ int	ret,	dFrame,	frameRate,	codec,	flip;
 	gpDir_force_exist( dir );
 
 //	sprintf( file, "%s\\log.txt", "_dump" );
-	gp_filename_force_extension( outFile, ".txt" );
-	GPLOG_OPEN( outFile );
+	gpFilename_force_extension( outFile, ".log", file );
+	GPLOG_OPEN( file );
 
+
+	gp_filename_force_extension( outFile, ".txt" );
+
+
+	image_type *gim = NULL;
+
+	if(  bFile[0] != 0 ){
+		if( ( gim = image3_read_file( bFile ) ) == NULL )
+			gpError( "UniformMattingCA", "Open  %s  failed", bFile  );
+
+		outFormat = 5;
+	}
 
 	
 
@@ -168,21 +181,13 @@ int	ret,	dFrame,	frameRate,	codec,	flip;
 
 
 	box2i_type roi;
-	if( box2i_read_from_file( roiFile, &roi, NULL ) < 0 ){
-		BOX2D_SET(roi, 0, 0, width, height );
-//		gpError( "FaceTrackingAvi", "Reading  %s  failed", roiFile  );
-	}
-
-	if( roi.x0 < 0 || roi.y0 < 0 || roi.x1 > videoDecoder->GetWidth() || roi.y1 > videoDecoder->GetHeight() ){
-		gpWarning( "FaceTrackingAvi", "ROI out of range" );
-		box2i_crop( &roi, 0, 0, width, height );
-	}
-
+	box2i_crop( &roi, 0, 0, width, height );
 	m_mat->SetRoi( &roi );
 
 
-	char xmlFile[256];
-	gpFilename_force_extension( mFile, ".xml", xmlFile );
+	if( gp_stricmp( xmlFile, "none" ) == 0 )
+		gpFilename_force_extension( mFile, ".xml", xmlFile );
+
 	m_mat->Init( xmlFile, mFile, videoDecoder->GetWidth(),videoDecoder->GetHeight() );
 
 //	m_mat->ReadMask( mFile, videoDecoder->GetWidth(),videoDecoder->GetHeight() );
@@ -214,16 +219,9 @@ int	ret,	dFrame,	frameRate,	codec,	flip;
 		gp_time_start( &hmiTime );
 
 
-//		if( flip == 1 )
-//			image_flipV( sim );
-
-#ifdef _AA_
-		if( i < 1 )
-			m_mat->ProcessHistogram( sim, mim );
-#endif
-
 		
 		ret = m_mat->Process( sim, i, &bim );
+
 
 		if( ret < 0 ){
 			WriteEndFile( "Failed\nEXCEPTION", outFile );
@@ -237,58 +235,53 @@ int	ret,	dFrame,	frameRate,	codec,	flip;
 
 
 
-
-
-//		m_mat->GetSilhouette( &bim );
-
+		tim = image4_from( bim, tim );
 
 
 
-		if( ret > 0 )
-			tim = image4_from( bim, tim );
-
-		else
-			tim = image4_from( sim, tim );
-
-
-
-		if( outFormat == 1 ){
+		switch( outFormat ){
+		case 1:
 			sprintf( file, "%s-%.2d.bmp", outFile, i );
 			image_write_bmp( bim, file );
-		}
+
+			break;
 
 
-		if( outFormat == 2 ){
+		case 2:
 			sprintf( file, "%s-%.2d.png", outFile, i );
 			aim = imageA_set_alpha( sim, 255, bim, aim );
 		
-
 			image_write_png_TA( aim, file );
-		}
+			break;
 
 
-		if( outFormat == 3 ){
-			gpTime_start( &aTime );
-//			aim = imageA_set_color( sim, bim, 255, 0xFFFFFF, aim );
-			aim = imageA_set_colorN( sim, bim, 0xFFFFFF, aim );
-			gpTime_stop( &aTime );
+		case 3:		
+			aim = m_mat->GetImage( 0xFFFFFF, aim );
+			
 			tim = image4_from( aim, tim );
+			break;
 
+		case 4:		
+			aim = m_mat->GetImage( 0x02FE05, aim );
+			tim = image4_from( aim, tim );
+			break;
+
+		case 5:		
+	
+			aim = m_mat->GetImage( gim, aim );
+			tim = image4_from( aim, tim );
+			break;
+		
+
+		default:
+			break;
 		}
 
-		if( outFormat == 4 ){
-			aim = imageA_set_alpha( sim, 255, bim, aim );
-			tim = imageA_finalB( aim, 0x02FE05, tim );
-		}
-
-
+			
 		if( tim != NULL )
 			videoStream->WriteFrame( tim, 0 );
 
 
-
-//		sprintf( file, "%s-%.3d.pl", outFile, i );
-//		m_mat->WriteContour( file );
 
 		fprintf( stderr, " ." );
 		GPLOG( ("\n") );
@@ -361,65 +354,23 @@ WriteEndFile_delete( char *outFile )
 }
 
 
-#ifdef _AA_
-image_type *
-ReadMask( char *inFile, int width, int height )
-{
-image_type *im;
-
-
-	contourA_type *ac;
-	if( contourA_read_from_file( inFile, &ac ) < 0 )
-		return( NULL );
-//		gpError( "ReadMask", "Read %s failed", inFile );
-
-
-
-	im = contourA_image_mask(  ac, width, height, NULL );
-
-	IMAGE_DUMP( im, "mask", 2, NULL );
-
-	return( im );
-}
-
-
-image_type *
-ReadMaskPlnA( char *inFile, int width, int height )
-{
-	image_type *im;
-
-
-	plnA_type *apl;
-	if( plnA_read( inFile, &apl ) < 0 )
-		return( NULL );
-	
-
-
-//	im = image1_mask_plnA(  apl, width, height, NULL );
-	im = image1_mask_pln(  apl->a[0], width, height, NULL );
-
-
-	IMAGE_DUMP( im, "mask", 2, "pln" );
-
-	return( im );
-}
-#endif
 
 
 
 
 
 static char *Usage = 
-	"Usage: UniformMattingCA    [-C]  [-D#]  ctrFile   roiFile  [-Flip]  [-F#]   inFile  [-bmp/-png/-avi/-avic] [-R#] [-MSVC/-mp4/-indeo] outFile";
+	"Usage: UniformMattingCA    [-C/-CA]  [-D#]  prmFile  ctrFile [-B#]   [-Flip]  [-F#]   inFile  [-bmp/-png/-avi/-avic] [-R#] [-MSVC/-mp4/-indeo] outFile";
 
 
 
 static void	
 read_command_line(int argc, char *argv[],
-	int *contour,
+				int *contour,
 				int	*dFarme,
+				char *prmFile,
 				char *mFile,
-				char *roiFile,
+				char *bFile,
 				int *flip,
 				int *F,
 				char *inFile, 
@@ -430,7 +381,12 @@ int     k;
 	k = 1;
 
 	*contour = 0;
-	if (k < argc && gp_strnicmp(argv[k], "-c", 2) == 0  ){
+	if (k < argc && gp_strnicmp(argv[k], "-CA", 3) == 0  ){
+		*contour = 2;
+		k++;
+	}
+
+	if (k < argc && gp_strnicmp(argv[k], "-C", 2) == 0  ){
 		*contour = 1;
 		k++;
 	}
@@ -442,16 +398,24 @@ int     k;
 		k++;
 	}
 
+	if (k < argc) {
+		sprintf( prmFile, "%s", argv[k]);
+		k++;
+	}
+
 
 	if (k < argc) {
 		sprintf( mFile, "%s", argv[k]);
 		k++;
 	}
 
-	if (k < argc) {
-		sprintf( roiFile, "%s", argv[k]);
+
+	bFile[0] = 0;
+	if (k < argc && gp_strnicmp(argv[k], "-B", 2) == 0  ){
+		sscanf( argv[k]+2, "%s", bFile );
 		k++;
 	}
+
 
 
 	*flip = -1;
@@ -482,6 +446,7 @@ int     k;
 	if (k < argc && gp_strnicmp(argv[k], "-bmp", 4) == 0  ){
 		*outType = 1;
 		k++;
+
 	}
 
 	if (k < argc && gp_strnicmp(argv[k], "-png", 4) == 0  ){
@@ -494,6 +459,10 @@ int     k;
 		k++;
 	}
 
+	if (k < argc && gp_strnicmp(argv[k], "-avig", 5) == 0  ){
+		*outType = 5;
+		k++;
+	}
 
 
 	if (k < argc && gp_strnicmp(argv[k], "-avi", 4) == 0  ){

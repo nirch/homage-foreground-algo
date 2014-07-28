@@ -13,6 +13,7 @@
 
 #include "Uvl/Vl2fType.h"
 #include "Uln/PlnType.h"
+#include "Umath/Ellipse/EllipseType.h"
 
 
 pln_type *
@@ -34,6 +35,7 @@ pln_alloc( int no )
 		pl->link = lnL_alloc( no );
 
 
+	pl->e = NULL;
 //	pl->type = 0;
 //	pl->data = NULL;
 
@@ -65,6 +67,8 @@ pln_destroy( pln_type *pl )
 	if( pl->link != NULL )
 		lnL_destroy( pl->link );
 
+	if( pl->e != NULL )
+		free( pl->e );
 
 //	if( pl->data = NULL )
 //		free( pl->data );
@@ -120,6 +124,27 @@ plnA_type	*apl;
 
 
 	GPMEMORY_LEAK_ALLOC( apl );
+
+	return( apl );
+}
+
+
+plnA_type *	
+plnA_realloc( plnA_type *apl, int n )
+{
+	if( apl == NULL ){
+		apl = plnA_alloc( n );
+		return( apl );
+	}
+
+
+	if( apl->NA > n )
+		return( apl );
+	
+	
+	apl->NA = n;
+	apl->a = ( pln_type **)realloc( apl->a, apl->NA * sizeof( pln_type*) );
+	
 
 	return( apl );
 }
@@ -617,9 +642,44 @@ pln_type	*pl;
 
 	pl->len = lnL_length( pl->link );
 
+	pl->state = PLN_OPEN;
+
 	return( pl );
 }
 
+
+pln_type *
+pln_copy_subR( pln_type *spl, float gt0, float gt1 )
+{
+pln_type	*pl;
+ln_type *l;
+float gt;
+
+	pl = pln_alloc(0);
+
+	if( gt0 < 0 )	gt0 = 0;
+	if( gt1 > spl->len )	gt1 = spl->len;
+
+	for( l = spl->link, pl->ctr = spl->ctr, gt = 0 ; l != NULL && gt + l->len <= gt0 ; l = LN_NEXT(l) ){
+		gt += l->len;
+		pl->ctr.x += l->v.x;
+		pl->ctr.y += l->v.y;
+	}
+ 
+	pl->link = l;
+
+	for( ; l != NULL && gt < gt1 ; l = LN_NEXT(l) )
+		gt += l->len;
+
+
+
+	pl->link = lnL_copy( pl->link, l );
+
+
+	pl->len = lnL_length( pl->link );
+
+	return( pl );
+}
 
 
 void
@@ -718,12 +778,47 @@ pln_distance( pln_type *pl, vec2f_type *p, dPln_type *d )
 
 
 int
+pln_distance_pln( pln_type *bpl, pln_type *pl, dPln_type *md )
+{
+	float gt,	dt;
+	vec2f_type p;
+	dt = 2.0;
+
+	dPln_type d;
+
+	md->sgt = -1;
+
+	for( gt = 0 ; gt < pl->len ; gt += dt ){
+
+		pln_gt2p( pl, gt, &p );
+
+		if( pln_distance( bpl, &p, &d ) < 0 )
+			continue;
+
+		if( d.gt < 0 || d.gt > bpl->len )
+			continue;
+
+		if( md->sgt < 0  || ABS(d.u) < ABS(md->u) ){
+			*md = d;
+			md->sgt = gt;
+		}
+	}
+
+	if( md->sgt < 0 )
+		return( -1 );
+
+	return( 1 );
+}
+
+
+int
 plnA_distance( plnA_type *apl, vec2f_type *p, float D, pln_type **spl, dPln_type *sd )
 {
 	dPln_type d;
-	int i;
+	int i,	iMin;
 
 	*spl = NULL;
+	iMin = -1;
 
 	sd->u = D;
 	for( i = 0 ; i < apl->nA ; i++ ){
@@ -737,13 +832,14 @@ plnA_distance( plnA_type *apl, vec2f_type *p, float D, pln_type **spl, dPln_type
 		if( ABS(d.u) < ABS(sd->u) ){
 			*spl = pl;
 			*sd = d;
+			iMin = i;
 		}
 	}
 
 	if( *spl == NULL )
 		return( -1 );
 
-	return( 1 );
+	return( iMin );
 }
 
 void
@@ -865,8 +961,49 @@ float	n;
 		pt->n.y = 0;
 
 		pt->r = r;
+		pt->f = t;
+		pt->id = 0;
 	}
 }
+
+
+pt2dA_type *
+pln_sampleP( pln_type *pl, float gt0, float gt1, float dt, pt2dA_type *apt )
+{
+	pt2d_type	*pt;
+	vec2f_type	p;
+	float	t;
+	float	n;
+
+	if( gt0 < 0 )	gt0 = 0;
+	if( gt1 < 0 || gt1 > pl->len )	gt1 = pl->len;
+
+
+	n = pl->len / dt + 2;
+
+	apt = pt2dA_realloc( apt, n );
+	apt->nA = 0;
+
+	for( t = gt0 ; t < gt1 ; t += dt ){
+
+		pln_gt2p( pl, t, &p );
+
+		pt = &apt->p[apt->nP++];
+		pt->p.x = p.y;
+		pt->p.y = p.x;
+
+		pt->n.x = 1;
+		pt->n.y = 0;
+
+		pt->r = 1.0;
+		pt->f = t;
+		pt->id = 0;
+	}
+
+	return( apt );
+}
+
+
 
 
 
@@ -1139,8 +1276,10 @@ plnA_copy( plnA_type *apl, int fData, plnA_type *capl )
 	int	i;
 
 
-	if( capl == NULL )
-		capl = plnA_alloc( apl->nA );
+//	if( capl == NULL )
+//		capl = plnA_alloc( apl->nA );
+	capl = plnA_realloc( capl, apl->nA );
+
 
 	plnA_clear( capl );
 

@@ -78,6 +78,9 @@ void	image2_bwLabel_set_aux( image_type *im, bwLabel_type *aBw, int nBw );
 
 void	imageLabelUS_set_box( imageLabel_type *abw );
 
+void	imageLabelUS_set_mass( imageLabel_type *abw );
+
+
 
 void	image2_bwLabel_set_direction( image_type *im, bwLabel_type *bw, int nBw );
 

@@ -279,3 +279,18 @@ int	i;
 
 	free( aim );
 }
+
+void
+imageA_clear( imageA_type *aim )
+{
+int	i;
+
+	for( i = 0 ; i  < aim->nA ; i++ ){
+		if( aim->a[i] != NULL ){
+			image_destroy( aim->a[i], 1 );
+			aim->a[i] = 0;
+		}
+	}
+
+	aim->nA = 0;
+}

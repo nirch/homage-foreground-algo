@@ -84,6 +84,7 @@ void			imageF_normal( image_type *im );
 
 image_type *	imageF_binary( image_type *sim, int T, image_type *im );
 
+image_type *	imageF_levelR( image_type *sim, float min, float max, image_type *im );
 
 
 
@@ -243,6 +244,7 @@ image_type *	imageF2_resize_bilinear( image_type *sim, float scale, image_type *
 
 	// Image1Level.c
 //image_type *	imageFM_level( image_type *sim, image_type *mim, float hp, int nRange, float range[], image_type *im );
+image_type *	imageF_level( image_type *sim, float m0, float m1, float range[], int nRange, image_type *im );
 
 
 	// ImageFMedian.c

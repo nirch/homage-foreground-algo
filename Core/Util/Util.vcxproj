@@ -273,6 +273,8 @@
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
+    <ClCompile Include="Ucamera\Pt2dApproximateLinePv.cpp" />
+    <ClCompile Include="Ucamera\Pt2dFTool.cpp" />
     <ClCompile Include="Ucfg\CfgParser.c">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -762,6 +764,7 @@
     <ClCompile Include="Uln\Cln\ClnTool.cpp" />
     <ClCompile Include="Uln\Cln\ClnWrite.cpp" />
     <ClCompile Include="Uln\CrPlnToolN.c" />
+    <ClCompile Include="Uln\PlnApproximate.cpp" />
     <ClCompile Include="Uln\PlnEigen.cpp" />
     <ClCompile Include="Uln\PlnFit.cpp" />
     <ClCompile Include="Uln\PlnFitA.cpp" />
@@ -771,6 +774,7 @@
     <ClCompile Include="Uln\PlnParallelDistance.cpp" />
     <ClCompile Include="Uln\PlnRead.cpp" />
     <ClCompile Include="Uln\PlnSide.cpp" />
+    <ClCompile Include="Uln\PlnSmooth.cpp" />
     <ClCompile Include="Uln\PlnTool.cpp" />
     <ClCompile Include="Uln\PlnWrite.cpp" />
     <ClCompile Include="Ulog\LogFile.cpp" />
@@ -823,6 +827,7 @@
     <ClCompile Include="Umath\base\MathMatrixInvese6.c" />
     <ClCompile Include="Umath\Blt\Blt.cpp" />
     <ClCompile Include="Umath\Eigen2dTool.c" />
+    <ClCompile Include="Umath\Ellipse\Ellipse.cpp" />
     <ClCompile Include="Umath\MatrixSvd.c" />
     <ClCompile Include="Umath\Plane\Plane3d.cpp" />
     <ClCompile Include="Umath\Sl\SlTool.c" />
@@ -1065,7 +1070,18 @@
     <ClCompile Include="UThread\VExcute.cpp" />
     <ClCompile Include="UThread\VLogger.cpp" />
     <ClCompile Include="UThread\VPipeTask.cpp" />
+    <ClCompile Include="UThread\VProcess.cpp" />
     <ClCompile Include="UThread\VQueue.cpp" />
+    <ClCompile Include="UThread\VSemaphorePosix.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="UThread\VThreadPosix.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Utime\GpTime.c" />
     <ClCompile Include="Uunity\unity.c">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -1321,6 +1337,7 @@
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <ClCompile Include="Uvl\IntTool.cpp" />
+    <ClCompile Include="Uvl\Map2dTool.cpp" />
     <ClCompile Include="Uvl\TfMean.cpp" />
     <ClCompile Include="Uvl\TfTool.cpp" />
     <ClCompile Include="Uvl\Vl2fTool.c" />
@@ -1535,7 +1552,6 @@
     <ClCompile Include="Ucamera\Pt2dApproximateAb.c" />
     <ClCompile Include="Ucamera\Pt2dApproximateLine.c" />
     <ClCompile Include="Ucamera\Pt2dApproximateLineAxB.c" />
-    <ClCompile Include="Ucamera\Pt2dApproximateLinePv.c" />
     <ClCompile Include="Ucamera\Pt2dApproximatePolylink.c" />
     <ClCompile Include="Ucamera\Pt2dApproximatePolynom.c" />
     <ClCompile Include="Ucamera\Pt2dComponnet.c" />
@@ -1636,6 +1652,7 @@
     <ClInclude Include="Ulz\lz.h" />
     <ClInclude Include="Umath\Blt\BltType.h" />
     <ClInclude Include="Umath\EigenType.h" />
+    <ClInclude Include="Umath\Ellipse\EllipseType.h" />
     <ClInclude Include="Umath\Plane\Plane3d.h" />
     <ClInclude Include="Umath\Sl\pLineType.h" />
     <ClInclude Include="Umath\St\StType.h" />
@@ -1662,7 +1679,18 @@
     <ClInclude Include="UThread\VExcute.h" />
     <ClInclude Include="UThread\VLogger.h" />
     <ClInclude Include="UThread\VPipeTask.h" />
+    <ClInclude Include="UThread\VProcess.h" />
     <ClInclude Include="UThread\VQueue.h" />
+    <ClInclude Include="UThread\VSemaphorePosix.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="UThread\VThreadPosix.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="Utime\GpTime.h" />
     <ClInclude Include="Uunity\unity.h" />
     <ClInclude Include="Uvec\BitVector.h" />
@@ -1670,6 +1698,7 @@
     <ClInclude Include="Uvec\Vec3d.h" />
     <ClInclude Include="Uview\ViewType.h" />
     <ClInclude Include="Uvl\IntType.h" />
+    <ClInclude Include="Uvl\Map2dType.h" />
     <ClInclude Include="Uvl\TfType.h" />
     <ClInclude Include="Uvl\Vl2fType.h" />
     <ClInclude Include="Uvl\Vl3dType.h" />

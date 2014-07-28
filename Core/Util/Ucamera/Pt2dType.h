@@ -20,6 +20,7 @@ extern "C" {
 
 #include "UPoly/Poly1d4Type.h"
 
+#define	PT2D_VERSION	1
 
 #define	PT2D_2		0
 
@@ -30,6 +31,8 @@ extern "C" {
 
 #define PT2D_AXIS_XY	0		// NORMAL
 #define PT2D_AXIS_YX	1		// VIM
+
+
 
 
 	// p2d	-  2d point
@@ -78,6 +81,8 @@ typedef struct pt2dA_type {
 
 	box2f_type	box;
 
+	int iFrame;
+
 
 	struct pt2dG_type	*gpt;
 
@@ -88,6 +93,16 @@ typedef struct pt2dA_type {
 
 } pt2dA_type;
 
+
+typedef struct pt2dF_type {
+
+	int	NA;
+
+	int	nA;
+
+	pt2dA_type	**a;
+
+} pt2dF_type;
 
 
 typedef struct pt2dG_type {
@@ -101,6 +116,9 @@ typedef struct pt2dG_type {
 	pt2d_type	**p;
 
 } pt2dG_type;
+
+
+
 
 
 
@@ -119,8 +137,12 @@ int	pt2dA_write_to_file( pt2dA_type *av, char *file );
 
 int	pt2dA_read_from_file( pt2dA_type **av, char *file );
 
+int	pt2dA_write_to_file_V( vec2f_type p[], int nP, char *file );
 
-void	pt2dA_dump( pt2dA_type *apt, char *prefix, int index, char *suffix );
+
+
+
+
 
 pt2dA_type *	pt2dA_copy( pt2dA_type *apt, pt2dA_type *capt );
 
@@ -141,7 +163,12 @@ void	pt2dA_set_default_group( pt2dA_type *apt );
 
 int		pt2dA_select( pt2dA_type *apt, vec2f_type *p, float dis );
 
+int		pt2dA_distance( pt2dA_type *apt, int ignore, vec2d *p, float *dis );
+
+
 int		pt2dA_neighbor ( pt2dA_type *apt, vec2f_type *p, float D );
+
+void	pt2dA_remove( pt2dA_type *apt, int k );
 
 int		pt2dA_neighbor_remove( pt2dA_type *apt, vec2f_type *p, float D );
 
@@ -237,6 +264,7 @@ float	pt2d_approximate_line_pv_test( pt2dA_type *apt, int i0, int i1, vec2f_type
 
 int		pt2d_approximate_line_pv_split( pt2dA_type *apt, int i0, int i1, vec2f_type *p, vec2f_type *v, float *m, float *sm );
 
+int		pt2dA_ellipse( pt2dA_type *apt, int i0, int i1, struct ellipse_type *e );
 
 
 	//Pt2dApproximateLink.c
@@ -343,13 +371,33 @@ int		pt2dG_reset( pt2dA_type *apt );
 pt2dA_type *	pt2dG_copy_neighbor( pt2dA_type *apt, vec2d *p, float D, pt2dA_type *capt );
 
 
+	// Pt2dFtool.cpp
+pt2dF_type *	pt2dF_alloc( int n );
+
+void	pt2dF_destroy( pt2dF_type *vpl );
+
+void	pt2dF_add( pt2dF_type *vpl, pt2dA_type *apl, int iFrame );
+
+void	pt2dF_clear( pt2dF_type *vpl, int iFrame );
+
+int	pt2dF_read( pt2dF_type **fpt, char *file );
+
+FILE *	pt2dF_write_open( char *file );
+
+int	pt2dF_write_header( FILE *fp );
+
+void	pt2dA_dump( pt2dA_type *apt, char *prefix, int index, char *suffix );
+
+void	pt2dA_dump_V( vec2f_type av[], int nV, char *prefix, int index, char *suffix );
+
 
 #ifdef _DUMP
 #define PT2DA_DUMP( apt, name, index, ext )  pt2dA_dump( apt, name, index, ext )
+#define PT2DA_DUMP_V( av, nV, name, index, ext )  pt2dA_dump_V( av, nV, name, index, ext )
 
 #else
 #define PT2DA_DUMP( apt, name, index, ext )
-
+#define PT2DA_DUMP_V( av, nV, name, index, ext )
 #endif
 
 

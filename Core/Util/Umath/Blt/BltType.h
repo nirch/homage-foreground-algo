@@ -38,7 +38,7 @@ void	blt_test( blt_type *bl, box2f_type *b, vec2f_type *v0, vec2f_type *v1, vec2
 void	blt_write( blt_type *bl, FILE *fp);
 
 
-int	blt_inverse( blt_type *bl, vec2d_type *v, double d );
+int	blt_inverse( blt_type *bl, vec2d_type *v, double d, vec2d_type *iv );
 
 
 

@@ -36,7 +36,7 @@ imageLabel_inlet_filter( image_type *sim, int n )
 
 
 	aI = (int * )malloc( nBw*sizeof(int) );
-	bwLabel_order(aBw, nBw, aI, &nI );
+	bwLabel_order(aBw, nBw, nBw, aI, &nI );
 
 
 	for( i = 0 ; i < nI ; i++ ){

@@ -161,6 +161,7 @@ float	desc,	t;
 	v1->x /= t;
 	v1->y /= t;
 
+
 	return( 1 );
 }
 
@@ -193,6 +194,26 @@ matrix2_eigen( matrix2_type *m, double *e1, vec2d_type *v1, double *e2, vec2d_ty
 	v2->y = v1->x;
 
 	return( 1 );
+}
+
+
+void
+matrix2S_eigen_inv( matrix2_type *m, float e1, vec2f_type *v1, float e2 )
+{
+
+	matrix2_type m1,	m2,	im1,	m3;
+
+	m1.a00 = e1 * v1->x;
+	m1.a10 = e1 * v1->y;
+
+	m1.a01 = e2 * -v1->y;
+	m1.a11 = e2 * v1->x;
+
+	m2.a00 = v1->x;
+	m2.a01 = v1->y;
+	m2.a10 = -v1->y;
+	m2.a11 = v1->x;
+	matrix2_mult( &m1, &m2, m );
 }
 
 

@@ -11508,7 +11508,7 @@
 				>
 			</File>
 			<File
-				RelativePath=".\Ucamera\Pt2dApproximateLinePv.c"
+				RelativePath=".\Ucamera\Pt2dApproximateLinePv.cpp"
 				>
 			</File>
 			<File
@@ -11533,6 +11533,10 @@
 			</File>
 			<File
 				RelativePath=".\Ucamera\Pt2dDensity.c"
+				>
+			</File>
+			<File
+				RelativePath=".\Ucamera\Pt2dFTool.cpp"
 				>
 			</File>
 			<File
@@ -11780,6 +11784,22 @@
 				</File>
 				<File
 					RelativePath=".\Uln\Dp\DpType.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="Cln"
+				>
+				<File
+					RelativePath=".\Uln\Cln\ClnTool.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\Uln\Cln\ClnType.h"
+					>
+				</File>
+				<File
+					RelativePath=".\Uln\Cln\ClnWrite.cpp"
 					>
 				</File>
 			</Filter>
@@ -12069,9 +12089,25 @@
 			<File
 				RelativePath=".\UThread\VMouseEvent.cpp"
 				>
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+					/>
+				</FileConfiguration>
 			</File>
 			<File
 				RelativePath=".\UThread\VMouseEvent.h"
+				>
+			</File>
+			<File
+				RelativePath=".\UThread\VProcess.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\UThread\VProcess.h"
 				>
 			</File>
 			<File

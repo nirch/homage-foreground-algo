@@ -48,9 +48,11 @@ void			image3_VHflip( image_type *im );
 
 image_type *	image3_sample2( image_type *sim, image_type *im );
 
-//void			image3_copy_in( image_type *sim, image_type *im, int x0, int y0 );
 
 image_type *	image3_rotate90( image_type *sim, image_type *im );
+
+image_type *	image3_rotate180( image_type *sim, image_type *im );
+
 
 image_type *	image3_maskT( image_type *sim, image_type *mim, int T0, int T1, image_type *im );
 
@@ -177,7 +179,7 @@ image_type *	image3_histogram_CrCb( image_type *sim,  image_type *mim, image_typ
 
 
 	// Image3DewarpLt2.c
-image_type *	image3_dewarp_lt2( image_type *sim, lt2_type *lt, float scale, image_type *tim );
+image_type *	image3_dewarp_lt2S( image_type *sim, lt2_type *lt, float scale, image_type *tim );
 
 
 

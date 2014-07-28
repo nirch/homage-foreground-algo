@@ -18,6 +18,9 @@
 
 #include "ImageMorphology/ImageMorphology.h"
 
+static image_type *	image1_sampleN( image_type *sim, int N, image_type *im );
+
+
 
 #define EXCEPTION
 
@@ -45,13 +48,18 @@ typedef struct segC_type {
 } segC_type;
 
 
-void	bImage_smoothTT( image_type *sim, box2i_type *b, int N );
+
 
 
 
 
 
 image_type *	bImage_realloc(  box2i_type *b, int n, image_type *bim );
+
+image_type *	bImage_copy( image_type *bim, image_type *tim  );
+
+void		bImage_clearN( image_type *bim );
+
 
 image_type *	bImage_set( image_type *sim, image_type *mim, box2i_type *b, int N, image_type *bim );
 
@@ -79,7 +87,7 @@ int	bImage_fill( image_type *bim, int a0[], int a1[] );
 
 int	bImage_row( image_type *bim, int a0[], int a1[] );
 
-int	bImage_protraction( image_type *bim, image_type *eim, int a0[], int a1[] );
+
 
 int	bImage_seg( image_type *bim, image_type *eim, int a[] );
 
@@ -89,19 +97,50 @@ int	bImage_seg( image_type *bim, image_type *eim, int a[] );
  int	bImage_dilate_R( image_type *bim, image_type *eim, int a[], int n, segC_type ac[100] );
 
 
- static  int	bImage_state( segC_type ac0[], segC_type *ac1, int nC );
+ static  int	bImage_state( segC_type ac0[], segC_type *ac1, int nC, int Dx, int Av );
 
- int	bImage_erode( image_type *bim, image_type *eim, int a0[], int a1[], segC_type ac0[], segC_type ac1[] );
+ int	bImage_erode( image_type *bim, image_type *eim, int a0[], int a1[], segC_type ac0[], segC_type ac1[], int Dx, int Av );
+
+ int	bImage_erode_up( image_type *bim, image_type *eim, int a0[], int a1[], segC_type ac0[], segC_type ac1[], int Dx, int Av );
+
+ static int	bImage_erodeG( image_type *bim, image_type *eim, image_type *cim, int a0[], int a1[], segC_type ac0[], segC_type ac1[], int Dx, int Av );
+
+
 
  int	bImage_fill_end( image_type *bim, image_type *eim, int a[], segC_type ac[] );
+
+ static void	segC_log( segC_type ac[], int nC );
+
+
+ static int	bImage_smooth_L( image_type *bim, image_type *eim, int a[], segC_type ac[] );
+ static int	bImage_smooth_R( image_type *bim, image_type *eim, int a[], segC_type ac[] );
 
 
  int CUniformBackground::ProcessBackground( image_type *sim, int iFrame )
  {
-	if( m_flip == 1 )
-		 image_flipV( sim );
+	 if( m_mim == NULL )
+		 return( -10 );
 
-	ProcessInitBackground( sim, m_mim, 1 );
+
+#ifdef EXCEPTION
+	 try {
+#endif
+
+	if( m_flip == 1 )
+		m_sim = image3_rotate180( sim, m_sim );
+	else m_sim = image_make_copy( sim, m_sim );
+
+
+
+	ProcessInitBackground( m_sim, m_mim, 1 );
+
+#ifdef EXCEPTION
+	 }
+
+	 catch (...) {
+		 return( -9 );
+	 }
+#endif
 
 	return( m_state );
 
@@ -116,8 +155,6 @@ int	CUniformBackground::ProcessInitBackground( image_type *sim, image_type *mim,
 
 	m_yim = image1_from( sim, m_yim );
 
-
-//	m_bim = bImage_set( sim, mim,&m_roi, m_N, m_bim );
 
 
 	m_bim = bImage_set( sim, &m_roi, m_N, m_bim );
@@ -150,21 +187,24 @@ int	CUniformBackground::ProcessInitBackground( image_type *sim, image_type *mim,
 
 
 
+	bImage_erode( m_bim, m_bimDx, a0, a1, ac0, ac1, m_prm->dx, m_prm->av );
+	bImage_erode_up( m_bim, m_bimDx, a0, a1, ac0, ac1, m_prm->dx, m_prm->av );
 
 
+	bImage_smooth_L( m_bim, m_bimDx, a0, ac0 );
+	bImage_smooth_R( m_bim, m_bimDx, a1, ac1 );
 
-//	bImage_protraction( m_bim, m_bimDx, a0, a1 );
-
-	bImage_erode( m_bim, m_bimDx, a0, a1, ac0, ac1 );
+	segC_log( ac0, m_bim->height );
+	segC_log( ac1, m_bim->height );
 
 	bImage_dump( m_bim, m_N, "bg", 1, "E" );
 
 
 
 
-	m_state = bImage_state( ac0, ac1, nC );
+	m_state = bImage_state( ac0, ac1, nC, m_prm->dx, m_prm->av );
 
-	fprintf( stdout, "background: %d\n", m_state );
+	GPTRACE( (3, "background: %d\n", m_state ) );
 
 	if( fState == 1)
 		return( m_state );
@@ -174,6 +214,9 @@ int	CUniformBackground::ProcessInitBackground( image_type *sim, image_type *mim,
 	bImage_fill_end(  m_bim, m_bimDx, a0, ac0 );
 	bImage_fill_end(  m_bim, m_bimDx, a1, ac1 );
 
+
+
+	image_type *m_bim0 = bImage_copy( m_bim, NULL );
 
 	bImage_fill( m_bim, a0, a1 );
 
@@ -187,6 +230,43 @@ int	CUniformBackground::ProcessInitBackground( image_type *sim, image_type *mim,
 
 	gpTime_stop( &m_rTime );
 
+
+
+	ProcessCompare( sim );
+	IMAGE_DUMP( m_cim, "bg", 1, "cm" );
+
+	image_type *cim8 = image1_sampleN( m_cim, 8,  NULL );
+	IMAGE_DUMP_DUP( cim8, 8, 4, "bg", 1, "cm8" );
+
+
+	if( bImage_erodeG( m_bim, m_bimDx, cim8, a0, a1, ac0, ac1, m_prm->dx+4, m_prm->av+4 ) > 0 ){
+		m_bim = bImage_copy( m_bim0, m_bim );
+		bImage_clearN( m_bim );
+		bImage_fill( m_bim, a0, a1 );
+		bImage_dump( m_bim, m_N, "bg", 1, "EE" );
+		bImage_dump( m_bim, m_N, "bg", 1, "FE" );
+		IMAGE_DUMP_DUP( cim8, 8, 4, "bg", 1, "cm8-1" );
+
+
+
+
+		ProcessCompare( sim );
+		IMAGE_DUMP( m_cim, "bg", 1, "cm" );
+
+		image_type *cim8 = image1_sampleN( m_cim, 8,  NULL );
+		IMAGE_DUMP_DUP( cim8, 8, 4, "bg", 1, "cm8" );
+
+		if( bImage_erodeG( m_bim, m_bimDx, cim8, a0, a1, ac0, ac1, m_prm->dx+4, m_prm->av+4 ) > 0 ){
+			m_bim = bImage_copy( m_bim0, m_bim );
+			bImage_fill( m_bim, a0, a1 );
+			bImage_clearN( m_bim );
+			bImage_dump( m_bim, m_N, "bg", 1, "FE2" );
+			IMAGE_DUMP_DUP( cim8, 8, 4, "bg", 1, "cm8-2" );
+		}
+	}
+
+	image_destroy( cim8, 1 );
+	image_destroy( m_bim0, 1 );
 
 
 	return( 1 );
@@ -423,7 +503,42 @@ bImage_clear( image_type *bim )
 
 }
 
+void
+bImage_clearN( image_type *bim )
+{
+	int	i,	j;
 
+	bImage_type *bp = (bImage_type *)bim->data;
+
+	for( i = 0 ; i < bim->height ; i++ ){
+		for( j = 0 ; j < bim->width ; j++, bp++ ){
+			if( bp->n == 0 )
+				bp->n = 1;
+		}
+	}
+
+}
+
+image_type *
+bImage_copy( image_type *bim, image_type *tim  )
+{
+	int	i,	j;
+
+	if( tim == NULL )
+		tim = image_create( bim->height, bim->width, sizeof(bImage_type), 1, NULL );
+
+
+	bImage_type *bp = (bImage_type *)bim->data;
+	bImage_type *tp = (bImage_type *)tim->data;
+
+	for( i = 0 ; i < bim->height ; i++ ){
+		for( j = 0 ; j < bim->width ; j++, bp++, tp++ ){
+			*tp = *bp;
+		}
+	}
+
+	return( tim );
+}
 
 
 image_type *
@@ -472,94 +587,6 @@ bImage_dump( image_type *bim, int N, char *prefix, int index, char *suffix )
 }
 
 
-#ifdef _AA_
-image_type *	bImage_smooth( image_type *bim, float dT, image_type *im );
-
-
-void
-bImage_smoothTT( image_type *sim, box2i_type *b, int N )
-{
-	image_type *bim = bImage_set( sim, b, N, NULL );
-
-	bImage_dump( bim, N, "TT", 1, "C" );
-
-	image_type *im = bImage_smooth( bim, 8, NULL );
-
-	IMAGE_DUMP_DUP( im, N, 255, "TT", 1, NULL );
-
-	image_destroy( bim, 1 );
-
-	image_destroy( im, 1 );
-
-}
-
-
-
-
-image_type *
-bImage_smooth( image_type *bim, float dT, image_type *im )
-{
-	int	i,	j,	k;
-
-
-	im = image_realloc( im, bim->width-2, bim->height-2, 1, IMAGE_TYPE_U8, 1 );
-
-
-	bImage_type m0,	m1;
-
-	int	a[9];
-	a[1] = -bim->width;
-	a[0] = a[1]-1;
-	a[2] = a[1] + 1;
-
-	a[4] = 0;
-	a[3] = a[4]-1;
-	a[5] = a[4] + 1;
-
-	a[7] = bim->width;
-	a[6] = a[7]-1;
-	a[8] = a[7] + 1;
-
-
-	bImage_type *bp = (bImage_type *)IMAGE_PIXEL( bim, 1, 1 );
-	u_char *tp = im->data;
-	for( i = 0 ; i < im->height ; i++, bp += 2 ){
-
-	
-		for( j = 0 ; j < im->width ; j++, bp++, tp++ ){
-			m0 = m1 = *bp;
-			for( k = 0 ; k < 9 ; k++ ){
-				if( k == 4 )	continue;
-				bImage_type *b = bp + a[k];
-
-		
-				if( b->r < m0.r )
-					m0.r = b->r;
-				else if( b->r > m1.r )
-					m1.r = b->r;
-
-				if( b->g < m0.g )
-					m0.g = b->g;
-				else if( b->g > m1.g )
-					m1.g = b->g;
-
-				if( b->b < m0.b )
-					m0.b = b->b;
-				else if( b->b > m1.b )
-					m1.b = b->b;
-			}
-		
-
-			if( m1.r - m0.r > dT || m1.g - m0.g > dT || m1.b - m0.b > dT )
-				*tp = 0;
-			else *tp = 1;
-		}
-	}
-
-
-	return( im );
-}
-#endif
 
 
 void
@@ -739,73 +766,6 @@ bImage_fill( image_type *bim, int a0[], int a1[] )
 }
 
 
-int
-bImage_protraction( image_type *bim, image_type *eim, int a0[], int a1[] )
-{
-	int	i,	j,	no;
-	bImage_type *bp;
-
-
-
-	no = 0;
-	bp = ( bImage_type *)IMAGE_PIXEL( bim, 1, 0 );
-	for( i = 1 ; i < bim->height-1 ; i++, bp += bim->width ){
-
-		if( a0[i] == -1 && a1[i] == -1 )
-			continue;
-
-		int	j0,	j1;
-		bImage_type *bp0,	*bp1;
-
-	
-		j0 = ( a0[i] < 0) ? 0 :  a0[i];
-		j1 = ( a1[i] < 0) ? bim->width-1:  a1[i];
-
-	
-
-
-		
-		bImage_type *cp;
-
-		if( j0 > 0 ){
-//			j0 -= 10;
-			bp0 = bp + j0;
-			char *ep = (char *)IMAGE_PIXEL(eim, i-1, j0-1 );
-
-			for( j = j0+1, cp = bp0+1 ; j < j1 ; j++, ep++, cp++ ){
-				if( ABS(*ep) > 4)	break;
-				cp->n = 1;
-			}
-
-			a0[i] = j-1;
-
-			if( j >=  j1 ){
-				a0[i] = a1[i] = -1;
-				continue;
-			}
-		}
-
-
-	
-		if( j1 < bim->width-1 - 0 ){
-//			j1 += 10;
-			bp1 = bp +j1;
-			char *ep = (char *)IMAGE_PIXEL(eim, i-1, j1-1 );
-			for( j = j1-1, cp = bp1-1 ; j > j0 ; j--, ep--, cp-- ){
-				if( ABS(*ep) > 4)	break;
-				cp->n = 1;
-			}
-
-			a1[i] = j+1;
-		}
-
-	}
-
-
-	return( 1 );
-}
-
-
 
 
 
@@ -820,35 +780,40 @@ bImage_protraction( image_type *bim, image_type *eim, int a0[], int a1[] )
 
 static int	bImage_seg( image_type *bim, image_type *eim, int a[], int n, segC_type as[] );
 
-static int	bImage_segR( segC_type ac[], int nC, seg_type as[], int *nS );
+static int	bImage_segR( segC_type ac[], int nC, seg_type as[], int *nS, int Dx, int Av );
 
 
 static int	bImage_dilate_L( image_type *bim, image_type *eim, segC_type *s0, int i, segC_type *c0, int dk, segC_type *c );
-//static int  bImage_erode_L( image_type *bim, image_type *eim, int i, segC_type *c0, int dk, segC_type *c );
+
 
 static int	bImage_dilate_R( image_type *bim, image_type *eim, segC_type *s0, int i, segC_type *c0, int dk, segC_type *c );
 
 
 
 static  int
-bImage_state( segC_type ac0[], segC_type *ac1, int nC )
+bImage_state( segC_type ac0[], segC_type *ac1, int nC, int Dx, int Av )
 {
 	int	i;
 
 	seg_type as0[128],	as1[128];
 	int nS0,	nS1;
 
-	bImage_segR( ac0, nC, as0, &nS0 );
-	bImage_segR( ac1, nC, as1, &nS1 );
+	bImage_segR( ac0, nC, as0, &nS0, Dx, Av );
+	bImage_segR( ac1, nC, as1, &nS1, Dx, Av );
+
+
+	if( nS0 == 0 && nS0 == 0 ){
+		return( -5 );
+	}
 
 
 
 	for( i = 0 ; i < nS0 ; i++ ){
-		fprintf( stdout, "%d %d   (%d)\n", as0[i].i0, as0[i].i1, as0[i].y );
+		GPTRACE( (3, "%d %d   (%d)\n", as0[i].i0, as0[i].i1, as0[i].y) );
 	}
 
 	for( i = 0 ; i < nS1 ; i++ ){
-		fprintf( stdout, "%d %d   (%d)\n", as1[i].i0, as1[i].i1, as1[i].y );
+		GPTRACE( (3, "%d %d   (%d)\n", as1[i].i0, as1[i].i1, as1[i].y) );
 	}
 
 
@@ -918,11 +883,12 @@ bImage_dilate_L( image_type *bim, image_type *eim, int a[], int n, segC_type ac[
 
 	bImage_seg( bim, eim, a,  n, ac);
 
+	int Av = 4;
+	int Dx = 8;
+	bImage_segR( ac, bim->height, as, &nS, Dx, Av );
 
-	bImage_segR( ac, bim->height, as, &nS );
 
-
-	{
+	if( nS > 0 ){
 		int	k;
 		int i0 = as[0].i0;
 
@@ -965,12 +931,7 @@ bImage_dilate_L( image_type *bim, image_type *eim, int a[], int n, segC_type ac[
 	}
 
 
-	//segC_type	c;
-	//for( i = 1 ; i < bim->height-1 ; i++ ){
-	//	if( ac[i].j0  < 0 )	continue;
-	//	if( bImage_erode_L( bim, eim, i,  &ac[i], 10, &c ) > 0 )
-	//		ac[i] = c;
-	//}
+
 
 
 
@@ -1002,7 +963,9 @@ bImage_dilate_R( image_type *bim, image_type *eim, int a[], int n, segC_type ac[
 	bImage_seg( bim, eim, a,  n, ac);
 
 
-	bImage_segR( ac, bim->height, as, &nS );
+	int Av = 4;
+	int Dx = 8;
+	bImage_segR( ac, bim->height, as, &nS, Dx, Av );
 
 
 
@@ -1010,7 +973,7 @@ bImage_dilate_R( image_type *bim, image_type *eim, int a[], int n, segC_type ac[
 
 /// new
 
-	{	
+	if( nS > 0 ){
 		int	k;
 		int i0 = as[0].i0;
 
@@ -1078,7 +1041,7 @@ bImage_dilate_R( image_type *bim, image_type *eim, int a[], int n, segC_type ac[
 
 
 static int
-	bImage_segR( segC_type ac[], int nC, seg_type as[], int *nS )
+	bImage_segR( segC_type ac[], int nC, seg_type as[], int *nS, int Dx, int Av )
 {
 	int	i;
 
@@ -1096,7 +1059,7 @@ static int
 		}
 
 
-		if( ABS( ac[i].dx) > 8 || ABS( ac[i].av) > 4 ){
+		if( ABS( ac[i].dx) > Dx || ABS( ac[i].av) > Av ){
 			i++;
 			continue;
 		}
@@ -1107,7 +1070,7 @@ static int
 		s->n = 1;
 		for( i = s->i1+1 ; i < nC-1 ; i++ ){
 			float dy = ac[i].y - ac[i-1].y;
-			if( ABS( ac[i].dx) > 9 || ABS( ac[i].av) > 6 ||  ABS( ac[i].av) > 4 && ABS(dy) > 8 )
+			if( ABS( ac[i].dx) > Dx+1 || ABS( ac[i].av) > Av+2 ||  ABS( ac[i].av) > Av && ABS(dy) > Dx )
 				break;
 
 	
@@ -1198,32 +1161,6 @@ int	k,	j0;
 }
 
 
-#ifdef _AA_
-static int
-bImage_erode_L( image_type *bim, image_type *eim, int i, segC_type *c0, int dk, segC_type *c )
-{
-	int	k;
-
-
-
-
-	for( k = 0 ; k < dk ; k++ ){
-
-		bImage_segC( bim, eim, i, c0->j0+k, c0->n, c );
-
-		if( ABS( c->dx) < 8 && ABS( c->av) < 4 )
-			continue;
-
-		//int y = c->y - s0->y;
-		//if( ABS(y) > 10 )
-		//	continue;
-
-		return( k );
-	}
-
-	return( k );
-}
-#endif
 
 
 static int
@@ -1308,7 +1245,348 @@ bImage_segC( image_type *bim, image_type *eim, int i, int j0, int n, segC_type *
 
 
 int
-bImage_erode( image_type *bim, image_type *eim, int a0[], int a1[], segC_type ac0[], segC_type ac1[] )
+bImage_erode( image_type *bim, image_type *eim, int a0[], int a1[], segC_type ac0[], segC_type ac1[], int Dx, int Av )
+{
+	int	i,	j,	no;
+	bImage_type *bp;
+
+
+	no = 0;
+	bp = ( bImage_type *)IMAGE_PIXEL( bim, 1, 0 );
+	for( i = 1 ; i < bim->height-1 ; i++, bp += bim->width ){
+
+		if( ac0[i].j1 < 0 )	continue;
+
+
+		int	j0,	j1;
+		bImage_type *bp0,	*bp1;
+
+
+		j0 = ac0[i].j1;
+		j1 = ac1[i].j0;
+		int n = ac0[i].n;
+
+
+
+
+		segC_type c;
+		bImage_type *cp;
+
+
+		bp0 = bp + j0;
+		
+		for( j = j0+1, cp = bp0+1 ; j < j1 ; j++, cp++ ){
+			bImage_segC( bim, eim, i, j-n, n, &c );
+			if( ABS( c.dx) > Dx || ABS( c.av) > Av )
+				break;
+
+			ac0[i] = c;
+			a0[i] = c.j1;
+			cp->n = 1;
+		}
+
+
+		if( j >=  j1 ){
+			a0[i] = a1[i] = -1;
+			ac0[i].j0 = ac0[i].j1 = ac1[i].j0 = ac1[i].j1 = -1;
+			continue;
+		}
+
+
+
+
+		if( j1 < bim->width-1 - 0 ){
+			bp1 = bp +j1;
+			for( j = j1-1, cp = bp1-1 ; j > j0 ; j--, cp-- ){
+				bImage_segC( bim, eim, i, j, n, &c );
+				if( ABS( c.dx) > Dx || ABS( c.av) > Av )
+					break;
+
+
+				ac1[i] = c;
+				a1[i] = c.j0;
+				cp->n = 1;
+			}
+		}
+
+
+	}
+
+
+	return( 1 );
+}
+
+static void
+segC_log( segC_type ac[], int nC )
+{
+	int	i;
+
+
+
+	for( i = 1 ; i < nC-1 ; i++ ){
+
+		if( ac[i].j1 < 0 )	continue;
+
+		segC_type *c = &ac[i];
+		GPLOG(( "%d %d %d  %d %d\n", i, c->j0, c->j1, c->dx, c->av ));
+	}
+
+	GPLOG_FLUSH();
+}
+
+
+
+int
+bImage_fill_end( image_type *bim, image_type *eim, int a[], segC_type ac[] )
+{
+	int	i,	j;
+
+
+	seg_type as[100];
+	int nS = 0;
+
+	int Av = 4;
+	int Dx = 8;
+	bImage_segR( ac, bim->height, as, &nS, Dx, Av );
+
+	seg_type * s = &as[nS-1];
+
+	if( s->i1 >= bim->height -2 )
+		return( -1 );
+
+	if( s->i1 + 5 < bim->height -2 )
+		return( -1 );
+
+
+	bImage_type *bp0,	*bp;
+	bp0 = ( bImage_type *)IMAGE_PIXEL( bim, s->i1, a[s->i1] );
+
+	for( i = s->i1+1 ; i < bim->height-1 ; i++ ){
+
+		int	j0,	j1;
+		if( (j0 = a[i]-6) < 1 )	j0 = 1;
+		if( (j1 = a[i]+6) > bim->width-2 )	j1 = bim->width-2;
+
+		bp = ( bImage_type *)IMAGE_PIXEL( bim, i, j0);
+		for( j = j0; j <= j1 ; j++, bp++ ){
+		
+			bp->r = bp0->r;
+			bp->g = bp0->g;
+			bp->b = bp0->b;
+		}
+	}
+
+
+
+
+	return( 1 );
+}
+
+
+
+
+
+int 
+bImage_erode_up( image_type *bim, image_type *eim, int a0[], int a1[], segC_type ac0[], segC_type ac1[], int Dx, int Av )
+{
+	int	i,	j,	no;
+	bImage_type *bp;
+
+
+	for( i = 1 ; i < bim->height-1 ; i++ ){
+
+		if( ac0[i].j0 > -1 )	break;
+	}
+
+	if( i >= bim->height-1 )
+		return( -1 );
+
+	int i0 =i;
+
+	int n = 5;
+
+	no = 0;
+	
+	for( i = i0-1 ; i > 0 ; i-- ){
+		bp = ( bImage_type *)IMAGE_PIXEL( bim, i, 0 );
+
+		a0[i] = ac0[i+1].j1;
+		a1[i] = ac1[i+1].j0;
+
+		bImage_segC( bim, eim, i, ac0[i+1].j0, n, &ac0[i] );
+		bImage_segC( bim, eim, i, ac1[i+1].j0, n, &ac1[i] );
+
+
+
+		int	j0,	j1;
+		bImage_type *bp0,	*bp1;
+
+
+		j0 = ac0[i].j1;
+		j1 = ac1[i].j0;
+		int n = ac0[i].n;
+
+
+
+		segC_type c;
+		bImage_type *cp;
+
+
+		bp0 = bp + j0;
+		char *ep = (char *)IMAGE_PIXEL(eim, i-1, j0-1 );
+
+		for( j = j0+1, cp = bp0+1 ; j < j1 ; j++, ep++, cp++ ){
+			bImage_segC( bim, eim, i, j-n, n, &c );
+			if( ABS( c.dx) > Dx || ABS( c.av) > Av )
+				break;
+
+			ac0[i] = c;
+			a0[i] = c.j1;
+			cp->n = 1;
+		}
+
+
+		if( j >=  j1 ){
+			a0[i] = a1[i] = -1;
+			ac0[i].j0 = ac0[i].j1 = ac1[i].j0 = ac1[i].j1 = -1;
+			break;
+		}
+
+
+
+
+		if( j1 < bim->width-1 - 0 ){
+			bp1 = bp +j1;
+			for( j = j1-1, cp = bp1-1 ; j > j0 ; j--, ep--, cp-- ){
+				bImage_segC( bim, eim, i, j, n, &c );
+				if( ABS( c.dx) > Dx || ABS( c.av) > Av )
+					break;
+
+				//				if( ABS(*ep) > 4)	break;
+				ac1[i] = c;
+				a1[i] = c.j0;
+				cp->n = 1;
+			}
+		}
+
+
+	}
+
+
+	return( 1 );
+}
+
+
+
+
+
+
+
+static int
+bImage_smooth_L( image_type *bim, image_type *eim, int a[], segC_type ac[] )
+{
+	int	i;
+
+
+
+	for( i = 1 ; i < bim->height - 1 ; i++ )
+		if( ac[i].j0 >=  0 )	break;
+
+	i++;
+
+	for(  ; i < bim->height - 2 ; i++ ){
+		if( ac[i].j1 <= ac[i-1].j1 ||  ac[i].j1 <= ac[i+1].j1 )
+			continue;
+
+		int j = 0.5*(  ac[i-1].j0 + ac[i+1].j0 );
+		bImage_segC( bim, eim, i, j, ac[i].n, &ac[i] );
+	}
+
+
+
+	for( i = 1 ; i < bim->height - 1 ; i++ ){
+		if( a[i] < 0 )	continue;
+		a[i] = ac[i].j1;
+	}
+
+
+
+	return( 1 );
+}
+
+
+static int
+	bImage_smooth_R( image_type *bim, image_type *eim, int a[], segC_type ac[] )
+{
+	int	i;
+
+
+
+	for( i = 1 ; i < bim->height - 1 ; i++ )
+		if( ac[i].j0 >=  0 )	break;
+
+	i++;
+
+	for(  ; i < bim->height - 2 ; i++ ){
+		if( ac[i].j0 >= ac[i-1].j0 ||  ac[i].j0 >= ac[i+1].j0 )
+			continue;
+
+		int j = 0.5*(  ac[i-1].j0 + ac[i+1].j0 );
+		bImage_segC( bim, eim, i, j, ac[i].n, &ac[i] );
+	}
+
+
+
+	for( i = 1 ; i < bim->height - 1 ; i++ ){
+		if( a[i] < 0 )	continue;
+		a[i] = ac[i].j1;
+	}
+
+
+
+	return( 1 );
+}
+
+
+
+
+
+static image_type *
+image1_sampleN( image_type *sim, int N, image_type *im )
+{
+	u_char	*sp0, *sp, *tp;
+	int	i,	j,	k,	n;
+
+
+	im = image_recreate( im, sim->row/N, sim->column/N, 1, 1 );
+
+	int align = sim->width - N;
+
+	tp = im->data;
+	for( i = 0 ; i < sim->row ; i += N ){
+		sp0 = IMAGE_PIXEL( sim, i, 0 );
+		
+
+		for( j = 0 ; j < sim->column ; j += N, sp0 += 8 ){
+				int no = 0;
+			for( k = 0, sp = sp0 ; k < N ; k++, sp += align ){
+				for( n = 0 ;  n < N ; n++, sp++ ){
+					if( *sp != 0 )
+						no++;
+				}
+			}
+			*tp++ = no;	
+		}
+
+
+	}
+
+	return( im );
+}
+
+
+static int
+bImage_erodeG( image_type *bim, image_type *eim, image_type *cim, int a0[], int a1[], segC_type ac0[], segC_type ac1[], int Dx, int Av )
 {
 	int	i,	j,	no;
 	bImage_type *bp;
@@ -1335,40 +1613,49 @@ bImage_erode( image_type *bim, image_type *eim, int a0[], int a1[], segC_type ac
 		bImage_type *cp;
 
 
-			bp0 = bp + j0;
-			char *ep = (char *)IMAGE_PIXEL(eim, i-1, j0-1 );
+		bp0 = bp + j0;
+		char *gp = (char *)IMAGE_PIXEL(cim, i-1, j0-1+1 );
 
-			for( j = j0+1, cp = bp0+1 ; j < j1 ; j++, ep++, cp++ ){
-				bImage_segC( bim, eim, i, j-n, n, &c );
-				if( ABS( c.dx) > 8 || ABS( c.av) > 4 )
-					break;
+		for( j = j0+1, cp = bp0+1 ; j < j1 ; j++, cp++, gp++ ){
+			if( *gp != 0 )	break;
+			bImage_segC( bim, eim, i, j-n, n, &c );
+			if( ABS( c.dx) > Dx || ABS( c.av) > Av )
+				break;
 
-				ac0[i] = c;
-				a0[i] = c.j1;
-				cp->n = 1;
-			}
+			ac0[i] = c;
+			a0[i] = c.j1;
+			cp->n = 1;
+			*gp = 16;
+
+			no ++;
+		}
 
 
-			if( j >=  j1 ){
-				a0[i] = a1[i] = -1;
-				ac0[i].j0 = ac0[i].j1 = ac1[i].j0 = ac1[i].j1 = -1;
-				continue;
-			}
+		if( j >=  j1 ){
+			a0[i] = a1[i] = -1;
+			ac0[i].j0 = ac0[i].j1 = ac1[i].j0 = ac1[i].j1 = -1;
+			continue;
+		}
 
 
 
 
 		if( j1 < bim->width-1 - 0 ){
 			bp1 = bp +j1;
-			for( j = j1-1, cp = bp1-1 ; j > j0 ; j--, ep--, cp-- ){
+			gp = (char *)IMAGE_PIXEL(cim, i-1, j1-2 );
+			for( j = j1-1, cp = bp1-1 ; j > j0 ; j--, cp--, gp-- ){
+				if( *gp != 0 )	break;
 				bImage_segC( bim, eim, i, j, n, &c );
-				if( ABS( c.dx) > 8 || ABS( c.av) > 4 )
+				if( ABS( c.dx) > Dx || ABS( c.av) > Av )
 					break;
 
 //				if( ABS(*ep) > 4)	break;
 				ac1[i] = c;
 				a1[i] = c.j0;
 				cp->n = 1;
+
+				*gp = 16;
+				no++;
 			}
 		}
 
@@ -1376,49 +1663,7 @@ bImage_erode( image_type *bim, image_type *eim, int a0[], int a1[], segC_type ac
 	}
 
 
-	return( 1 );
+	fprintf( stdout, "erode: %d\n", no );
+
+	return( no );
 }
-
-
-
-int
-bImage_fill_end( image_type *bim, image_type *eim, int a[], segC_type ac[] )
-{
-	int	i;
-
-
-	seg_type as[100];
-	int nS = 0;
-
-
-	bImage_segR( ac, bim->height, as, &nS );
-
-	seg_type * s = &as[nS-1];
-
-	if( s->i1 >= bim->height -2 )
-		return( -1 );
-
-	if( s->i1 + 5 < bim->height -2 )
-		return( -1 );
-
-
-	bImage_type *bp0,	*bp;
-	bp0 = ( bImage_type *)IMAGE_PIXEL( bim, s->i1, a[s->i1] );
-
-	for( i = s->i1+1 ; i < bim->height-1 ; i++ ){
-
-		bp = ( bImage_type *)IMAGE_PIXEL( bim, i, a[i] );
-		bp->r = bp0->r;
-		bp->g = bp0->g;
-		bp->b = bp0->b;
-
-
-
-	}
-
-
-	return( 1 );
-}
-
-
-

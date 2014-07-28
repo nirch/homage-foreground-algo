@@ -443,6 +443,24 @@ int	ret;
 	return( ret );
 }
 
+int
+matrix_solve( matrix_type *m, double D[], double X[] )
+{
+	int	ret;
+
+	matrix_type *im = matrix_alloc( m->n, m->n, MT_DOUBLE );
+	
+	ret = matrix_inverse( m, im );
+
+	matrixD_multV( im, D, X );
+
+	matrix_destroy( im );
+
+	return( ret );
+}
+
+
+
 // A mxn 
 matrix_type *
 matrix_crop( matrix_type *A, int m, int n, matrix_type *mt )

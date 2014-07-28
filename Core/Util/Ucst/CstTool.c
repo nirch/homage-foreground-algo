@@ -287,7 +287,7 @@ char	*buf;
 void
 cst_rewind_data( cst_type *cst )
 {
-
+int	n;
 	if( cst->wp == cst->rp ){
 		cst->wp = cst->rp = cst->data;
 		return;
@@ -295,8 +295,15 @@ cst_rewind_data( cst_type *cst )
 
 	if( cst->rp != cst->data ){
 
-		memcpy( cst->data, cst->rp, cst->wp - cst->rp );
-		cst->wp -= (cst->rp - cst->data);
+		n = cst->wp - cst->rp;
+
+		memcpy( cst->data, cst->rp, n );
 		cst->rp = cst->data;
+		cst->wp = cst->rp + n;
+
+
+		//memcpy( cst->data, cst->rp, cst->wp - cst->rp );
+		//cst->wp -= (cst->rp - cst->data);
+		//cst->rp = cst->data;
 	}
 }

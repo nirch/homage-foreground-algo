@@ -44,8 +44,8 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Core\ImageLib;..\..\Core\Util;..\..\Tracking</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_GPLOG;_USE_EDGE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;..\..\Core\ImageLib;..\..\Core\Util;..\..\Tracking;..\..\Edge</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -61,8 +61,8 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Core\ImageLib;..\..\Core\Util;..\..\Tracking</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_GPLOG;_USE_EDGE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.;..\..\Core\ImageLib;..\..\Core\Util;..\..\Tracking;..\..\Edge</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -78,11 +78,17 @@
   <ItemGroup>
     <ClCompile Include="Background\BackgroundRemoval.cpp" />
     <ClCompile Include="ColorBackground\ColorBackground.cpp" />
+    <ClCompile Include="PlnAdjust\PlnAdjustCoherent .cpp" />
+    <ClCompile Include="PlnAdjust\PlnAdjustEdge.cpp" />
+    <ClCompile Include="PlnAdjust\PlnAdjustIn.cpp" />
+    <ClCompile Include="PlnAdjust\PlnAdjustStart.cpp" />
+    <ClCompile Include="PlnAdjust\PlnAdjustThin.cpp" />
     <ClCompile Include="UniformBackground\UbBackground.cpp" />
     <ClCompile Include="UniformBackground\UbBlob.cpp" />
     <ClCompile Include="UniformBackground\UbBlob1.cpp" />
     <ClCompile Include="UniformBackground\UbBlob2.cpp" />
     <ClCompile Include="UniformBackground\UbContour.cpp" />
+    <ClCompile Include="UniformBackground\UbEdge.cpp" />
     <ClCompile Include="UniformBackground\UbPrm.cpp" />
     <ClCompile Include="UniformBackground\UbSmooth.cpp" />
     <ClCompile Include="UniformBackground\UbThin.cpp" />
@@ -92,6 +98,7 @@
   <ItemGroup>
     <ClInclude Include="Background\BackgroundRemoval.h" />
     <ClInclude Include="ColorBackground\ColorBackground.h" />
+    <ClInclude Include="PlnAdjust\PlnAdjust.h" />
     <ClInclude Include="UniformBackground\UniformBackground.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

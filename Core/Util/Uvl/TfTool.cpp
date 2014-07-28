@@ -21,14 +21,41 @@ tf_type *tf;
 
 	tf = (tf_type*)malloc( sizeof(tf_type) );
 
+	tf->nA = nT;
+
 	return( tf );
 }
+
+
+
+tf_type *
+tf_copy( tf_type *stf, tf_type *tf )
+{
+
+	if( tf == NULL )
+		tf = tf_alloc( stf->nA );
+
+	*tf = *stf;
+
+	return( tf );
+}
+
 
 
 void
 tf_destroy( tf_type *tf )
 {
 	free( tf );
+}
+
+
+void
+tf_clear( tf_type *t )
+{
+	int	i;
+
+	for( i = 0; i < TF_MAX ; i++ )
+		t->a[i] = 0;
 }
 
 
@@ -73,6 +100,22 @@ tfA_clear( tfA_type *aS )
 			aS->t[i] = NULL;
 		}
 	}
+}
+
+
+
+tfA_type *
+	tfA_copy( tfA_type *as, tfA_type *at )
+{
+	int	i;
+
+	if( at == NULL )
+		at = tfA_alloc( as->nA );
+
+	for( i = 0 ; i < as->nA ; i++ )
+		at->t[at->nA++] = tf_copy( as->t[i], NULL );
+
+	return( at );
 }
 
 
@@ -220,6 +263,14 @@ tfA_get( tfA_type *tfA, int iFrame, float a[], int *nA )
 	return( 1 );
 }
 
+tf_type *
+	tfA_get( tfA_type *tfA, int iFrame )
+{
+	if( tfA == NULL || iFrame < 0 || iFrame >= tfA->nA )
+		return ( NULL );
+
+	return ( tfA->t[iFrame] );
+}
 
 tf_type *
 tfA_average( tfA_type *tfA )
@@ -312,4 +363,28 @@ tfA_nearest( tf_type *tf, float a0, float T )
 	if( dMin > T )	return( -1 );
 
 	return( iMin );
+}
+
+
+
+int
+tfA_range( tfA_type *atf, int *i0, int *i1 )
+{
+	int	i;
+	for( i = 0; i < atf->nA ; i++ ){
+		if( atf->a[i] != NULL )	break;
+	}
+
+	if( i >= atf->nA ){
+		*i0 = *i1 = -1;
+		return( -1 );
+	}
+
+	*i0 = i;
+
+	for( i = atf->nA-1; i > *i0 ; i-- )
+		if( atf->a[i] != NULL )	break;
+
+	*i1 = i;
+	return( 1 );
 }

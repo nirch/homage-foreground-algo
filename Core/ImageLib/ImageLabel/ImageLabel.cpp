@@ -161,7 +161,7 @@ bwLabel_no( bwLabel_type *bw, int nBw, int T )
 
 
 void
-bwLabel_order( bwLabel_type *aBw, int nBw, int aI[], int *nI )
+bwLabel_order( bwLabel_type *aBw, int nBw, int NI, int aI[], int *nI )
 {
 	int	i,	j;
 	bwLabel_type	*bw;
@@ -171,11 +171,41 @@ bwLabel_order( bwLabel_type *aBw, int nBw, int aI[], int *nI )
 		bw = &aBw[i];
 		if( bw->id != i )	continue;
 
+
+
 		for( j = *nI ; j > 0 ; j-- ){
 			if( aBw[aI[j-1]].no > bw->no )	break;
 			aI[j] = aI[j-1];
 		}
 		aI[j] = i;
-		(*nI)++;
+
+		if( *nI < NI )
+			(*nI)++;
+	}
+}
+
+
+void
+bwLabelA_order( imageLabel_type *abw, int color, int NI, int aI[], int *nI )
+{
+	int	i,	j;
+	bwLabel_type	*bw;
+
+	*nI = 0;
+	for( i = 0 ; i < abw->nA ; i++ ){
+		bw = &abw->a[i];
+		if( bw->id != i )	continue;
+
+		if( bw->color != color )
+			continue;
+
+		for( j = *nI ; j > 0 ; j-- ){
+			if( abw->a[aI[j-1]].no > bw->no )	break;
+			aI[j] = aI[j-1];
+		}
+		aI[j] = i;
+
+		if( *nI < NI )
+			(*nI)++;
 	}
 }

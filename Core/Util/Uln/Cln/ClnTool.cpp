@@ -42,6 +42,37 @@ int	i;
 
 
 
+clnA_type *
+	clnA_alloc( int n )
+{
+	clnA_type *ac = (clnA_type *)malloc(sizeof(clnA_type));
+
+	ac->NA = n;
+
+	ac->a =  (cln_type **)malloc( ac->NA *sizeof(cln_type *));
+
+	ac->nA = 0;
+
+	return( ac );
+}
+
+
+
+void
+clnA_destroy( clnA_type *ac )
+{
+	int	i;
+
+	for( i = 0 ; i < ac->nA ; i++ )
+		cln_destroy( ac->a[i] );
+
+
+	free( ac->a );
+
+	free( ac );
+}
+
+
 
 cln_type *
 cln_create( pln_type *pl, int Fdata )
@@ -132,6 +163,32 @@ int	i;
 
 	for( i = iPlink ; i < sc->nA ; i++ )
 		sc->a[i] = sc->a[i+1];
+
+
+	return( c );
+}
+
+
+
+cln_type * 
+cln_lt2( cln_type *sc, lt2_type *lt, cln_type *c )
+{
+	int	i;
+
+	if( c == NULL )
+		c = cln_make_copy( sc );
+
+
+	c->ctr.x = LT2_F1( *lt, sc->ctr.x, sc->ctr.y );
+	c->ctr.y = LT2_F2( *lt, sc->ctr.x, sc->ctr.y );
+
+
+	c->v.x = LT2_F1( *lt, sc->v.x, sc->v.y ) - lt->c0;
+	c->v.y = LT2_F2( *lt, sc->v.x, sc->v.y ) - lt->c1;
+
+
+	for( i = 0 ; i < c->nA ; i++ )
+		c->a[i] = pln_affine_lt( sc->a[i], lt, c->a[i]);
 
 
 	return( c );
@@ -279,8 +336,8 @@ clnA_translate( clnA_type *ac, float x, float y )
 {
 	int	i;
 
-	for( i = 0 ; i < ac->nC ; i++ )
-		cln_translate( ac->c[i], x, y );
+	for( i = 0 ; i < ac->nA ; i++ )
+		cln_translate( ac->a[i], x, y );
 }
 
 

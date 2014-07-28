@@ -14,6 +14,9 @@
     <Filter Include="UniformBackground">
       <UniqueIdentifier>{2ec1bb83-744a-4c36-95ec-4756607314bd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="PlnAdjust">
+      <UniqueIdentifier>{4dd31776-0134-48c1-b867-ef2261ff32a2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -55,6 +58,24 @@
     <ClCompile Include="UniformBackground\UbPrm.cpp">
       <Filter>UniformBackground</Filter>
     </ClCompile>
+    <ClCompile Include="PlnAdjust\PlnAdjustStart.cpp">
+      <Filter>PlnAdjust</Filter>
+    </ClCompile>
+    <ClCompile Include="PlnAdjust\PlnAdjustThin.cpp">
+      <Filter>PlnAdjust</Filter>
+    </ClCompile>
+    <ClCompile Include="PlnAdjust\PlnAdjustIn.cpp">
+      <Filter>PlnAdjust</Filter>
+    </ClCompile>
+    <ClCompile Include="PlnAdjust\PlnAdjustCoherent .cpp">
+      <Filter>PlnAdjust</Filter>
+    </ClCompile>
+    <ClCompile Include="UniformBackground\UbEdge.cpp">
+      <Filter>UniformBackground</Filter>
+    </ClCompile>
+    <ClCompile Include="PlnAdjust\PlnAdjustEdge.cpp">
+      <Filter>PlnAdjust</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Background\BackgroundRemoval.h">
@@ -65,6 +86,9 @@
     </ClInclude>
     <ClInclude Include="UniformBackground\UniformBackground.h">
       <Filter>UniformBackground</Filter>
+    </ClInclude>
+    <ClInclude Include="PlnAdjust\PlnAdjust.h">
+      <Filter>PlnAdjust</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -13,6 +13,7 @@
 
 //#include "Uthread/VSemaphore.h"
 
+#define LOG_PERFORMANCE		0x4
 
 
 class CVLogger {
@@ -24,6 +25,8 @@ public:
 	void SetLive( int live )	{ m_live = live; }
 	void SetFrame( int frame )	{ m_frame = frame; }
 	void SetTime( int time )	{ m_time = time; }
+
+	void SetPeriod( int period )	{ m_period = period; }
 
 	int Init( char *prefix, char *dir );
 
@@ -37,6 +40,8 @@ public:
 	void Write( char *title, gpTime_type *gt );
 
 	void Write( char *title, gpTime_type *gt, int modulo );
+
+	void Write( char *title, char *title1, gpTime_type *gt, int modulo );
 
 
 	void Write( char *msg );
@@ -54,6 +59,9 @@ private:
 	int	m_live;
 	int m_frame;
 	int	m_time;
+
+	int m_period;
+	vTimer_type	m_periodTimer;
 
 	char	m_prefix[256];
 	char	m_dir[256];

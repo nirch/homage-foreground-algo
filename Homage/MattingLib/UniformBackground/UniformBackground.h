@@ -16,6 +16,16 @@ typedef struct ubPrm_type {
 
 	int fillBlob;
 
+//	int	adjustContour;
+
+	int dx;
+	int av;
+
+
+	int enableEdge;
+
+	float in_d;
+
 } ubPrm_type;
 
 
@@ -27,6 +37,13 @@ typedef	struct bImage_type {
 } bImage_type;	
 
 
+
+typedef	struct mFrame_type {
+	image_type *im;
+
+	cln_type *cln;
+
+} mFrame_type;
 
 
 
@@ -52,6 +69,8 @@ public:
 	
 	int	ProcessInitBackground( image_type *sim, image_type *mim, int fState = 0 );
 
+	int ProcessPl(  image_type *sim, int iFrame, plnA_type *apl );
+
 
 	int	Process( image_type *sim, int iFrame, image_type **cim );
 
@@ -68,9 +87,14 @@ public:
 	char * GetProcessLog();
 
 	void ProcessLog();
+
+	image_type *GetImage(  int color, image_type *im );
+
+	image_type *GetImage(  image_type *bim, image_type *im );
+
 protected:
 
-	int	ProcessCompare( image_type *sim, image_type **cim );
+	int	ProcessCompare( image_type *sim );
 
 	int	ProcessBn( image_type *sim, float bnT );
 
@@ -88,8 +112,13 @@ protected:
 	int	ProcessSmooth();
 
 	int	ProcessContour();
+	int	ProcessContourAdjust( plnA_type *apl );
 
-	int	ProcessContourUI();
+
+	int	ProcessEdgeContourInit();
+	int	ProcessEdgeContour();
+
+//	int	ProcessContourUI();
 	
 	int	ReadPrm( char *inFile );
 
@@ -110,12 +139,11 @@ protected:
 
 	int m_contour;
 
-	vec2i_type	m_v;
+//	vec2i_type	m_v1;
 
 	box2i_type	m_roi;
 	int	m_N;
 
-//	image_type	*m_mim;	// silhate
 
 	image_type	*m_bim;
 	
@@ -124,6 +152,7 @@ protected:
 	image_type	*m_bimC;
 
 
+	image_type *m_sim;
 
 	image_type *m_yim;
 	image_type *m_bnIm;
@@ -141,6 +170,9 @@ protected:
 
 	plnF_type	*m_fpl;
 
+	plnA_type *m_aplEdge;
+
+	class CRidgeDetector *m_dr;
 
 public:
 	image_type *m_cim;
@@ -155,6 +187,8 @@ public:
 	int	m_state;
 
 
+	vec2f_type m_mp;
+
 
 	gpTime_type	m_rTime;
 	gpTime_type	m_tCompare;
@@ -162,6 +196,8 @@ public:
 	gpTime_type	m_gTime;
 	gpTime_type m_tThin;
 	gpTime_type m_tSmooth;
+
+	gpTime_type m_tEdge;
 
 	gpTime_type	m_tBn;
 	gpTime_type	m_tCln;

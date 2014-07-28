@@ -373,7 +373,7 @@ char *p;
 	}
 }
 
-
+#ifdef _AA_
 int gpFilename_compare_extension( char *fname, char *extension )
 {
 int len;
@@ -388,6 +388,24 @@ char *p;
 	if( *p != '.' )	return( -1 );
 	
 	if( gp_stricmp( p, extension ) != 0 )	return( -1 );
+
+	return( 1 );
+}
+#endif
+
+
+int gpFilename_compare_extension( char *fname, char *extension )
+{
+	int l0,	l1;
+	
+
+	l0 = strlen(fname);
+
+	l1 = strlen(extension);
+
+	if( l0 < l1 )	return( -1 );
+
+	if( gp_stricmp( &fname[l0-l1], extension ) != 0 )	return( -1 );
 
 	return( 1 );
 }

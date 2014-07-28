@@ -21,6 +21,8 @@ CVLogger::CVLogger()
 
 	m_fp = NULL;
 
+	m_period = 60*60*24;
+
 	m_semIn = new CVSemaphore();
 	m_semIn->Create( NULL, 0, 1, NULL);
 
@@ -37,6 +39,8 @@ int CVLogger::Init( char *prefix, char *dir )
 {
 	strcpy( m_dir, dir );
 	strcpy( m_prefix, prefix );
+
+	vTimer_init( &m_periodTimer, m_period*1000 );
 
 	NewFile();
 
@@ -97,6 +101,12 @@ int CVLogger::Close()
 void CVLogger::Write( char *msg )
 {
 	if( m_live  == 0 )	return;
+
+	if( vTimer_test( &m_periodTimer, 0 ) > 0 ){
+		Close();
+		NewFile();
+		Open();
+	}
 
 	m_semIn->WaitForSingleObject();
 
@@ -167,6 +177,26 @@ void CVLogger::Write( char *title, gpTime_type *gt, int modulo )
 
 
 	Write( title, gt );
+
+	Flush();
+
+
+	gpTime_init( gt );
+}
+
+
+void CVLogger::Write( char *title, char *title1, gpTime_type *gt, int modulo )
+{
+char	msg[256];
+
+	if( modulo <= 0 )	modulo = m_frame;
+
+	if( gt->no == 0 || (gt->no%modulo) != 0 )
+		return;
+
+	sprintf( msg, "%s-%s", title, title1 );
+
+	Write( msg, gt );
 
 	Flush();
 

@@ -19,9 +19,6 @@
     <Filter Include="ImageType">
       <UniqueIdentifier>{84584484-837e-4cce-9f4a-5680b26a2759}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Image24To8">
-      <UniqueIdentifier>{0edd6542-59d3-4082-a263-3c0e9eac30f2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="PSD">
       <UniqueIdentifier>{2607bdd2-1078-4d4e-ad79-a8fbd94ebda2}</UniqueIdentifier>
     </Filter>
@@ -84,6 +81,9 @@
     </Filter>
     <Filter Include="BnImage">
       <UniqueIdentifier>{c1433fab-8bfb-469c-8f25-d67482582d85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image2\Image24To8">
+      <UniqueIdentifier>{0edd6542-59d3-4082-a263-3c0e9eac30f2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -283,13 +283,13 @@
       <Filter>ImageTransform</Filter>
     </ClCompile>
     <ClCompile Include="Image24To8\Image24To8.c">
-      <Filter>Image24To8</Filter>
+      <Filter>Image2\Image24To8</Filter>
     </ClCompile>
     <ClCompile Include="Image24To8\Image24To8DitherFloyd.c">
-      <Filter>Image24To8</Filter>
+      <Filter>Image2\Image24To8</Filter>
     </ClCompile>
     <ClCompile Include="Image24To8\Image8to24.c">
-      <Filter>Image24To8</Filter>
+      <Filter>Image2\Image24To8</Filter>
     </ClCompile>
     <ClCompile Include="Gif\GifDecoder.cpp">
       <Filter>Dithering\Gif</Filter>
@@ -803,7 +803,7 @@
       <Filter>ImageTransform</Filter>
     </None>
     <None Include="Image24To8\Makefile">
-      <Filter>Image24To8</Filter>
+      <Filter>Image2\Image24To8</Filter>
     </None>
     <None Include="Gif\Makefile">
       <Filter>Dithering\Gif</Filter>

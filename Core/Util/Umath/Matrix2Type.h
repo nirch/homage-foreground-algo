@@ -75,6 +75,9 @@ int	matrix2S_eigen( matrix2_type *m, float *e1, vec2f_type *v1, float *e2 );
 
 int	matrix2_eigen( matrix2_type *m, double *e1, vec2d_type *v1, double *e2, vec2d_type *v2 );
 
+void	matrix2S_eigen_inv( matrix2_type *m, float e1, vec2f_type *v1, float e2 );
+
+
 
 
 

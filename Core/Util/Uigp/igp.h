@@ -40,6 +40,7 @@ extern "C" {
 #pragma warning(disable:4995)
 #pragma warning(disable:4275)
 #pragma warning(disable:4251)
+#pragma warning(disable:4267)
 #endif
 
 #ifdef __ANDROID__
